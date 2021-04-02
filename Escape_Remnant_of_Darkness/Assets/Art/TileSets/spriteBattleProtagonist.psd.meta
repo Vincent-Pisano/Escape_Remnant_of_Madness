@@ -1,0 +1,3752 @@
+fileFormatVersion: 2
+guid: 35477d69f84dae749879a1d328fd4c75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6749652815221346090
+    second: spriteBattleProtagonist_0
+  - first:
+      213: 3815404742808452399
+    second: spriteBattleProtagonist_1
+  - first:
+      213: -8028469671239824599
+    second: spriteBattleProtagonist_2
+  - first:
+      213: 9205332208075703753
+    second: spriteBattleProtagonist_3
+  - first:
+      213: -5599234243522280795
+    second: spriteBattleProtagonist_4
+  - first:
+      213: 8565531055929147317
+    second: spriteBattleProtagonist_5
+  - first:
+      213: 2049211273800302962
+    second: spriteBattleProtagonist_6
+  - first:
+      213: 2677524595984652977
+    second: spriteBattleProtagonist_7
+  - first:
+      213: 7013298080403845783
+    second: spriteBattleProtagonist_8
+  - first:
+      213: 4269856131098771136
+    second: spriteBattleProtagonist_9
+  - first:
+      213: -7767430401928969289
+    second: spriteBattleProtagonist_10
+  - first:
+      213: 2166327273459189048
+    second: spriteBattleProtagonist_11
+  - first:
+      213: -7222779780398501646
+    second: spriteBattleProtagonist_12
+  - first:
+      213: -7392655181605821354
+    second: spriteBattleProtagonist_13
+  - first:
+      213: 1707817757996569468
+    second: spriteBattleProtagonist_14
+  - first:
+      213: 5954634906489843669
+    second: spriteBattleProtagonist_15
+  - first:
+      213: -7039109993360154104
+    second: spriteBattleProtagonist_16
+  - first:
+      213: 1827466955497673989
+    second: spriteBattleProtagonist_17
+  - first:
+      213: 4225521992496460257
+    second: spriteBattleProtagonist_18
+  - first:
+      213: 7020638984284590206
+    second: spriteBattleProtagonist_19
+  - first:
+      213: -3539771224377309503
+    second: spriteBattleProtagonist_20
+  - first:
+      213: -6790485233940307648
+    second: spriteBattleProtagonist_21
+  - first:
+      213: 3358594440806089587
+    second: spriteBattleProtagonist_22
+  - first:
+      213: -1474972548543411144
+    second: spriteBattleProtagonist_23
+  - first:
+      213: -7642859711983529603
+    second: spriteBattleProtagonist_24
+  - first:
+      213: 4510455464697313998
+    second: spriteBattleProtagonist_25
+  - first:
+      213: 5311496807373842309
+    second: spriteBattleProtagonist_26
+  - first:
+      213: -5336063681706521968
+    second: spriteBattleProtagonist_27
+  - first:
+      213: 2606713851650541679
+    second: spriteBattleProtagonist_28
+  - first:
+      213: -6977831239811748671
+    second: spriteBattleProtagonist_29
+  - first:
+      213: -6061227834355873222
+    second: spriteBattleProtagonist_30
+  - first:
+      213: 3074005772505614552
+    second: spriteBattleProtagonist_31
+  - first:
+      213: 596903901925982021
+    second: spriteBattleProtagonist_32
+  - first:
+      213: -674360283191392448
+    second: spriteBattleProtagonist_33
+  - first:
+      213: 4105789308539894774
+    second: spriteBattleProtagonist_34
+  - first:
+      213: -9177893802392688700
+    second: spriteBattleProtagonist_35
+  - first:
+      213: -5061965179746291453
+    second: spriteBattleProtagonist_36
+  - first:
+      213: -8446548526041665507
+    second: spriteBattleProtagonist_37
+  - first:
+      213: 4542262189126325184
+    second: spriteBattleProtagonist_38
+  - first:
+      213: -1850471371459501226
+    second: spriteBattleProtagonist_39
+  - first:
+      213: -5562520618280230865
+    second: spriteBattleProtagonist_40
+  - first:
+      213: 5166902815019217034
+    second: spriteBattleProtagonist_41
+  - first:
+      213: -6047097151157661204
+    second: spriteBattleProtagonist_42
+  - first:
+      213: 6345740239134253320
+    second: spriteBattleProtagonist_43
+  - first:
+      213: -7405734054876349109
+    second: spriteBattleProtagonist_44
+  - first:
+      213: 7608333298970658698
+    second: spriteBattleProtagonist_45
+  - first:
+      213: 1044397957841037769
+    second: spriteBattleProtagonist_46
+  - first:
+      213: -2801042748379349380
+    second: spriteBattleProtagonist_47
+  - first:
+      213: 8068733766139423128
+    second: spriteBattleProtagonist_48
+  - first:
+      213: -1351275502291147876
+    second: spriteBattleProtagonist_49
+  - first:
+      213: 2915133466368346357
+    second: spriteBattleProtagonist_50
+  - first:
+      213: 3704965218653195207
+    second: spriteBattleProtagonist_51
+  - first:
+      213: 3814007328636185701
+    second: spriteBattleProtagonist_52
+  - first:
+      213: -2484158986606531864
+    second: spriteBattleProtagonist_53
+  - first:
+      213: 1583882639919214162
+    second: spriteBattleProtagonist_54
+  - first:
+      213: 3442195389136575619
+    second: spriteBattleProtagonist_55
+  - first:
+      213: -8633111210407469160
+    second: spriteBattleProtagonist_56
+  - first:
+      213: -7012397849332308321
+    second: spriteBattleProtagonist_57
+  - first:
+      213: 4916371335557460981
+    second: spriteBattleProtagonist_58
+  - first:
+      213: 7789763195745179959
+    second: spriteBattleProtagonist_59
+  - first:
+      213: 5106765951416790725
+    second: spriteBattleProtagonist_60
+  - first:
+      213: 6469421080905943322
+    second: spriteBattleProtagonist_61
+  - first:
+      213: -3603995062654910741
+    second: spriteBattleProtagonist_62
+  - first:
+      213: -3880583047194005541
+    second: spriteBattleProtagonist_63
+  - first:
+      213: -2428207430800891409
+    second: spriteBattleProtagonist_64
+  - first:
+      213: -945428647047218993
+    second: spriteBattleProtagonist_65
+  - first:
+      213: -5358298504767894177
+    second: spriteBattleProtagonist_66
+  - first:
+      213: -8894753925180724226
+    second: spriteBattleProtagonist_67
+  - first:
+      213: -1816539416336563278
+    second: spriteBattleProtagonist_68
+  - first:
+      213: -800540070745844545
+    second: spriteBattleProtagonist_69
+  - first:
+      213: -6179387631083424301
+    second: spriteBattleProtagonist_70
+  - first:
+      213: -6602874276605509792
+    second: spriteBattleProtagonist_71
+  - first:
+      213: 7267088315061885102
+    second: spriteBattleProtagonist_72
+  - first:
+      213: 8488690158206112739
+    second: spriteBattleProtagonist_73
+  - first:
+      213: 7226071547267162402
+    second: spriteBattleProtagonist_74
+  - first:
+      213: 6779003234478866462
+    second: spriteBattleProtagonist_75
+  - first:
+      213: 5682722169982986830
+    second: spriteBattleProtagonist_76
+  - first:
+      213: 5944659801912566689
+    second: spriteBattleProtagonist_77
+  - first:
+      213: 5618104186279225850
+    second: spriteBattleProtagonist_78
+  - first:
+      213: -6841375283089216160
+    second: spriteBattleProtagonist_79
+  - first:
+      213: 2157693328596570533
+    second: spriteBattleProtagonist_80
+  - first:
+      213: -4026511878182017967
+    second: spriteBattleProtagonist_81
+  - first:
+      213: -7285792770152002226
+    second: spriteBattleProtagonist_82
+  - first:
+      213: -415247364417620235
+    second: spriteBattleProtagonist_83
+  - first:
+      213: 9151309948931530698
+    second: spriteBattleProtagonist_84
+  - first:
+      213: -4336111481176297622
+    second: spriteBattleProtagonist_85
+  - first:
+      213: 4835435731425927179
+    second: spriteBattleProtagonist_86
+  - first:
+      213: -5580770652023882582
+    second: spriteBattleProtagonist_87
+  - first:
+      213: 3282147774287307110
+    second: spriteBattleProtagonist_88
+  - first:
+      213: 3003457326570720689
+    second: spriteBattleProtagonist_89
+  - first:
+      213: 1463209725347185821
+    second: spriteBattleProtagonist_90
+  - first:
+      213: -3287319393289173669
+    second: spriteBattleProtagonist_91
+  - first:
+      213: 2315612279637247063
+    second: spriteBattleProtagonist_92
+  - first:
+      213: -2616930274516465548
+    second: spriteBattleProtagonist_93
+  - first:
+      213: 1249880472742026627
+    second: spriteBattleProtagonist_94
+  - first:
+      213: -2517114822975564597
+    second: spriteBattleProtagonist_95
+  - first:
+      213: 1841912362886345162
+    second: spriteBattleProtagonist_96
+  - first:
+      213: 8411831563942100456
+    second: spriteBattleProtagonist_97
+  - first:
+      213: 8362357682128587793
+    second: spriteBattleProtagonist_98
+  - first:
+      213: -9168158032389009991
+    second: spriteBattleProtagonist_99
+  - first:
+      213: -7384377696340098874
+    second: spriteBattleProtagonist_100
+  - first:
+      213: -6392452097623688901
+    second: spriteBattleProtagonist_101
+  - first:
+      213: -2864523902719643074
+    second: spriteBattleProtagonist_102
+  - first:
+      213: -6430863911717423492
+    second: spriteBattleProtagonist_103
+  - first:
+      213: 4099233927629456084
+    second: spriteBattleProtagonist_104
+  - first:
+      213: -2018070518489726385
+    second: spriteBattleProtagonist_105
+  - first:
+      213: -4100971284996652879
+    second: spriteBattleProtagonist_106
+  - first:
+      213: 8301132620016175887
+    second: spriteBattleProtagonist_107
+  - first:
+      213: -3294717277051746131
+    second: spriteBattleProtagonist_108
+  - first:
+      213: -1200455281166337469
+    second: spriteBattleProtagonist_109
+  - first:
+      213: 8063469431866698602
+    second: spriteBattleProtagonist_110
+  - first:
+      213: -1686064189278547125
+    second: spriteBattleProtagonist_111
+  - first:
+      213: 4422333146560091034
+    second: spriteBattleProtagonist_112
+  - first:
+      213: -8564948441806787163
+    second: spriteBattleProtagonist_113
+  - first:
+      213: 1664487174208337864
+    second: spriteBattleProtagonist_114
+  - first:
+      213: 2322875195061394587
+    second: spriteBattleProtagonist_115
+  - first:
+      213: 8639817481711110031
+    second: spriteBattleProtagonist_116
+  - first:
+      213: 1425872413087769385
+    second: spriteBattleProtagonist_117
+  - first:
+      213: 1408031553308705005
+    second: spriteBattleProtagonist_118
+  - first:
+      213: 7199267632814307581
+    second: spriteBattleProtagonist_119
+  - first:
+      213: 8473548204412716047
+    second: spriteBattleProtagonist_120
+  - first:
+      213: 4268463197823086145
+    second: spriteBattleProtagonist_121
+  - first:
+      213: 6046087927593550360
+    second: spriteBattleProtagonist_122
+  - first:
+      213: -5300021940509171339
+    second: spriteBattleProtagonist_123
+  - first:
+      213: -5181843893791667944
+    second: spriteBattleProtagonist_124
+  - first:
+      213: 2127669546180625846
+    second: spriteBattleProtagonist_125
+  - first:
+      213: -3349070134929758652
+    second: spriteBattleProtagonist_126
+  - first:
+      213: 671949095441757871
+    second: spriteBattleProtagonist_127
+  - first:
+      213: 4083920362882835822
+    second: spriteBattleProtagonist_128
+  - first:
+      213: 8800744376775096567
+    second: spriteBattleProtagonist_129
+  - first:
+      213: 1343524813667829364
+    second: spriteBattleProtagonist_130
+  - first:
+      213: 4764352856627233638
+    second: spriteBattleProtagonist_131
+  - first:
+      213: -7277640513874845032
+    second: spriteBattleProtagonist_132
+  - first:
+      213: -7078125587794816262
+    second: spriteBattleProtagonist_133
+  - first:
+      213: -7560827512946389912
+    second: spriteBattleProtagonist_134
+  - first:
+      213: 8400364451073460276
+    second: spriteBattleProtagonist_135
+  - first:
+      213: -5196060064438020988
+    second: spriteBattleProtagonist_136
+  - first:
+      213: 101718188740397489
+    second: spriteBattleProtagonist_137
+  - first:
+      213: -9206462264504892718
+    second: spriteBattleProtagonist_138
+  - first:
+      213: 4868963419756550825
+    second: spriteBattleProtagonist_139
+  - first:
+      213: -8855931875408417404
+    second: spriteBattleProtagonist_140
+  - first:
+      213: 492277004233048291
+    second: spriteBattleProtagonist_141
+  - first:
+      213: 8784842977536142908
+    second: spriteBattleProtagonist_142
+  - first:
+      213: -8646270933628129796
+    second: spriteBattleProtagonist_143
+  - first:
+      213: 2959436270344392120
+    second: spriteBattleProtagonist_144
+  - first:
+      213: -5252226979681695806
+    second: spriteBattleProtagonist_145
+  - first:
+      213: 8535700019376375803
+    second: spriteBattleProtagonist_146
+  - first:
+      213: -3041908928501777591
+    second: spriteBattleProtagonist_147
+  - first:
+      213: -281725125966118227
+    second: spriteBattleProtagonist_148
+  - first:
+      213: 2178215604469791844
+    second: spriteBattleProtagonist_149
+  - first:
+      213: 5777253278199204403
+    second: spriteBattleProtagonist_150
+  - first:
+      213: 7359683367586889019
+    second: spriteBattleProtagonist_151
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d03487968a6452a0800000000000000
+      internalID: -6749652815221346090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1480
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d3071166a03f430800000000000000
+      internalID: 3815404742808452399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1480
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bc0c3ee55259090800000000000000
+      internalID: -8028469671239824599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1480
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c580dd0fd8efbf70800000000000000
+      internalID: 9205332208075703753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1480
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2c6ac1f168b42b0800000000000000
+      internalID: -5599234243522280795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1480
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfbb3dfc11eed670800000000000000
+      internalID: 8565531055929147317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1480
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271c79cdbc2407c10800000000000000
+      internalID: 2049211273800302962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1416
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba59051f6a782520800000000000000
+      internalID: 2677524595984652977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1416
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7927662327d345160800000000000000
+      internalID: 7013298080403845783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1416
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce7a205783914b30800000000000000
+      internalID: 4269856131098771136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1416
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3447bf33b843490800000000000000
+      internalID: -7767430401928969289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1416
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83586c17d27501e10800000000000000
+      internalID: 2166327273459189048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1416
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f03972ce0883cb90800000000000000
+      internalID: -7222779780398501646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1352
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6542f61c743086990800000000000000
+      internalID: -7392655181605821354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1352
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c735d76d33363b710800000000000000
+      internalID: 1707817757996569468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1352
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfe77006ec13a250800000000000000
+      internalID: 5954634906489843669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1352
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802adde71ce005e90800000000000000
+      internalID: -7039109993360154104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1352
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505143183877c5910800000000000000
+      internalID: 1827466955497673989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1352
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e13a594dd114aa30800000000000000
+      internalID: 4225521992496460257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70da8295f15e6160800000000000000
+      internalID: 7020638984284590206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c647d073d430eec0800000000000000
+      internalID: -3539771224377309503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041e37248a953c1a0800000000000000
+      internalID: -6790485233940307648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37349dc69df1c9e20800000000000000
+      internalID: 3358594440806089587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c0e962848d78be0800000000000000
+      internalID: -1474972548543411144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71d317e59b1fe590800000000000000
+      internalID: -7642859711983529603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecab084095b589e30800000000000000
+      internalID: 4510455464697313998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587a32d643a36b940800000000000000
+      internalID: 5311496807373842309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a05096a5e72f5b0800000000000000
+      internalID: -5336063681706521968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6888b6ef68ec2420800000000000000
+      internalID: 2606713851650541679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cca5602573c92f90800000000000000
+      internalID: -6977831239811748671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a028ef56132eba0800000000000000
+      internalID: -6061227834355873222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d882bb96ff09aa20800000000000000
+      internalID: 3074005772505614552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fb75fafe0a84800800000000000000
+      internalID: 596903901925982021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047ceb535e034a6f0800000000000000
+      internalID: -674360283191392448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbfd1a6f91baf830800000000000000
+      internalID: 4105789308539894774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7ef1a963291a080800000000000000
+      internalID: -9177893802392688700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30173db0d7940c9b0800000000000000
+      internalID: -5061965179746291453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10ff270ed4d7ca80800000000000000
+      internalID: -8446548526041665507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c31093256b590f30800000000000000
+      internalID: 4542262189126325184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6536025871ec156e0800000000000000
+      internalID: -1850471371459501226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20ee9b18f4fdc2b0800000000000000
+      internalID: -5562520618280230865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80bf2e1cb684b740800000000000000
+      internalID: 5166902815019217034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce198fe0e25641ca0800000000000000
+      internalID: -6047097151157661204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801ef765029901850800000000000000
+      internalID: 6345740239134253320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4df4164d1c893990800000000000000
+      internalID: -7405734054876349109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a870ce123da369960800000000000000
+      internalID: 7608333298970658698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c92241c8627e7e00800000000000000
+      internalID: 1044397957841037769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e3a2ef572b029d0800000000000000
+      internalID: -2801042748379349380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899a0fd3c96e9ff60800000000000000
+      internalID: 8068733766139423128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93af3c071e4f3de0800000000000000
+      internalID: -1351275502291147876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f80dbf4172a47820800000000000000
+      internalID: 2915133466368346357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb40039c3eaa6330800000000000000
+      internalID: 3704965218653195207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ca81a35731ee430800000000000000
+      internalID: 3814007328636185701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea29b5309e768dd0800000000000000
+      internalID: -2484158986606531864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25eea468ed41bf510800000000000000
+      internalID: 1583882639919214162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c19f8087225cf20800000000000000
+      internalID: 3442195389136575619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f58352817013880800000000000000
+      internalID: -8633111210407469160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96a5de2f45feae90800000000000000
+      internalID: -7012397849332308321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3b0df7ea57a3440800000000000000
+      internalID: 4916371335557460981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7399dc6ca5cca1c60800000000000000
+      internalID: 7789763195745179959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cee1457390eed640800000000000000
+      internalID: 5106765951416790725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_61
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1982d5523008c950800000000000000
+      internalID: 6469421080905943322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee3136d5990cfdc0800000000000000
+      internalID: -3603995062654910741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_63
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf299e5746652ac0800000000000000
+      internalID: -3880583047194005541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_64
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe12626f4364d4ed0800000000000000
+      internalID: -2428207430800891409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8b54497a921e2f0800000000000000
+      internalID: -945428647047218993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d8dce36ef73a5b0800000000000000
+      internalID: -5358298504767894177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb67157e6c7f8480800000000000000
+      internalID: -8894753925180724226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b383c8760b5ac6e0800000000000000
+      internalID: -1816539416336563278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb45abe0c09e3e4f0800000000000000
+      internalID: -800540070745844545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d574d770b76e3aa0800000000000000
+      internalID: -6179387631083424301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f3d5634d0ed54a0800000000000000
+      internalID: -6602874276605509792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8d7a2e152e9d460800000000000000
+      internalID: 7267088315061885102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_73
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3da3059b2edc570800000000000000
+      internalID: 8488690158206112739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221aa6079c9284460800000000000000
+      internalID: 7226071547267162402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_75
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10465a668bd31e50800000000000000
+      internalID: 6779003234478866462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4aa21b84b51dde40800000000000000
+      internalID: 5682722169982986830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3ea8bf79caf7250800000000000000
+      internalID: 5944659801912566689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9ee4ecdf387fd40800000000000000
+      internalID: 5618104186279225850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d645c5d6d8e01a0800000000000000
+      internalID: -6841375283089216160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a19a3186aaa1fd10800000000000000
+      internalID: 2157693328596570533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_81
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154e119b7c4fe18c0800000000000000
+      internalID: -4026511878182017967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d0bfbc31aa3ea90800000000000000
+      internalID: -7285792770152002226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f678fdd8bebc3af0800000000000000
+      internalID: -415247364417620235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfdf8fa9ebfffe70800000000000000
+      internalID: 9151309948931530698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f6ef1e49903d3c0800000000000000
+      internalID: -4336111481176297622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00afd1bd2bea1340800000000000000
+      internalID: 4835435731425927179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_87
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacf03109ae1d82b0800000000000000
+      internalID: -5580770652023882582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_88
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661ebbad2088c8d20800000000000000
+      internalID: 3282147774287307110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdca48868c6ea920800000000000000
+      internalID: 3003457326570720689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9447372e7d5e4410800000000000000
+      internalID: 1463209725347185821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b550fb3cd681162d0800000000000000
+      internalID: -3287319393289173669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7548f458915b22020800000000000000
+      internalID: 2315612279637247063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_93
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4780b79c7cbceabd0800000000000000
+      internalID: -2616930274516465548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d5c75faa7785110800000000000000
+      internalID: 1249880472742026627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4dbad9769611dd0800000000000000
+      internalID: -2517114822975564597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_96
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1bd310989cf8910800000000000000
+      internalID: 1841912362886345162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edff275d34dcb470800000000000000
+      internalID: 8411831563942100456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c880891001d0470800000000000000
+      internalID: 8362357682128587793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_99
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd0fc238d824c080800000000000000
+      internalID: -9168158032389009991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0c45afb9b658990800000000000000
+      internalID: -7384377696340098874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_101
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3970759fa27947a0800000000000000
+      internalID: -6392452097623688901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32b7c7ffaa2f38d0800000000000000
+      internalID: -2864523902719643074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76343f285bf0c6a0800000000000000
+      internalID: -6430863911717423492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2459bd98763e830800000000000000
+      internalID: 4099233927629456084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f424bbd3e8f5ef3e0800000000000000
+      internalID: -2018070518489726385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b082bb185c6617c0800000000000000
+      internalID: -4100971284996652879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bc879f22c833370800000000000000
+      internalID: 8301132620016175887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da80df9b710d642d0800000000000000
+      internalID: -3294717277051746131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ab6553840275fe0800000000000000
+      internalID: -1200455281166337469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ba2a7e9b237ef60800000000000000
+      internalID: 8063469431866698602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_111
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b439b819d85e998e0800000000000000
+      internalID: -1686064189278547125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_112
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a935627f0984f5d30800000000000000
+      internalID: 4422333146560091034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_113
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad229e65c0332980800000000000000
+      internalID: -8564948441806787163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_114
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7b1ef1442791710800000000000000
+      internalID: 1664487174208337864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_115
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c533bcea28c3020800000000000000
+      internalID: 2322875195061394587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87c991593cc6e770800000000000000
+      internalID: 8639817481711110031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9232025b767b9c310800000000000000
+      internalID: 1425872413087769385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_118
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0c187dc355a8310800000000000000
+      internalID: 1408031553308705005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_119
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df83dd8c4cfe8e360800000000000000
+      internalID: 7199267632814307581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f044b277237189570800000000000000
+      internalID: 8473548204412716047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_121
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ea213c9a0ac3b30800000000000000
+      internalID: 4268463197823086145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_122
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812cdf4cfe408e350800000000000000
+      internalID: 6046087927593550360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571ac26302a8276b0800000000000000
+      internalID: -5300021940509171339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8194505ee646618b0800000000000000
+      internalID: -5181843893791667944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_125
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5438bed20078d10800000000000000
+      internalID: 2127669546180625846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44664a7d476b581d0800000000000000
+      internalID: -3349070134929758652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa673f4642e335900800000000000000
+      internalID: 671949095441757871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_128
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65ad98beeffca830800000000000000
+      internalID: 4083920362882835822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f832b0e166822a70800000000000000
+      internalID: 8800744376775096567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_130
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476089123b825a210800000000000000
+      internalID: 1343524813667829364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_131
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66342e33ea16e1240800000000000000
+      internalID: 4764352856627233638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_132
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892af7fd280a00b90800000000000000
+      internalID: -7277640513874845032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_133
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af213e7874275cd90800000000000000
+      internalID: -7078125587794816262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c84da9f6b821790800000000000000
+      internalID: -7560827512946389912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_135
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4388d0216f6149470800000000000000
+      internalID: 8400364451073460276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_136
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484149bb6e2e3e7b0800000000000000
+      internalID: -5196060064438020988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_137
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9411b5720696100800000000000000
+      internalID: 101718188740397489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2c52e29531c3080800000000000000
+      internalID: -9206462264504892718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_139
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aad5f2fe68029340800000000000000
+      internalID: 4868963419756550825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_140
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48de83b41e8691580800000000000000
+      internalID: -8855931875408417404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_141
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e08760c35be4d600800000000000000
+      internalID: 492277004233048291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_142
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e60abd4280ae970800000000000000
+      internalID: 8784842977536142908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_143
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd6f415566420880800000000000000
+      internalID: -8646270933628129796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_144
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdc84dab97021920800000000000000
+      internalID: 2959436270344392120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c78954b3675c17b0800000000000000
+      internalID: -5252226979681695806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7493c81f5e47670800000000000000
+      internalID: 8535700019376375803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_147
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bff8d32f7f8c5d0800000000000000
+      internalID: -3041908928501777591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_148
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2cc769d7c171cf0800000000000000
+      internalID: -281725125966118227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_149
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c72a43d839a3e10800000000000000
+      internalID: 2178215604469791844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_150
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a46805f3dec2050800000000000000
+      internalID: 5777253278199204403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteBattleProtagonist_151
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3dfd509709d22660800000000000000
+      internalID: 7359683367586889019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

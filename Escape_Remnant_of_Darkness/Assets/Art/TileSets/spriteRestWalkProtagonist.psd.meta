@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: f06661a88668ce84794ee15c7f2f00bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -656552861696050811
+    second: spriteRestWalkProtagonist_0
+  - first:
+      213: 6302325826104454535
+    second: spriteRestWalkProtagonist_1
+  - first:
+      213: 7018005801791491625
+    second: spriteRestWalkProtagonist_2
+  - first:
+      213: 3090543731082230107
+    second: spriteRestWalkProtagonist_3
+  - first:
+      213: 4314201624509850013
+    second: spriteRestWalkProtagonist_4
+  - first:
+      213: -5470344531823448766
+    second: spriteRestWalkProtagonist_5
+  - first:
+      213: -7026763599455999261
+    second: spriteRestWalkProtagonist_6
+  - first:
+      213: -111066966515114309
+    second: spriteRestWalkProtagonist_7
+  - first:
+      213: -3998458632315316115
+    second: spriteRestWalkProtagonist_8
+  - first:
+      213: 946160382875111491
+    second: spriteRestWalkProtagonist_9
+  - first:
+      213: -3973552925159988695
+    second: spriteRestWalkProtagonist_10
+  - first:
+      213: 6551954908836460574
+    second: spriteRestWalkProtagonist_11
+  - first:
+      213: -6241670368572025323
+    second: spriteRestWalkProtagonist_12
+  - first:
+      213: 302868026617394950
+    second: spriteRestWalkProtagonist_13
+  - first:
+      213: -5391656310856297359
+    second: spriteRestWalkProtagonist_14
+  - first:
+      213: 2120530197809634494
+    second: spriteRestWalkProtagonist_15
+  - first:
+      213: -8154495258165685964
+    second: spriteRestWalkProtagonist_16
+  - first:
+      213: 743857546381416119
+    second: spriteRestWalkProtagonist_17
+  - first:
+      213: 1914501413307922759
+    second: spriteRestWalkProtagonist_18
+  - first:
+      213: -102875253785108809
+    second: spriteRestWalkProtagonist_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589375e96a473e6f0800000000000000
+      internalID: -656552861696050811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 171
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78de9bb92fb567750800000000000000
+      internalID: 6302325826104454535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 171
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e896ff717f46160800000000000000
+      internalID: 7018005801791491625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 171
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5977f52621d3ea20800000000000000
+      internalID: 3090543731082230107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 171
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91a256158f1fdb30800000000000000
+      internalID: 4314201624509850013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24da9a5a1ae6514b0800000000000000
+      internalID: -5470344531823448766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 115
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaa7c55cbbeb7e90800000000000000
+      internalID: -7026763599455999261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 115
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe1692be29657ef0800000000000000
+      internalID: -111066966515114309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 115
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6850c30f0f9288c0800000000000000
+      internalID: -3998458632315316115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 115
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34091d1fadf612d00800000000000000
+      internalID: 946160382875111491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922ef97daaa1bd8c0800000000000000
+      internalID: -3973552925159988695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 59
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18f29d96483dea50800000000000000
+      internalID: 6551954908836460574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 59
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516de2c9ed12169a0800000000000000
+      internalID: -6241670368572025323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 59
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6077a549dd0043400800000000000000
+      internalID: 302868026617394950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 59
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174da68c62dfc25b0800000000000000
+      internalID: -5391656310856297359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc9ee7daf2ad6d10800000000000000
+      internalID: 2120530197809634494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 3
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4315d6e54c965de80800000000000000
+      internalID: -8154495258165685964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_17
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6de8f4f76b25a00800000000000000
+      internalID: 743857546381416119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 3
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749b33654eca19a10800000000000000
+      internalID: 1914501413307922759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spriteRestWalkProtagonist_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 3
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bed5f17083829ef0800000000000000
+      internalID: -102875253785108809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
