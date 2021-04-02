@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/modules.xml
+/contentModel.xml
+/.idea.Escape_Remnant_of_Darkness.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\projets\prog_jeu_HIV_2020\TP_JEU\Escape_Remnant_of_Darkness\.idea\.idea.Escape_Remnant_of_Darkness\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
