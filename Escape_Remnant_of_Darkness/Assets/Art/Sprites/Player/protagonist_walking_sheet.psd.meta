@@ -1,0 +1,2072 @@
+fileFormatVersion: 2
+guid: 6ddcd0cfdc177094fb75df9dba4175ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2546199440631260159
+    second: protagonist_walking_sheet_0
+  - first:
+      213: -6025155235754165944
+    second: protagonist_walking_sheet_1
+  - first:
+      213: 5231752058591893793
+    second: protagonist_walking_sheet_2
+  - first:
+      213: -436049922633189571
+    second: protagonist_walking_sheet_3
+  - first:
+      213: -2706680691610733174
+    second: protagonist_walking_sheet_4
+  - first:
+      213: 8093967013900749495
+    second: protagonist_walking_sheet_5
+  - first:
+      213: -9148128145407250599
+    second: protagonist_walking_sheet_6
+  - first:
+      213: 6408402951952552138
+    second: protagonist_walking_sheet_7
+  - first:
+      213: 2785561601991273435
+    second: protagonist_walking_sheet_8
+  - first:
+      213: -1767513192702053835
+    second: protagonist_walking_sheet_9
+  - first:
+      213: 2761908424869072780
+    second: protagonist_walking_sheet_10
+  - first:
+      213: -3241878255211465896
+    second: protagonist_walking_sheet_11
+  - first:
+      213: -1226775576474460905
+    second: protagonist_walking_sheet_12
+  - first:
+      213: -3379957568747721477
+    second: protagonist_walking_sheet_13
+  - first:
+      213: -6648514971078497815
+    second: protagonist_walking_sheet_14
+  - first:
+      213: -4459005309842747590
+    second: protagonist_walking_sheet_15
+  - first:
+      213: 751736609067673673
+    second: protagonist_walking_sheet_16
+  - first:
+      213: -3636070123947829407
+    second: protagonist_walking_sheet_17
+  - first:
+      213: 8531261138474139670
+    second: protagonist_walking_sheet_18
+  - first:
+      213: -5443448720678843287
+    second: protagonist_walking_sheet_19
+  - first:
+      213: 3957697019385376155
+    second: protagonist_walking_sheet_20
+  - first:
+      213: 5144538725890898532
+    second: protagonist_walking_sheet_21
+  - first:
+      213: -9221232768833671012
+    second: protagonist_walking_sheet_22
+  - first:
+      213: -6377945443441757029
+    second: protagonist_walking_sheet_23
+  - first:
+      213: 1251212619888872445
+    second: protagonist_walking_sheet_24
+  - first:
+      213: 8069139913956494536
+    second: protagonist_walking_sheet_25
+  - first:
+      213: -3406448890077445487
+    second: protagonist_walking_sheet_26
+  - first:
+      213: -9113680899788519085
+    second: protagonist_walking_sheet_27
+  - first:
+      213: -3832619598484017062
+    second: protagonist_walking_sheet_28
+  - first:
+      213: -6199956192110593425
+    second: protagonist_walking_sheet_29
+  - first:
+      213: 5487874258735534639
+    second: protagonist_walking_sheet_30
+  - first:
+      213: -7120729143502771334
+    second: protagonist_walking_sheet_31
+  - first:
+      213: 1864458559388400903
+    second: protagonist_walking_sheet_32
+  - first:
+      213: -8608256979628077185
+    second: protagonist_walking_sheet_33
+  - first:
+      213: 7309607164073575261
+    second: protagonist_walking_sheet_34
+  - first:
+      213: 9187733982677392224
+    second: protagonist_walking_sheet_35
+  - first:
+      213: -3437276681184888656
+    second: protagonist_walking_sheet_36
+  - first:
+      213: -5545026185837713519
+    second: protagonist_walking_sheet_37
+  - first:
+      213: -2906807575747758420
+    second: protagonist_walking_sheet_38
+  - first:
+      213: 4746087972241565333
+    second: protagonist_walking_sheet_39
+  - first:
+      213: -1608542193917108434
+    second: protagonist_walking_sheet_40
+  - first:
+      213: 7774311808178926782
+    second: protagonist_walking_sheet_41
+  - first:
+      213: -4595875383121477974
+    second: protagonist_walking_sheet_42
+  - first:
+      213: -4563129559677814231
+    second: protagonist_walking_sheet_43
+  - first:
+      213: -7169952488344788896
+    second: protagonist_walking_sheet_44
+  - first:
+      213: 4169967657497817494
+    second: protagonist_walking_sheet_45
+  - first:
+      213: -4504021277086600353
+    second: protagonist_walking_sheet_46
+  - first:
+      213: 3232462963565758361
+    second: protagonist_walking_sheet_47
+  - first:
+      213: 6270712714914635887
+    second: protagonist_walking_sheet_48
+  - first:
+      213: 1573016786168738828
+    second: protagonist_walking_sheet_49
+  - first:
+      213: 164296118449639881
+    second: protagonist_walking_sheet_50
+  - first:
+      213: -5765725015126970832
+    second: protagonist_walking_sheet_51
+  - first:
+      213: -5429532049447145323
+    second: protagonist_walking_sheet_52
+  - first:
+      213: 2012171256095276710
+    second: protagonist_walking_sheet_53
+  - first:
+      213: 5378949306781588240
+    second: protagonist_walking_sheet_54
+  - first:
+      213: 2331954326401980843
+    second: protagonist_walking_sheet_55
+  - first:
+      213: -1518906652234303624
+    second: protagonist_walking_sheet_56
+  - first:
+      213: -1581652767944053337
+    second: protagonist_walking_sheet_57
+  - first:
+      213: -3550737560971557421
+    second: protagonist_walking_sheet_58
+  - first:
+      213: 4086362655583441374
+    second: protagonist_walking_sheet_59
+  - first:
+      213: -4907669018683765620
+    second: protagonist_walking_sheet_60
+  - first:
+      213: 3486568190364714362
+    second: protagonist_walking_sheet_61
+  - first:
+      213: -7173951289221108245
+    second: protagonist_walking_sheet_62
+  - first:
+      213: -5430853802268598730
+    second: protagonist_walking_sheet_63
+  - first:
+      213: 729519249558908909
+    second: protagonist_walking_sheet_64
+  - first:
+      213: -2399336658616581905
+    second: protagonist_walking_sheet_65
+  - first:
+      213: -8367002619802941653
+    second: protagonist_walking_sheet_66
+  - first:
+      213: -4303494092782050264
+    second: protagonist_walking_sheet_67
+  - first:
+      213: -8141464435498583286
+    second: protagonist_walking_sheet_68
+  - first:
+      213: 2982273790862601585
+    second: protagonist_walking_sheet_69
+  - first:
+      213: -2404787180974716188
+    second: protagonist_walking_sheet_70
+  - first:
+      213: 4577908340780146310
+    second: protagonist_walking_sheet_71
+  - first:
+      213: -2589522686893540530
+    second: protagonist_walking_sheet_72
+  - first:
+      213: -7235717376168418431
+    second: protagonist_walking_sheet_73
+  - first:
+      213: -3417720165385345599
+    second: protagonist_walking_sheet_74
+  - first:
+      213: -1729688956600304486
+    second: protagonist_walking_sheet_75
+  - first:
+      213: 2315646823504256367
+    second: protagonist_walking_sheet_76
+  - first:
+      213: 2323305680442035226
+    second: protagonist_walking_sheet_77
+  - first:
+      213: -4191089675922128292
+    second: protagonist_walking_sheet_78
+  - first:
+      213: -7311213597384766805
+    second: protagonist_walking_sheet_79
+  - first:
+      213: 2720822229804343625
+    second: protagonist_walking_sheet_80
+  - first:
+      213: -5488626354826783122
+    second: protagonist_walking_sheet_81
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 6251
+        width: 146
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c10ed59151aacd0800000000000000
+      internalID: -2546199440631260159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 6241
+        width: 191
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849b9485c39526ca0800000000000000
+      internalID: -6025155235754165944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 6254
+        width: 179
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129d94d37caea9840800000000000000
+      internalID: 5231752058591893793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 6251
+        width: 182
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37bc19d7e6d2f9f0800000000000000
+      internalID: -436049922633189571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 6244
+        width: 166
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8532286040ff6ad0800000000000000
+      internalID: -2706680691610733174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 5961
+        width: 157
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba884f8d1c835070800000000000000
+      internalID: 8093967013900749495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 5970
+        width: 185
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f6f3dabe15b0180800000000000000
+      internalID: -9148128145407250599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 5983
+        width: 169
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac052b818883fe850800000000000000
+      internalID: 6408402951952552138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 5961
+        width: 195
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb68aab48d48a620800000000000000
+      internalID: 2785561601991273435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 5961
+        width: 157
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5327d2dad188877e0800000000000000
+      internalID: -1767513192702053835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 5674
+        width: 156
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fca764415445620800000000000000
+      internalID: 2761908424869072780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 5680
+        width: 185
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853be0137e88203d0800000000000000
+      internalID: -3241878255211465896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 5693
+        width: 169
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d5d19ec1e99fee0800000000000000
+      internalID: -1226775576474460905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 5674
+        width: 191
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc26eebf7af711d0800000000000000
+      internalID: -3379957568747721477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 5674
+        width: 157
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9eff0fbdabbb3a0800000000000000
+      internalID: -6648514971078497815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5387
+        width: 147
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f0e37ab4e6e12c0800000000000000
+      internalID: -4459005309842747590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 5377
+        width: 195
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948a22c8674be6a00800000000000000
+      internalID: 751736609067673673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 5390
+        width: 179
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167ddabac751a8dc0800000000000000
+      internalID: -3636070123947829407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 5387
+        width: 182
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61088dc0ec0256670800000000000000
+      internalID: 8531261138474139670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 5381
+        width: 166
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c02eaaa3cf474b0800000000000000
+      internalID: -5443448720678843287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5189
+        width: 278
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d661968709ce630800000000000000
+      internalID: 3957697019385376155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 5189
+        width: 277
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ab7f9d6b2156740800000000000000
+      internalID: 5144538725890898532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 5189
+        width: 277
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c903a7627a9970080800000000000000
+      internalID: -9221232768833671012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 5189
+        width: 278
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9435d6396cfc77a0800000000000000
+      internalID: -6377945443441757029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 4902
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb46f2af333d5110800000000000000
+      internalID: 1251212619888872445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 4902
+        width: 185
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc8d46eff75bff60800000000000000
+      internalID: 8069139913956494536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 4612
+        width: 170
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192096958ccd9b0d0800000000000000
+      internalID: -3406448890077445487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 4612
+        width: 137
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359c7db0283b58180800000000000000
+      internalID: -9113680899788519085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4322
+        width: 134
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50f82108cccfcac0800000000000000
+      internalID: -3832619598484017062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4086
+        width: 156
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ab34a21b455f9a0800000000000000
+      internalID: -6199956192110593425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 4086
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2211f3ff88d82c40800000000000000
+      internalID: 5487874258735534639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 3796
+        width: 156
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7beebb32961e2d90800000000000000
+      internalID: -7120729143502771334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3465
+        width: 166
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d38c27e23efd910800000000000000
+      internalID: 1864458559388400903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 3178
+        width: 178
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fcdf1b2e3598880800000000000000
+      internalID: -8608256979628077185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 3178
+        width: 179
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53814edcf0f07560800000000000000
+      internalID: 7309607164073575261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 3178
+        width: 175
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b5548e063618f70800000000000000
+      internalID: 9187733982677392224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 3178
+        width: 176
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8bd37e1175c40d0800000000000000
+      internalID: -3437276681184888656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 2888
+        width: 121
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19767e2101c1c03b0800000000000000
+      internalID: -5545026185837713519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2888
+        width: 121
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6f32929e1f8a7d0800000000000000
+      internalID: -2906807575747758420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2888
+        width: 175
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596663a6ddd7dd140800000000000000
+      internalID: 4746087972241565333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2888
+        width: 179
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fd755a56f4da9e0800000000000000
+      internalID: -1608542193917108434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2595
+        width: 166
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb431a34667e3eb60800000000000000
+      internalID: 7774311808178926782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2595
+        width: 182
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaef41560bb2830c0800000000000000
+      internalID: -4595875383121477974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2595
+        width: 166
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ab15b87d18ca0c0800000000000000
+      internalID: -4563129559677814231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 2595
+        width: 179
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060e7cb23363f7c90800000000000000
+      internalID: -7169952488344788896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 2595
+        width: 166
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6917606bd73bed930800000000000000
+      internalID: 4169967657497817494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2311
+        width: 153
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53b37603808e71c0800000000000000
+      internalID: -4504021277086600353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2305
+        width: 188
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99781f460f30cdc20800000000000000
+      internalID: 3232462963565758361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2305
+        width: 153
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6023059dfb060750800000000000000
+      internalID: 6270712714914635887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 2305
+        width: 185
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04705dce6a74d510800000000000000
+      internalID: 1573016786168738828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 2305
+        width: 153
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c19a220372b74200800000000000000
+      internalID: 164296118449639881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2018
+        width: 134
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ee5c895a70cffa0800000000000000
+      internalID: -5765725015126970832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1734
+        width: 163
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590ba103e5d66a4b0800000000000000
+      internalID: -5429532049447145323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1747
+        width: 182
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae7fc2b81baceb10800000000000000
+      internalID: 2012171256095276710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1753
+        width: 169
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bdc8745edd5aa40800000000000000
+      internalID: 5378949306781588240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1734
+        width: 192
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba910a9ca14cc5020800000000000000
+      internalID: 2331954326401980843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1734
+        width: 166
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877b8928272cbeae0800000000000000
+      internalID: -1518906652234303624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1454
+        width: 166
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad6ea00037dc0ae0800000000000000
+      internalID: -1581652767944053337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1441
+        width: 169
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d547ab300f39bec0800000000000000
+      internalID: -3550737560971557421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1454
+        width: 162
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1197d4f2da5b830800000000000000
+      internalID: 4086362655583441374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1441
+        width: 169
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c0a2a870574ebb0800000000000000
+      internalID: -4907669018683765620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1454
+        width: 166
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a758dd7eb47c26030800000000000000
+      internalID: 3486568190364714362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1157
+        width: 163
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed250acf41017c90800000000000000
+      internalID: -7173951289221108245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1157
+        width: 192
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e53b0ad3bb1a4b0800000000000000
+      internalID: -5430853802268598730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1157
+        width: 166
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defa4ce64e5cf1a00800000000000000
+      internalID: 729519249558908909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1170
+        width: 182
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0069e6508d3bed0800000000000000
+      internalID: -2399336658616581905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1176
+        width: 172
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2702e3927f62eb80800000000000000
+      internalID: -8367002619802941653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 864
+        width: 134
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824ebba6ceae644c0800000000000000
+      internalID: -4303494092782050264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 864
+        width: 134
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b71a23b35b30f80800000000000000
+      internalID: -8141464435498583286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 577
+        width: 154
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17da257463a236920800000000000000
+      internalID: 2982273790862601585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 577
+        width: 185
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eac69dccca70aed0800000000000000
+      internalID: -2404787180974716188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 577
+        width: 153
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e9f72916ff78f30800000000000000
+      internalID: 4577908340780146310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 577
+        width: 188
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b35ed06da201cd0800000000000000
+      internalID: -2589522686893540530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 577
+        width: 156
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1832c520261959b90800000000000000
+      internalID: -7235717376168418431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 290
+        width: 185
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c564801e91d190d0800000000000000
+      internalID: -3417720165385345599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 290
+        width: 185
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c3ce9ee09eef7e0800000000000000
+      internalID: -1729688956600304486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 293
+        width: 175
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d9b346484d22020800000000000000
+      internalID: 2315646823504256367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 322
+        width: 252
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c056bf43a0e3020800000000000000
+      internalID: 2323305680442035226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3
+        width: 185
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52cad4252246d5c0800000000000000
+      internalID: -4191089675922128292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 6
+        width: 175
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa00ea38f9598a90800000000000000
+      internalID: -7311213597384766805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 6
+        width: 175
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9416978076d42c520800000000000000
+      internalID: 2720822229804343625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: protagonist_walking_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 3
+        width: 242
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66d3b7096b74d3b0800000000000000
+      internalID: -5488626354826783122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
