@@ -6503,35 +6503,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -2651012946510677777, guid: ad5e44be24082c14c93dc3cbb89a420d,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.8290576
-      objectReference: {fileID: 0}
-    - target: {fileID: -2651012946510677777, guid: ad5e44be24082c14c93dc3cbb89a420d,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.6567514
-      objectReference: {fileID: 0}
-    - target: {fileID: -2651012946510677777, guid: ad5e44be24082c14c93dc3cbb89a420d,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.007762477
-      objectReference: {fileID: 0}
-    - target: {fileID: -2651012946510677777, guid: ad5e44be24082c14c93dc3cbb89a420d,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.22876775
-      objectReference: {fileID: 0}
     - target: {fileID: 4076420849097416488, guid: ad5e44be24082c14c93dc3cbb89a420d,
         type: 3}
       propertyPath: m_Name
       value: GuardEnemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 4076420849097416495, guid: ad5e44be24082c14c93dc3cbb89a420d,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4076420849097416499, guid: ad5e44be24082c14c93dc3cbb89a420d,
         type: 3}
@@ -11687,31 +11662,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 380150247, guid: 66e15e937089c8b41bdd9a352db35606, type: 3}
-      propertyPath: m_Size.x
-      value: 0.6030774
-      objectReference: {fileID: 0}
-    - target: {fileID: 380150247, guid: 66e15e937089c8b41bdd9a352db35606, type: 3}
-      propertyPath: m_Size.y
-      value: 0.791245
-      objectReference: {fileID: 0}
-    - target: {fileID: 380150247, guid: 66e15e937089c8b41bdd9a352db35606, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.087417364
-      objectReference: {fileID: 0}
-    - target: {fileID: 380150247, guid: 66e15e937089c8b41bdd9a352db35606, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.5581496
-      objectReference: {fileID: 0}
     - target: {fileID: 9005629286481564034, guid: 66e15e937089c8b41bdd9a352db35606,
         type: 3}
       propertyPath: m_Name
       value: Protagonist
-      objectReference: {fileID: 0}
-    - target: {fileID: 9005629286481564061, guid: 66e15e937089c8b41bdd9a352db35606,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9005629286481564062, guid: 66e15e937089c8b41bdd9a352db35606,
         type: 3}
