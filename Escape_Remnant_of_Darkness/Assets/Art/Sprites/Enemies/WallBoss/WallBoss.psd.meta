@@ -1,0 +1,1976 @@
+fileFormatVersion: 2
+guid: 5924d1d85de51cc4faf590faa7a63cae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6427295514938107225
+    second: WallBoss_0
+  - first:
+      213: -1816477105765212784
+    second: WallBoss_1
+  - first:
+      213: -2667020242298619731
+    second: WallBoss_2
+  - first:
+      213: -3945916303565673749
+    second: WallBoss_3
+  - first:
+      213: 1493188200255054686
+    second: WallBoss_4
+  - first:
+      213: -1256170779995323533
+    second: WallBoss_5
+  - first:
+      213: -4700393365279346651
+    second: WallBoss_6
+  - first:
+      213: 2585103300269771739
+    second: WallBoss_7
+  - first:
+      213: -4298348504681114823
+    second: WallBoss_8
+  - first:
+      213: -635305513555854621
+    second: WallBoss_9
+  - first:
+      213: 2614152048779252326
+    second: WallBoss_10
+  - first:
+      213: 6396151160349003537
+    second: WallBoss_11
+  - first:
+      213: -294419792239087527
+    second: WallBoss_12
+  - first:
+      213: -546782361263081424
+    second: WallBoss_13
+  - first:
+      213: -8718902224865803380
+    second: WallBoss_14
+  - first:
+      213: -2596037522676434334
+    second: WallBoss_15
+  - first:
+      213: 3946224256306833438
+    second: WallBoss_16
+  - first:
+      213: 6383280672100995695
+    second: WallBoss_17
+  - first:
+      213: -1145333902733304820
+    second: WallBoss_18
+  - first:
+      213: -2254544981758542066
+    second: WallBoss_19
+  - first:
+      213: 5035173748880769825
+    second: WallBoss_20
+  - first:
+      213: 719122769212322337
+    second: WallBoss_21
+  - first:
+      213: -6085438144534787278
+    second: WallBoss_22
+  - first:
+      213: -7548466910445285235
+    second: WallBoss_23
+  - first:
+      213: 1081190416605329700
+    second: WallBoss_24
+  - first:
+      213: 8361055701044893335
+    second: WallBoss_25
+  - first:
+      213: 8539055178860236352
+    second: WallBoss_26
+  - first:
+      213: 830989280754536440
+    second: WallBoss_27
+  - first:
+      213: -7186250384818241245
+    second: WallBoss_28
+  - first:
+      213: -6594187512026950240
+    second: WallBoss_29
+  - first:
+      213: -971959292351041112
+    second: WallBoss_30
+  - first:
+      213: -2926909661404817250
+    second: WallBoss_31
+  - first:
+      213: 4432021691901184229
+    second: WallBoss_32
+  - first:
+      213: 4845973137748013099
+    second: WallBoss_33
+  - first:
+      213: 3146948009888204541
+    second: WallBoss_34
+  - first:
+      213: 2398001299772656293
+    second: WallBoss_35
+  - first:
+      213: 3807234218350560621
+    second: WallBoss_36
+  - first:
+      213: 3829546756875667877
+    second: WallBoss_37
+  - first:
+      213: 4934703412005999248
+    second: WallBoss_38
+  - first:
+      213: -4140284081672750143
+    second: WallBoss_39
+  - first:
+      213: 744267357026852830
+    second: WallBoss_40
+  - first:
+      213: -7928074290262403862
+    second: WallBoss_41
+  - first:
+      213: -2531787687538724293
+    second: WallBoss_42
+  - first:
+      213: 8018397900078608850
+    second: WallBoss_43
+  - first:
+      213: 2702207522700458292
+    second: WallBoss_44
+  - first:
+      213: -6180798021626755920
+    second: WallBoss_45
+  - first:
+      213: -2690580998530306726
+    second: WallBoss_46
+  - first:
+      213: -7723256915948180571
+    second: WallBoss_47
+  - first:
+      213: -1873978928056265927
+    second: WallBoss_48
+  - first:
+      213: -5718705209114483333
+    second: WallBoss_49
+  - first:
+      213: -6650412633267587493
+    second: WallBoss_50
+  - first:
+      213: 3222080918179933117
+    second: WallBoss_51
+  - first:
+      213: 2810353071136683545
+    second: WallBoss_52
+  - first:
+      213: -2046340301117586210
+    second: WallBoss_53
+  - first:
+      213: -6367004361282971429
+    second: WallBoss_54
+  - first:
+      213: -2376628386571099906
+    second: WallBoss_55
+  - first:
+      213: 2775871122283617847
+    second: WallBoss_56
+  - first:
+      213: 5728002959667911672
+    second: WallBoss_57
+  - first:
+      213: -587352470392034446
+    second: WallBoss_58
+  - first:
+      213: 248832125561106198
+    second: WallBoss_59
+  - first:
+      213: 2683319576618491660
+    second: WallBoss_60
+  - first:
+      213: 5224570446539144276
+    second: WallBoss_61
+  - first:
+      213: 537651661139046938
+    second: WallBoss_62
+  - first:
+      213: 5385904123533895850
+    second: WallBoss_63
+  - first:
+      213: -3190296989698274176
+    second: WallBoss_64
+  - first:
+      213: -6178287910891221973
+    second: WallBoss_65
+  - first:
+      213: 1138481826205364909
+    second: WallBoss_66
+  - first:
+      213: -7522453916382097028
+    second: WallBoss_67
+  - first:
+      213: 407394550006231464
+    second: WallBoss_68
+  - first:
+      213: -606304232542247750
+    second: WallBoss_69
+  - first:
+      213: 1646408337482511872
+    second: WallBoss_70
+  - first:
+      213: 7257052152038850286
+    second: WallBoss_71
+  - first:
+      213: 4691455770612620423
+    second: WallBoss_72
+  - first:
+      213: -4003082472335582735
+    second: WallBoss_73
+  - first:
+      213: 4579430163245882617
+    second: WallBoss_74
+  - first:
+      213: 7198480818343272752
+    second: WallBoss_75
+  - first:
+      213: 2491284282723718610
+    second: WallBoss_76
+  - first:
+      213: -994480126295246292
+    second: WallBoss_77
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WallBoss_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 360
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955e852b737523950800000000000000
+      internalID: 6427295514938107225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 360
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d1c3842b39ac6e0800000000000000
+      internalID: -1816477105765212784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 360
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8b3095837dcfad0800000000000000
+      internalID: -2667020242298619731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_3
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 406
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beaab8c370a4d39c0800000000000000
+      internalID: -3945916303565673749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_4
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 404
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53e103c1ced8b410800000000000000
+      internalID: 1493188200255054686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 406
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3734721c45f219ee0800000000000000
+      internalID: -1256170779995323533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_6
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 404
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520fbe55329d4ceb0800000000000000
+      internalID: -4700393365279346651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_7
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 394
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb054051c120e320800000000000000
+      internalID: 2585103300269771739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_8
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 394
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93396a10fc23954c0800000000000000
+      internalID: -4298348504681114823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_9
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 394
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaf7ac5001fe27f0800000000000000
+      internalID: -635305513555854621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_10
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 394
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662d8502075574420800000000000000
+      internalID: 2614152048779252326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 394
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f0e429791b3c850800000000000000
+      internalID: 6396151160349003537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 310
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950beb442c20aebf0800000000000000
+      internalID: -294419792239087527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 310
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038f673e6507968f0800000000000000
+      internalID: -546782361263081424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 310
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83c2870f9c300780800000000000000
+      internalID: -8718902224865803380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_15
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 310
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a3945a0a509fbd0800000000000000
+      internalID: -2596037522676434334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 310
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18e2399d0ec3c630800000000000000
+      internalID: 3946224256306833438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 310
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62523283f7f59850800000000000000
+      internalID: 6383280672100995695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 310
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c9e5a32e4fa10f0800000000000000
+      internalID: -1145333902733304820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 310
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7420c84f36b0e0800000000000000
+      internalID: -2254544981758542066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 260
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123096cd8d780e540800000000000000
+      internalID: 5035173748880769825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_21
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 260
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122bbc83956daf900800000000000000
+      internalID: 719122769212322337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 260
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b4464ef3e2c8ba0800000000000000
+      internalID: -6085438144534787278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_23
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 260
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d805e14a6557e3790800000000000000
+      internalID: -7548466910445285235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_24
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 260
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429315c94f8210f00800000000000000
+      internalID: 1081190416605329700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_25
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 260
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79619008cdf680470800000000000000
+      internalID: 8361055701044893335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_26
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 260
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e8c6d7171d08670800000000000000
+      internalID: 8539055178860236352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_27
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 260
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff088b1954488b00800000000000000
+      internalID: 830989280754536440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_28
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 221
+        width: 224
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32105e1795f454c90800000000000000
+      internalID: -7186250384818241245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_29
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 210
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a51153356dbc74a0800000000000000
+      internalID: -6594187512026950240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_30
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 210
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1b64b5c28e282f0800000000000000
+      internalID: -971959292351041112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 210
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e989e4e9b278167d0800000000000000
+      internalID: -2926909661404817250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_32
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 210
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e888963f34b18d30800000000000000
+      internalID: 4432021691901184229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_33
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 210
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b203e8ac4ea504340800000000000000
+      internalID: 4845973137748013099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 210
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df64200ba843cab20800000000000000
+      internalID: 3146948009888204541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_35
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 210
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aacfdb1a79674120800000000000000
+      internalID: 2398001299772656293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_36
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 210
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d654f79995306d430800000000000000
+      internalID: 3807234218350560621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_37
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 214
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9c25e4c78452530800000000000000
+      internalID: 3829546756875667877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_38
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 214
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0929688ab969b7440800000000000000
+      internalID: 4934703412005999248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_39
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 128
+        width: 224
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbf0ba5091ca86c0800000000000000
+      internalID: -4140284081672750143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_40
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf1189c73b245a00800000000000000
+      internalID: 744267357026852830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_41
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae490001072d9f190800000000000000
+      internalID: -7928074290262403862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32fb8d13884ddcd0800000000000000
+      internalID: -2531787687538724293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_43
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d17ce52862174f60800000000000000
+      internalID: 8018397900078608850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_44
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439f2fbcc6b208520800000000000000
+      internalID: 2702207522700458292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_45
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4008452f4693aa0800000000000000
+      internalID: -6180798021626755920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_46
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d6f2f46d229aad0800000000000000
+      internalID: -2690580998530306726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_47
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab64d721ca71d490800000000000000
+      internalID: -7723256915948180571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_48
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 196
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93393acf71a4ef5e0800000000000000
+      internalID: -1873978928056265927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_49
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 178
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b752e8b49e313a0b0800000000000000
+      internalID: -5718705209114483333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_50
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 178
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56b05802fcf4b3a0800000000000000
+      internalID: -6650412633267587493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_51
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 110
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbeda5168127bc20800000000000000
+      internalID: 3222080918179933117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_52
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 110
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916b7827a31600720800000000000000
+      internalID: 2810353071136683545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_53
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 110
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4025e8650f993e0800000000000000
+      internalID: -2046340301117586210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_54
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 110
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd89d5a644bd3a7a0800000000000000
+      internalID: -6367004361282971429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_55
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 110
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0e1570315840fd0800000000000000
+      internalID: -2376628386571099906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_56
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 110
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73edaf91410e58620800000000000000
+      internalID: 2775871122283617847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_57
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 110
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb5463f754fd7f40800000000000000
+      internalID: 5728002959667911672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_58
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 110
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ba5544a0e49d7f0800000000000000
+      internalID: -587352470392034446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_59
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 128
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f66c4ff77047300800000000000000
+      internalID: 248832125561106198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f523720f01d3520800000000000000
+      internalID: 2683319576618491660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_61
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 128
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c38f1e327618840800000000000000
+      internalID: 5224570446539144276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_62
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 60
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a127713565f167700800000000000000
+      internalID: 537651661139046938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_63
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 60
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8ac8db3439eba40800000000000000
+      internalID: 5385904123533895850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_64
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 60
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c49017ac9c9b3d0800000000000000
+      internalID: -3190296989698274176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_65
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 60
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c0d3701ef424aa0800000000000000
+      internalID: -6178287910891221973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_66
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 60
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da275326033bccf00800000000000000
+      internalID: 1138481826205364909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_67
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 60
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c719ccac400ea9790800000000000000
+      internalID: -7522453916382097028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_68
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 60
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a13d8c4f2b57a500800000000000000
+      internalID: 407394550006231464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_69
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 60
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4e0894389f597f0800000000000000
+      internalID: -606304232542247750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_70
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 10
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006f2eee8a739d610800000000000000
+      internalID: 1646408337482511872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_71
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 10
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee72c69b7a36b460800000000000000
+      internalID: 7257052152038850286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_72
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 10
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c52deba266b1140800000000000000
+      internalID: 4691455770612620423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_73
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 10
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f958dd53b13278c0800000000000000
+      internalID: -4003082472335582735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_74
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 10
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcdaf978776d8f30800000000000000
+      internalID: 4579430163245882617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_75
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 10
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03160d34a2426e360800000000000000
+      internalID: 7198480818343272752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_76
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 10
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5d2421bd1d29220800000000000000
+      internalID: 2491284282723718610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallBoss_77
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 10
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a7cf71895e232f0800000000000000
+      internalID: -994480126295246292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
