@@ -336,12 +336,12 @@ TextureImporter:
       name: protagonist_walking_sheet_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 6251
-        width: 146
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 34
+        y: 4688
+        width: 110
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,12 +357,12 @@ TextureImporter:
       name: protagonist_walking_sheet_1
       rect:
         serializedVersion: 2
-        x: 243
-        y: 6241
-        width: 191
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 182
+        y: 4681
+        width: 143
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,12 +378,12 @@ TextureImporter:
       name: protagonist_walking_sheet_2
       rect:
         serializedVersion: 2
-        x: 472
-        y: 6254
-        width: 179
-        height: 274
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 354
+        y: 4690
+        width: 134
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,12 +399,12 @@ TextureImporter:
       name: protagonist_walking_sheet_3
       rect:
         serializedVersion: 2
-        x: 702
-        y: 6251
-        width: 182
-        height: 267
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 527
+        y: 4688
+        width: 136
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,12 +420,12 @@ TextureImporter:
       name: protagonist_walking_sheet_4
       rect:
         serializedVersion: 2
-        x: 922
-        y: 6244
-        width: 166
-        height: 284
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 692
+        y: 4683
+        width: 124
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -441,12 +441,12 @@ TextureImporter:
       name: protagonist_walking_sheet_5
       rect:
         serializedVersion: 2
-        x: 41
-        y: 5961
-        width: 157
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 31
+        y: 4470
+        width: 117
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -462,12 +462,12 @@ TextureImporter:
       name: protagonist_walking_sheet_6
       rect:
         serializedVersion: 2
-        x: 249
-        y: 5970
-        width: 185
-        height: 262
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 187
+        y: 4478
+        width: 138
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -483,12 +483,12 @@ TextureImporter:
       name: protagonist_walking_sheet_7
       rect:
         serializedVersion: 2
-        x: 488
-        y: 5983
-        width: 169
-        height: 255
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 366
+        y: 4487
+        width: 127
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,12 +504,12 @@ TextureImporter:
       name: protagonist_walking_sheet_8
       rect:
         serializedVersion: 2
-        x: 692
-        y: 5961
-        width: 195
-        height: 271
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 519
+        y: 4470
+        width: 146
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -525,12 +525,12 @@ TextureImporter:
       name: protagonist_walking_sheet_9
       rect:
         serializedVersion: 2
-        x: 938
-        y: 5961
-        width: 157
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 704
+        y: 4470
+        width: 117
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -546,12 +546,12 @@ TextureImporter:
       name: protagonist_walking_sheet_10
       rect:
         serializedVersion: 2
-        x: 26
-        y: 5674
-        width: 156
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 19
+        y: 4255
+        width: 117
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -567,12 +567,12 @@ TextureImporter:
       name: protagonist_walking_sheet_11
       rect:
         serializedVersion: 2
-        x: 236
-        y: 5680
-        width: 185
-        height: 262
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 177
+        y: 4260
+        width: 139
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -588,12 +588,12 @@ TextureImporter:
       name: protagonist_walking_sheet_12
       rect:
         serializedVersion: 2
-        x: 460
-        y: 5693
-        width: 169
-        height: 258
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 347
+        y: 4270
+        width: 127
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -609,12 +609,12 @@ TextureImporter:
       name: protagonist_walking_sheet_13
       rect:
         serializedVersion: 2
-        x: 683
-        y: 5674
-        width: 191
-        height: 268
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 512
+        y: 4255
+        width: 144
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -630,12 +630,12 @@ TextureImporter:
       name: protagonist_walking_sheet_14
       rect:
         serializedVersion: 2
-        x: 922
-        y: 5674
-        width: 157
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 692
+        y: 4255
+        width: 117
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -651,12 +651,12 @@ TextureImporter:
       name: protagonist_walking_sheet_15
       rect:
         serializedVersion: 2
-        x: 32
-        y: 5387
-        width: 147
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 24
+        y: 4040
+        width: 110
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -672,12 +672,12 @@ TextureImporter:
       name: protagonist_walking_sheet_16
       rect:
         serializedVersion: 2
-        x: 236
-        y: 5377
-        width: 195
-        height: 278
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 177
+        y: 4033
+        width: 146
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: protagonist_walking_sheet_17
       rect:
         serializedVersion: 2
-        x: 469
-        y: 5390
-        width: 179
-        height: 274
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 352
+        y: 4043
+        width: 134
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -714,12 +714,12 @@ TextureImporter:
       name: protagonist_walking_sheet_18
       rect:
         serializedVersion: 2
-        x: 686
-        y: 5387
-        width: 182
-        height: 268
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 515
+        y: 4040
+        width: 136
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -735,12 +735,12 @@ TextureImporter:
       name: protagonist_walking_sheet_19
       rect:
         serializedVersion: 2
-        x: 929
-        y: 5381
-        width: 166
-        height: 283
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 696
+        y: 4035
+        width: 125
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -756,12 +756,12 @@ TextureImporter:
       name: protagonist_walking_sheet_20
       rect:
         serializedVersion: 2
-        x: 6
-        y: 5189
-        width: 278
-        height: 185
+        x: 5
+        y: 3892
+        width: 208
+        height: 139
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -777,12 +777,12 @@ TextureImporter:
       name: protagonist_walking_sheet_21
       rect:
         serializedVersion: 2
-        x: 294
-        y: 5189
-        width: 277
-        height: 185
+        x: 220
+        y: 3892
+        width: 208
+        height: 139
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -798,12 +798,12 @@ TextureImporter:
       name: protagonist_walking_sheet_22
       rect:
         serializedVersion: 2
-        x: 581
-        y: 5189
-        width: 277
-        height: 185
+        x: 436
+        y: 3892
+        width: 208
+        height: 139
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -819,12 +819,12 @@ TextureImporter:
       name: protagonist_walking_sheet_23
       rect:
         serializedVersion: 2
-        x: 868
-        y: 5189
-        width: 278
-        height: 185
+        x: 651
+        y: 3892
+        width: 208
+        height: 139
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -840,12 +840,12 @@ TextureImporter:
       name: protagonist_walking_sheet_24
       rect:
         serializedVersion: 2
-        x: 38
-        y: 4902
-        width: 185
-        height: 230
+        x: 29
+        y: 3677
+        width: 139
+        height: 172
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -861,12 +861,12 @@ TextureImporter:
       name: protagonist_walking_sheet_25
       rect:
         serializedVersion: 2
-        x: 227
-        y: 4902
-        width: 185
-        height: 230
+        x: 170
+        y: 3677
+        width: 139
+        height: 172
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -882,12 +882,12 @@ TextureImporter:
       name: protagonist_walking_sheet_26
       rect:
         serializedVersion: 2
-        x: 57
-        y: 4612
-        width: 170
-        height: 246
+        x: 43
+        y: 3459
+        width: 127
+        height: 184
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -903,12 +903,12 @@ TextureImporter:
       name: protagonist_walking_sheet_27
       rect:
         serializedVersion: 2
-        x: 281
-        y: 4612
-        width: 137
-        height: 268
+        x: 211
+        y: 3459
+        width: 103
+        height: 201
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -924,12 +924,12 @@ TextureImporter:
       name: protagonist_walking_sheet_28
       rect:
         serializedVersion: 2
-        x: 48
-        y: 4322
-        width: 134
-        height: 284
+        x: 36
+        y: 3242
+        width: 100
+        height: 212
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -945,12 +945,12 @@ TextureImporter:
       name: protagonist_walking_sheet_29
       rect:
         serializedVersion: 2
-        x: 29
-        y: 4086
-        width: 156
-        height: 198
+        x: 22
+        y: 3065
+        width: 117
+        height: 148
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -966,12 +966,12 @@ TextureImporter:
       name: protagonist_walking_sheet_30
       rect:
         serializedVersion: 2
-        x: 252
-        y: 4086
-        width: 160
-        height: 198
+        x: 189
+        y: 3065
+        width: 120
+        height: 148
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -987,12 +987,12 @@ TextureImporter:
       name: protagonist_walking_sheet_31
       rect:
         serializedVersion: 2
-        x: 29
-        y: 3796
-        width: 156
-        height: 198
+        x: 22
+        y: 2847
+        width: 117
+        height: 148
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1008,12 +1008,12 @@ TextureImporter:
       name: protagonist_walking_sheet_32
       rect:
         serializedVersion: 2
-        x: 32
-        y: 3465
-        width: 166
-        height: 277
+        x: 24
+        y: 2599
+        width: 124
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1029,12 +1029,12 @@ TextureImporter:
       name: protagonist_walking_sheet_33
       rect:
         serializedVersion: 2
-        x: 29
-        y: 3178
-        width: 178
-        height: 277
+        x: 22
+        y: 2383
+        width: 134
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1050,12 +1050,12 @@ TextureImporter:
       name: protagonist_walking_sheet_34
       rect:
         serializedVersion: 2
-        x: 252
-        y: 3178
-        width: 179
-        height: 277
+        x: 189
+        y: 2383
+        width: 134
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1071,12 +1071,12 @@ TextureImporter:
       name: protagonist_walking_sheet_35
       rect:
         serializedVersion: 2
-        x: 479
-        y: 3178
-        width: 175
-        height: 277
+        x: 359
+        y: 2383
+        width: 132
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1092,12 +1092,12 @@ TextureImporter:
       name: protagonist_walking_sheet_36
       rect:
         serializedVersion: 2
-        x: 702
-        y: 3178
-        width: 176
-        height: 277
+        x: 527
+        y: 2383
+        width: 131
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1113,12 +1113,12 @@ TextureImporter:
       name: protagonist_walking_sheet_37
       rect:
         serializedVersion: 2
-        x: 61
-        y: 2888
-        width: 121
-        height: 277
+        x: 45
+        y: 2166
+        width: 91
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1134,12 +1134,12 @@ TextureImporter:
       name: protagonist_walking_sheet_38
       rect:
         serializedVersion: 2
-        x: 265
-        y: 2888
-        width: 121
-        height: 277
+        x: 199
+        y: 2166
+        width: 91
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1155,12 +1155,12 @@ TextureImporter:
       name: protagonist_walking_sheet_39
       rect:
         serializedVersion: 2
-        x: 466
-        y: 2888
-        width: 175
-        height: 277
+        x: 349
+        y: 2166
+        width: 132
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1176,12 +1176,12 @@ TextureImporter:
       name: protagonist_walking_sheet_40
       rect:
         serializedVersion: 2
-        x: 689
-        y: 2888
-        width: 179
-        height: 277
+        x: 517
+        y: 2166
+        width: 134
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1197,12 +1197,12 @@ TextureImporter:
       name: protagonist_walking_sheet_41
       rect:
         serializedVersion: 2
-        x: 32
-        y: 2595
-        width: 166
-        height: 283
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 24
+        y: 1946
+        width: 124
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1218,12 +1218,12 @@ TextureImporter:
       name: protagonist_walking_sheet_42
       rect:
         serializedVersion: 2
-        x: 249
-        y: 2595
-        width: 182
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 187
+        y: 1946
+        width: 136
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1239,12 +1239,12 @@ TextureImporter:
       name: protagonist_walking_sheet_43
       rect:
         serializedVersion: 2
-        x: 482
-        y: 2595
-        width: 166
-        height: 283
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 361
+        y: 1946
+        width: 125
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1260,12 +1260,12 @@ TextureImporter:
       name: protagonist_walking_sheet_44
       rect:
         serializedVersion: 2
-        x: 699
-        y: 2595
-        width: 179
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 524
+        y: 1946
+        width: 134
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1281,12 +1281,12 @@ TextureImporter:
       name: protagonist_walking_sheet_45
       rect:
         serializedVersion: 2
-        x: 929
-        y: 2595
-        width: 166
-        height: 283
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 696
+        y: 1946
+        width: 125
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1302,12 +1302,12 @@ TextureImporter:
       name: protagonist_walking_sheet_46
       rect:
         serializedVersion: 2
-        x: 32
-        y: 2311
-        width: 153
-        height: 280
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 24
+        y: 1733
+        width: 115
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1323,12 +1323,12 @@ TextureImporter:
       name: protagonist_walking_sheet_47
       rect:
         serializedVersion: 2
-        x: 246
-        y: 2305
-        width: 188
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 184
+        y: 1728
+        width: 141
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1344,12 +1344,12 @@ TextureImporter:
       name: protagonist_walking_sheet_48
       rect:
         serializedVersion: 2
-        x: 482
-        y: 2305
-        width: 153
-        height: 280
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 361
+        y: 1728
+        width: 115
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1365,12 +1365,12 @@ TextureImporter:
       name: protagonist_walking_sheet_49
       rect:
         serializedVersion: 2
-        x: 699
-        y: 2305
-        width: 185
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 524
+        y: 1728
+        width: 139
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1386,12 +1386,12 @@ TextureImporter:
       name: protagonist_walking_sheet_50
       rect:
         serializedVersion: 2
-        x: 929
-        y: 2305
-        width: 153
-        height: 280
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 696
+        y: 1728
+        width: 115
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1407,12 +1407,12 @@ TextureImporter:
       name: protagonist_walking_sheet_51
       rect:
         serializedVersion: 2
-        x: 45
-        y: 2018
-        width: 134
-        height: 283
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 36
+        y: 1513
+        width: 100
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1428,12 +1428,12 @@ TextureImporter:
       name: protagonist_walking_sheet_52
       rect:
         serializedVersion: 2
-        x: 32
-        y: 1734
-        width: 163
-        height: 281
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 24
+        y: 1300
+        width: 122
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1449,12 +1449,12 @@ TextureImporter:
       name: protagonist_walking_sheet_53
       rect:
         serializedVersion: 2
-        x: 246
-        y: 1747
-        width: 182
-        height: 261
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 184
+        y: 1310
+        width: 137
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1470,12 +1470,12 @@ TextureImporter:
       name: protagonist_walking_sheet_54
       rect:
         serializedVersion: 2
-        x: 482
-        y: 1753
-        width: 169
-        height: 258
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 361
+        y: 1315
+        width: 127
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1491,12 +1491,12 @@ TextureImporter:
       name: protagonist_walking_sheet_55
       rect:
         serializedVersion: 2
-        x: 692
-        y: 1734
-        width: 192
-        height: 274
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 519
+        y: 1300
+        width: 144
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1512,12 +1512,12 @@ TextureImporter:
       name: protagonist_walking_sheet_56
       rect:
         serializedVersion: 2
-        x: 929
-        y: 1734
-        width: 166
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 696
+        y: 1300
+        width: 125
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1533,12 +1533,12 @@ TextureImporter:
       name: protagonist_walking_sheet_57
       rect:
         serializedVersion: 2
-        x: 29
-        y: 1454
-        width: 166
-        height: 274
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 22
+        y: 1090
+        width: 124
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1554,12 +1554,12 @@ TextureImporter:
       name: protagonist_walking_sheet_58
       rect:
         serializedVersion: 2
-        x: 252
-        y: 1441
-        width: 169
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 189
+        y: 1081
+        width: 127
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1575,12 +1575,12 @@ TextureImporter:
       name: protagonist_walking_sheet_59
       rect:
         serializedVersion: 2
-        x: 479
-        y: 1454
-        width: 162
-        height: 274
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 359
+        y: 1090
+        width: 122
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1596,12 +1596,12 @@ TextureImporter:
       name: protagonist_walking_sheet_60
       rect:
         serializedVersion: 2
-        x: 699
-        y: 1441
-        width: 169
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 524
+        y: 1081
+        width: 127
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1617,12 +1617,12 @@ TextureImporter:
       name: protagonist_walking_sheet_61
       rect:
         serializedVersion: 2
-        x: 925
-        y: 1454
-        width: 166
-        height: 274
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 694
+        y: 1090
+        width: 125
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1638,12 +1638,12 @@ TextureImporter:
       name: protagonist_walking_sheet_62
       rect:
         serializedVersion: 2
-        x: 32
-        y: 1157
-        width: 163
-        height: 281
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 24
+        y: 868
+        width: 122
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1659,12 +1659,12 @@ TextureImporter:
       name: protagonist_walking_sheet_63
       rect:
         serializedVersion: 2
-        x: 236
-        y: 1154
-        width: 192
-        height: 274
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 177
+        y: 868
+        width: 144
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1680,12 +1680,12 @@ TextureImporter:
       name: protagonist_walking_sheet_64
       rect:
         serializedVersion: 2
-        x: 472
-        y: 1157
-        width: 166
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 354
+        y: 868
+        width: 125
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1701,12 +1701,12 @@ TextureImporter:
       name: protagonist_walking_sheet_65
       rect:
         serializedVersion: 2
-        x: 692
-        y: 1170
-        width: 182
-        height: 261
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 519
+        y: 877
+        width: 137
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1722,12 +1722,12 @@ TextureImporter:
       name: protagonist_walking_sheet_66
       rect:
         serializedVersion: 2
-        x: 916
-        y: 1176
-        width: 172
-        height: 258
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 687
+        y: 882
+        width: 129
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1743,12 +1743,12 @@ TextureImporter:
       name: protagonist_walking_sheet_67
       rect:
         serializedVersion: 2
-        x: 45
-        y: 864
-        width: 134
-        height: 287
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 34
+        y: 650
+        width: 100
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1764,12 +1764,12 @@ TextureImporter:
       name: protagonist_walking_sheet_68
       rect:
         serializedVersion: 2
-        x: 265
-        y: 864
-        width: 134
-        height: 287
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 199
+        y: 650
+        width: 100
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1785,12 +1785,12 @@ TextureImporter:
       name: protagonist_walking_sheet_69
       rect:
         serializedVersion: 2
-        x: 41
-        y: 577
-        width: 154
-        height: 287
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 31
+        y: 433
+        width: 115
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1806,12 +1806,12 @@ TextureImporter:
       name: protagonist_walking_sheet_70
       rect:
         serializedVersion: 2
-        x: 236
-        y: 577
-        width: 185
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 177
+        y: 433
+        width: 139
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1827,12 +1827,12 @@ TextureImporter:
       name: protagonist_walking_sheet_71
       rect:
         serializedVersion: 2
-        x: 485
-        y: 577
-        width: 153
-        height: 280
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 364
+        y: 433
+        width: 115
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1848,12 +1848,12 @@ TextureImporter:
       name: protagonist_walking_sheet_72
       rect:
         serializedVersion: 2
-        x: 686
-        y: 577
-        width: 188
-        height: 277
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 515
+        y: 433
+        width: 141
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1869,12 +1869,12 @@ TextureImporter:
       name: protagonist_walking_sheet_73
       rect:
         serializedVersion: 2
-        x: 932
-        y: 577
-        width: 156
-        height: 280
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 701
+        y: 433
+        width: 115
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1890,12 +1890,12 @@ TextureImporter:
       name: protagonist_walking_sheet_74
       rect:
         serializedVersion: 2
-        x: 13
-        y: 290
-        width: 185
-        height: 284
+        x: 10
+        y: 218
+        width: 138
+        height: 212
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1911,12 +1911,12 @@ TextureImporter:
       name: protagonist_walking_sheet_75
       rect:
         serializedVersion: 2
-        x: 236
-        y: 290
-        width: 185
-        height: 284
+        x: 177
+        y: 218
+        width: 139
+        height: 212
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1932,12 +1932,12 @@ TextureImporter:
       name: protagonist_walking_sheet_76
       rect:
         serializedVersion: 2
-        x: 466
-        y: 293
-        width: 175
-        height: 278
+        x: 349
+        y: 220
+        width: 132
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1953,12 +1953,12 @@ TextureImporter:
       name: protagonist_walking_sheet_77
       rect:
         serializedVersion: 2
-        x: 673
-        y: 322
-        width: 252
-        height: 252
+        x: 505
+        y: 241
+        width: 189
+        height: 189
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1974,12 +1974,12 @@ TextureImporter:
       name: protagonist_walking_sheet_78
       rect:
         serializedVersion: 2
-        x: 13
-        y: 3
-        width: 185
-        height: 284
+        x: 10
+        y: 2
+        width: 138
+        height: 213
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1995,12 +1995,12 @@ TextureImporter:
       name: protagonist_walking_sheet_79
       rect:
         serializedVersion: 2
-        x: 243
-        y: 6
-        width: 175
-        height: 278
+        x: 182
+        y: 5
+        width: 132
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2016,12 +2016,12 @@ TextureImporter:
       name: protagonist_walking_sheet_80
       rect:
         serializedVersion: 2
-        x: 466
-        y: 6
-        width: 175
-        height: 278
+        x: 349
+        y: 5
+        width: 132
+        height: 208
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2037,12 +2037,12 @@ TextureImporter:
       name: protagonist_walking_sheet_81
       rect:
         serializedVersion: 2
-        x: 677
-        y: 3
-        width: 242
-        height: 249
+        x: 507
+        y: 2
+        width: 182
+        height: 187
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
