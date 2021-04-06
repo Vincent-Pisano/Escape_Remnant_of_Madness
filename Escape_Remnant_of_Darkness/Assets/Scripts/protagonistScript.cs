@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class protagonistScript : MonoBehaviour
 {
-    public float moveSpeed = 2.4f;
+    [SerializeField][Range(0,5)] private float moveSpeed = 2.4f;
 
-    public Rigidbody2D rb;
+    [SerializeField] private Rigidbody2D rb;
 
-    public Vector2 movement;
+    private Vector2 movement;
 
-    public Animator animator;
+    [SerializeField] private Animator animator;
     
     // Start is called before the first frame update
     void Start()
