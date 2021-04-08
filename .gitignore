@@ -1,2 +1,27 @@
-Escape_Remnant_of_Darkness/Library/*
-Escape_Remnant_of_Darkness/Temp
+###
+# Unity folders and files
+###
+Escape_Remnant_of_Darkness/[Aa]ssets/AssetStoreTools*
+Escape_Remnant_of_Darkness/[Bb]uild/
+Escape_Remnant_of_Darkness/[Ll]ibrary/
+Escape_Remnant_of_Darkness/[Ll]ocal[Cc]ache/
+Escape_Remnant_of_Darkness/[Oo]bj/
+Escape_Remnant_of_Darkness/[Tt]emp/
+Escape_Remnant_of_Darkness/[Uu]nityGenerated/
+# file on crash reports
+Escape_Remnant_of_Darkness/sysinfo.txt
+
+###
+# VS/MD solution and project files
+###
+Escape_Remnant_of_Darkness/[Ee]xportedObj/
+Escape_Remnant_of_Darkness/*.booproj
+Escape_Remnant_of_Darkness/*.csproj
+Escape_Remnant_of_Darkness/*.sln
+Escape_Remnant_of_Darkness/*.suo
+Escape_Remnant_of_Darkness/*.svd
+Escape_Remnant_of_Darkness/*.unityproj
+Escape_Remnant_of_Darkness/*.user
+Escape_Remnant_of_Darkness/*.userprefs
+Escape_Remnant_of_Darkness/*.pidb
+Escape_Remnant_of_Darkness/.DS_Store
