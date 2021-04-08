@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4852897049299571987}
   - component: {fileID: 4852897049299571986}
+  - component: {fileID: 3239987666958779438}
   m_Layer: 0
   m_Name: Candle_alone_new
   m_TagString: Untagged
@@ -81,3 +82,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &3239987666958779438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4852897049299571985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.09409267, y: 0.0042379797, z: 0}
+  - {x: 0.10680671, y: 0.008475989, z: 0}
+  - {x: 0.15327425, y: 0.057342455, z: 0}
+  - {x: 0.1575122, y: 0.19013305, z: 0}
+  - {x: 0.09676763, y: 0.19013306, z: 0}
+  - {x: 0.089854725, y: 0.50175536, z: 0}
+  - {x: 0.0374356, y: 0.5630768, z: 0}
+  - {x: -0.034760736, y: 0.5653254, z: 0}
+  - {x: -0.09676763, y: 0.5037448, z: 0}
+  - {x: -0.09676763, y: 0.19013304, z: 0}
+  - {x: -0.15609956, y: 0.18730769, z: 0}
+  - {x: -0.15468691, y: 0.06016779, z: 0}
+  m_ShapePathHash: 684864740
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 36052

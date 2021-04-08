@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988882339098015220}
   - component: {fileID: 988882339098015221}
+  - component: {fileID: 1659351911312768929}
   m_Layer: 0
   m_Name: Vase_green_little_broken_2
   m_TagString: Untagged
@@ -81,3 +82,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &1659351911312768929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988882339098015222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.25326508, y: 0.120807886, z: 0}
+  - {x: -0.12815428, y: -0.00036290288, z: 0}
+  - {x: 0.12325666, y: 0.0045347214, z: 0}
+  - {x: 0.25, y: 0.120807886, z: 0}
+  - {x: 0.25, y: 0.5625, z: 0}
+  - {x: 0.12488918, y: 0.5579653, z: 0}
+  - {x: -0.13245726, y: 0.44005963, z: 0}
+  - {x: -0.25385976, y: 0.37838602, z: 0}
+  m_ShapePathHash: 1652149382
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 38030

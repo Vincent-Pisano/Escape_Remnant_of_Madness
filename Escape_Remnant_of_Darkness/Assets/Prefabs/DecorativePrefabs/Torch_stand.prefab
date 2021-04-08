@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5849896262459707720}
   - component: {fileID: 5849896262459707723}
+  - component: {fileID: 8446888723192344972}
   m_Layer: 0
   m_Name: Torch_stand
   m_TagString: Untagged
@@ -81,3 +82,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &8446888723192344972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5849896262459707722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.3168825, y: 0.063693, z: 0}
+  - {x: -0.18179055, y: 0.06316951, z: 0}
+  - {x: -0.057058305, y: -0.0058312714, z: 0}
+  - {x: 0.06767378, y: -0.008485138, z: 0}
+  - {x: 0.18709825, y: 0.057861775, z: 0}
+  - {x: 0.31688252, y: 0.055731386, z: 0}
+  - {x: 0.3834851, y: 0.118900895, z: 0}
+  - {x: 0.43656257, y: 0.37367305, z: 0}
+  - {x: 0.49494788, y: 0.43205833, z: 0}
+  - {x: 0.5002557, y: 0.567406, z: 0}
+  - {x: 0.19215038, y: 0.68630695, z: 0}
+  - {x: 0.05971223, y: 0.7478696, z: 0}
+  - {x: -0.057058305, y: 0.7478696, z: 0}
+  - {x: -0.18179055, y: 0.6921382, z: 0}
+  - {x: -0.49203837, y: 0.5695364, z: 0}
+  - {x: -0.49494794, y: 0.43471217, z: 0}
+  - {x: -0.42594716, y: 0.3763269, z: 0}
+  - {x: -0.37817734, y: 0.12951641, z: 0}
+  m_ShapePathHash: -43604111
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 37510

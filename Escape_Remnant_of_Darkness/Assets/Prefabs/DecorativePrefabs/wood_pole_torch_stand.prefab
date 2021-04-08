@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2370270036284010728}
   - component: {fileID: 2370270036284010731}
   - component: {fileID: 103588800}
+  - component: {fileID: 5323658104473434541}
   m_Layer: 0
   m_Name: wood_pole_torch_stand
   m_TagString: Untagged
@@ -108,3 +109,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.50206757, y: 0.39938927}
   m_EdgeRadius: 0
+--- !u!114 &5323658104473434541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2370270036284010730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.29777896, y: 0.024104714, z: 0}
+  - {x: 0.2977786, y: 0.024104595, z: 0}
+  - {x: 0.31034786, y: 1.2574898, z: 0}
+  - {x: 0.41279277, y: 1.3719871, z: 0}
+  - {x: 0.424845, y: 1.5648245, z: 0}
+  - {x: 0.3645832, y: 1.9444733, z: 0}
+  - {x: 0.27367416, y: 2.7379475, z: 0}
+  - {x: -0.26162195, y: 2.7439737, z: 0}
+  - {x: -0.352531, y: 1.9143424, z: 0}
+  - {x: -0.4067665, y: 1.4985366, z: 0}
+  - {x: -0.4067665, y: 1.3780131, z: 0}
+  - {x: -0.29226935, y: 1.2876207, z: 0}
+  m_ShapePathHash: -763969113
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 40032

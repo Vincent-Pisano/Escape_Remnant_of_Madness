@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8818098868520597301}
   - component: {fileID: 8818098868520597300}
   - component: {fileID: 8818098868520597299}
+  - component: {fileID: -3663010510699978491}
   m_Layer: 0
   m_Name: Coffin_broken
   m_TagString: Untagged
@@ -109,3 +110,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0150695, y: 1.7712507}
   m_EdgeRadius: 0
+--- !u!114 &-3663010510699978491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8818098868520597298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.54, y: -1.14, z: 0}
+  - {x: 0.54, y: -1.14, z: 0}
+  - {x: 0.5226018, y: 0.41648865, z: 0}
+  - {x: 0.35282236, y: 0.95765996, z: 0}
+  - {x: 0.13146903, y: 1.1399999, z: 0}
+  - {x: -0.2959425, y: 1.1399999, z: 0}
+  - {x: -0.53321266, y: 0.91521525, z: 0}
+  m_ShapePathHash: -884090917
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 36572

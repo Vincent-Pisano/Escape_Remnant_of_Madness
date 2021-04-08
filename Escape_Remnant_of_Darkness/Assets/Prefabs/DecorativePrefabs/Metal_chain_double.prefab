@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5821642646222044951}
   - component: {fileID: 5821642646222044950}
+  - component: {fileID: 1126444745954122630}
   m_Layer: 0
   m_Name: Metal_chain_double
   m_TagString: Untagged
@@ -81,3 +82,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &1126444745954122630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5821642646222044949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.3307855, y: -0.0068848133, z: 0}
+  - {x: -0.10499333, y: -0.013028979, z: 0}
+  - {x: -0.115320526, y: 0.9955951, z: 0}
+  - {x: 0.1187629, y: 0.99215275, z: 0}
+  - {x: 0.12220527, y: -0.006144166, z: 0}
+  - {x: 0.33078557, y: -0.0034424067, z: 0}
+  - {x: 0.32530698, y: 0.892323, z: 0}
+  - {x: 0.44234872, y: 1.0610008, z: 0}
+  - {x: 0.4375, y: 1.375, z: 0}
+  - {x: -0.4375, y: 1.375, z: 0}
+  - {x: -0.43546396, y: 1.0678856, z: 0}
+  - {x: -0.3253071, y: 0.8819958, z: 0}
+  m_ShapePathHash: 1871690605
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 37288

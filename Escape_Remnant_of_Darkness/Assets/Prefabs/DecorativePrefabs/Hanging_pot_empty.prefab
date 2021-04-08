@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8116953624434610279}
   - component: {fileID: 8116953624434610278}
+  - component: {fileID: -2403199829433770965}
   m_Layer: 0
   m_Name: Hanging_pot_empty
   m_TagString: Untagged
@@ -81,3 +82,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &-2403199829433770965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8116953624434610277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.43278447, y: 0.36781663, z: 0}
+  - {x: -0.16268815, y: 0.07634139, z: 0}
+  - {x: 0.19569728, y: 0.07634133, z: 0}
+  - {x: 0.44693133, y: 0.38196343, z: 0}
+  - {x: 0.43619284, y: 0.6940847, z: 0}
+  - {x: 0.32773408, y: 0.79782796, z: 0}
+  - {x: 0.33716515, y: 1.5900484, z: 0}
+  - {x: 0.44090837, y: 1.7362319, z: 0}
+  - {x: 0.4375, y: 2.0625, z: 0}
+  - {x: -0.4375, y: 2.0625, z: 0}
+  - {x: -0.44090837, y: 1.7550943, z: 0}
+  - {x: -0.32773408, y: 1.5759016, z: 0}
+  - {x: -0.31830284, y: 0.77424985, z: 0}
+  - {x: -0.43147728, y: 0.6846536, z: 0}
+  m_ShapePathHash: 1318001714
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 36992

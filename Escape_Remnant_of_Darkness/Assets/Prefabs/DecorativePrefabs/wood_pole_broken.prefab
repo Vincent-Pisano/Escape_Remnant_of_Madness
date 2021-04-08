@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5501432042003431111}
   - component: {fileID: 5501432042003431104}
   - component: {fileID: 4036740328911597979}
+  - component: {fileID: 5185309345312200649}
   m_Layer: 0
   m_Name: wood_pole_broken
   m_TagString: Untagged
@@ -108,3 +109,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5299597, y: 0.4444685}
   m_EdgeRadius: 0
+--- !u!114 &5185309345312200649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5501432042003431105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.27611947, y: 0.0121997, z: 0}
+  - {x: 0.26391983, y: 0.0121997595, z: 0}
+  - {x: 0.3005189, y: 1.6930679, z: 0}
+  - {x: 0.034565784, y: 1.7025481, z: 0}
+  - {x: 0.034565788, y: 1.7594802, z: 0}
+  - {x: -0.09556452, y: 1.7594802, z: 0}
+  - {x: -0.105323434, y: 1.6930678, z: 0}
+  - {x: -0.20942868, y: 1.6374831, z: 0}
+  - {x: -0.2785605, y: 1.5073526, z: 0}
+  m_ShapePathHash: -250738560
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 39606

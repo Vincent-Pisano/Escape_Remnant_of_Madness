@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7162004305013802746}
   - component: {fileID: 7162004305013802747}
   - component: {fileID: 2025905963}
+  - component: {fileID: 6878786831839683028}
   m_Layer: 0
   m_Name: Caisse_little_broken
   m_TagString: Untagged
@@ -108,3 +109,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 0.5320358}
   m_EdgeRadius: 0
+--- !u!114 &6878786831839683028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162004305013802740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.375, y: 0, z: 0}
+  - {x: 0.375, y: 0, z: 0}
+  - {x: 0.375, y: 0.9375, z: 0}
+  - {x: 0.07408792, y: 0.9374999, z: 0}
+  - {x: -0.30236885, y: 0.8196, z: 0}
+  - {x: -0.37381467, y: 0.7660156, z: 0}
+  m_ShapePathHash: 1601495447
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 35906

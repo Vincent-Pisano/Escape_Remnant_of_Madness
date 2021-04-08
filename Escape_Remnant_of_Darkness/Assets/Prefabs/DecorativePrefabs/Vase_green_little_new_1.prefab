@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 903606408201498286}
   - component: {fileID: 903606408201498287}
+  - component: {fileID: -9148952722747593769}
   m_Layer: 0
   m_Name: Vase_green_little_new_1
   m_TagString: Untagged
@@ -81,3 +82,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &-9148952722747593769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903606408201498272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.25387126, y: 0.12775347, z: 0}
+  - {x: -0.12097869, y: 0.00045001507, z: 0}
+  - {x: 0.12291433, y: 0.002385676, z: 0}
+  - {x: 0.24806425, y: 0.12001085, z: 0}
+  - {x: 0.24806425, y: 0.50804263, z: 0}
+  - {x: 0.18485546, y: 0.6876089, z: 0}
+  - {x: 0.12097859, y: 0.7514856, z: 0}
+  - {x: -0.13065694, y: 0.74761426, z: 0}
+  - {x: -0.19193026, y: 0.68031627, z: 0}
+  - {x: -0.2564748, y: 0.49985006, z: 0}
+  m_ShapePathHash: 640356594
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 38088

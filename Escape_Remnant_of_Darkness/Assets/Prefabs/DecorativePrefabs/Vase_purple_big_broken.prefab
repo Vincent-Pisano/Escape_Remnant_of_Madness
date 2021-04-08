@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5437484832634987962}
   - component: {fileID: 5437484832634987965}
+  - component: {fileID: 370974828551582611}
   m_Layer: 0
   m_Name: Vase_purple_big_broken
   m_TagString: Untagged
@@ -81,3 +82,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &370974828551582611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5437484832634987964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.4316614, y: 0.19134809, z: 0}
+  - {x: -0.24465217, y: 0.01125294, z: 0}
+  - {x: 0.2610535, y: 0.013986468, z: 0}
+  - {x: 0.44532904, y: 0.18041386, z: 0}
+  - {x: 0.50433886, y: 0.44041935, z: 0}
+  - {x: 0.50980586, y: 0.5716294, z: 0}
+  - {x: 0.439862, y: 0.626619, z: 0}
+  - {x: 0.064238265, y: 0.8231154, z: 0}
+  - {x: -0.2528528, y: 0.8203819, z: 0}
+  - {x: -0.36766168, y: 0.7520433, z: 0}
+  - {x: -0.5027335, y: 0.62115186, z: 0}
+  - {x: -0.50433886, y: 0.43221864, z: 0}
+  m_ShapePathHash: 1245204487
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 38648

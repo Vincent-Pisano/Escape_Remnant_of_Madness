@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1494684312915735610}
   - component: {fileID: 1494684312915735605}
   - component: {fileID: 7196533065832415088}
+  - component: {fileID: 8045019387473464434}
   m_Layer: 0
   m_Name: wood_pole_hanging_pot_empty
   m_TagString: Untagged
@@ -108,3 +109,43 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.51451683, y: 0.47662354}
   m_EdgeRadius: 0
+--- !u!114 &8045019387473464434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494684312915735604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.2930749, y: 0.0065647364, z: 0}
+  - {x: 0.2536865, y: 0.01969421, z: 0}
+  - {x: 0.26587301, y: 1.2538213, z: 0}
+  - {x: 0.42999205, y: 1.4901528, z: 0}
+  - {x: 0.44312182, y: 1.7986968, z: 0}
+  - {x: 0.31839103, y: 1.8971684, z: 0}
+  - {x: 0.3315208, y: 2.5602098, z: 0}
+  - {x: 0.37747407, y: 2.638987, z: 0}
+  - {x: 0.37090936, y: 2.750588, z: 0}
+  - {x: 0.21429792, y: 2.9934351, z: 0}
+  - {x: -0.2405569, y: 3, z: 0}
+  - {x: -0.44312164, y: 2.8293653, z: 0}
+  - {x: -0.44312164, y: 2.6521165, z: 0}
+  - {x: -0.37747407, y: 2.5602098, z: 0}
+  - {x: -0.37747407, y: 1.9431217, z: 0}
+  - {x: -0.44968656, y: 1.8183911, z: 0}
+  - {x: -0.44312164, y: 1.5164119, z: 0}
+  - {x: -0.3183912, y: 1.2406918, z: 0}
+  m_ShapePathHash: -1489646138
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 39802

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4490229462712330518}
   - component: {fileID: 4490229462712330519}
   - component: {fileID: 8651560425596815794}
+  - component: {fileID: -1460854954933107983}
   m_Layer: 0
   m_Name: wood_pole_bare
   m_TagString: Untagged
@@ -108,3 +109,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.52695894, y: 0.48723793}
   m_EdgeRadius: 0
+--- !u!114 &-1460854954933107983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4490229462712330512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -0.26260388, y: 0, z: 0}
+  - {x: 0.28219217, y: 0.0065294504, z: 0}
+  - {x: 0.27566284, y: 3, z: 0}
+  - {x: -0.282192, y: 2.9934707, z: 0}
+  m_ShapePathHash: -1918621287
+  m_Mesh: {fileID: 0}
+  m_InstanceId: 39520

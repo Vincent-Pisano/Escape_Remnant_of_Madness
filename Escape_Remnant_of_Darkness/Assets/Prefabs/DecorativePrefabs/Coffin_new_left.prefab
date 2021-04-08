@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2959289497099732848}
   - component: {fileID: 2959289497099732855}
   - component: {fileID: 2959289497099732854}
+  - component: {fileID: -3753213473883788213}
   m_Layer: 0
   m_Name: Coffin_new_left
   m_TagString: Untagged
@@ -109,3 +110,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.1446443, y: 0.7858267}
   m_EdgeRadius: 0
+--- !u!114 &-3753213473883788213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2959289497099732853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000
+  m_ShapePath:
+  - {x: -1.11, y: -0.81, z: 0}
+  - {x: 1.11, y: -0.81, z: 0}
+  - {x: 1.11, y: 0.81, z: 0}
+  - {x: -1.11, y: 0.81, z: 0}
+  m_ShapePathHash: 0
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -21066
