@@ -130,8 +130,8 @@ MonoBehaviour:
   m_ShapePath:
   - {x: -0.27917877, y: 0.011551976, z: 0}
   - {x: 0.29073077, y: 0, z: 0}
-  - {x: 0.2734027, y: 2.619224, z: 0}
-  - {x: -0.2907306, y: 2.625, z: 0}
-  m_ShapePathHash: -1614021528
+  - {x: 0.28495452, y: 0.58608294, z: 0}
+  - {x: -0.26762676, y: 0.56875515, z: 0}
+  m_ShapePathHash: -670824775
   m_Mesh: {fileID: 0}
-  m_InstanceId: 39730
+  m_InstanceId: 42364

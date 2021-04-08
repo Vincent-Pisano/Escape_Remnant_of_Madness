@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShadowGroup: 0
-  m_HasRenderer: 0
+  m_HasRenderer: 1
   m_UseRendererSilhouette: 1
   m_CastsShadows: 1
   m_SelfShadows: 0
@@ -131,8 +131,8 @@ MonoBehaviour:
   m_ShapePath:
   - {x: -1.11, y: -0.81, z: 0}
   - {x: 1.11, y: -0.81, z: 0}
-  - {x: 1.11, y: 0.81, z: 0}
-  - {x: -1.11, y: 0.81, z: 0}
-  m_ShapePathHash: 0
+  - {x: 1.0926697, y: 0.035917044, z: 0}
+  - {x: -1.0984465, y: 0.0012569427, z: 0}
+  m_ShapePathHash: -255223408
   m_Mesh: {fileID: 0}
-  m_InstanceId: -21066
+  m_InstanceId: 43990
