@@ -58,14 +58,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\Events.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GuardEnemyScript.cs" />
      <Compile Include="Assets\Scripts\PauseScript.cs" />
      <Compile Include="Assets\Scripts\Singleton.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\Scripts\protagonistScript.cs" />
-     <Compile Include="Assets\testScript.cs" />
+     <Compile Include="Assets\Scripts\testScript.cs" />
+ <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -75,8 +79,17 @@
  <Reference Include="Unity.2D.PixelPerfect.Editor">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.SpriteShape.Editor">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
@@ -86,6 +99,12 @@
  </Reference>
  <Reference Include="Unity.2D.Path.Editor">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Editor">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -102,8 +121,14 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
@@ -120,6 +145,9 @@
  <Reference Include="Unity.2D.Common.Runtime">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
@@ -132,8 +160,14 @@
  <Reference Include="Unity.2D.Animation.Editor">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ShaderGraph.Editor">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Mathematics.Editor">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -146,39 +180,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Shaders">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Runtime">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Universal.Editor">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ShaderGraph.Editor">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
