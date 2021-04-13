@@ -5,16 +5,11 @@ using UnityEngine;
 
 public class GuardEnemyScript : MonoBehaviour
 {
-    private readonly float MAX_ANGLE = 45.0f;
-    private readonly float MIN_ANGLE = -45.0f;
+    private readonly float MAX_ANGLE = 40.0f;
+    private readonly float MIN_ANGLE = -40.0f;
     
-    [Range(1, 15)]
-    [SerializeField]
-    private float viewRadius = 1;
     [SerializeField][Range(0,5)] private float moveSpeed = 2.4f;
     [SerializeField] private float lookingSpeed = 3f;
-    [SerializeField] private Transform target = null;
-    [SerializeField] private bool isVisible = false;
     
     private float angle = 40.0f;
 
@@ -25,7 +20,11 @@ public class GuardEnemyScript : MonoBehaviour
     private Vector2 movement;
 
     private Animator animator;
+    
+    private float movementXMem;
 
+    private float movementYMem;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +35,9 @@ public class GuardEnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (CheckCollidWithPlayer())
+            Debug.Log("Hit Player");
+
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
         movement.Normalize();
@@ -43,122 +45,54 @@ public class GuardEnemyScript : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
-    }
-    
-    private void FixedUpdate()
-    {
-        /*DetectTarget();
-        if (target != null)
+        if (movement.sqrMagnitude != 0)
         {
-            isVisible = CheckTargetVisible();
-        }*/
-        
-        isVisible = CheckCollidWithPlayer();
-        SetAngleLook();
-        
-
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+            movementXMem = movement.x;
+            movementYMem = movement.y;
+        }
+        else
+        {
+            animator.SetFloat("HorizontalIdle", movementXMem);
+            animator.SetFloat("VerticalIdle", movementYMem);
+        }
     }
-    
-    
-    /*
-     * Start collider direction look Guard
-     */
-    private bool CheckCollidWithPlayer()
+
+    private Boolean CheckCollidWithPlayer()
     {
         Vector2 directionLookAt = movement;
-        if (target != null)
-        {
-            directionLookAt = target.transform.position;
-        }
-        else {
-            if (Mathf.Approximately(0f, directionLookAt.x) && 
-                Mathf.Approximately(0f, directionLookAt.y) && !isVisible)
-            {
-                directionLookAt = Vector2.down;
-            }
-        }
-
-        RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + 1),
-        (Quaternion.AngleAxis(angle, Vector3.forward) * directionLookAt).normalized, 5f,
-        LayerMask.GetMask("Player", "Wall"));
-        
+        if (Mathf.Approximately(0f, directionLookAt.x) &&
+            Mathf.Approximately(0f, directionLookAt.y))
+            directionLookAt = Vector2.down;
         Debug.DrawRay(new Vector2(transform.position.x, transform.position.y + 1),
             (Quaternion.AngleAxis(angle, Vector3.forward) * directionLookAt).normalized * 5f,
             Color.red);
-        
+        RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + 1),
+            (Quaternion.AngleAxis(angle, Vector3.forward) * directionLookAt).normalized,
+            5f,
+            LayerMask.GetMask("Player", "Wall"));
         if (hit && !hit.collider.gameObject.name.Equals("Tilemap_wall"))
         {
-            target = hit.collider.gameObject.transform;
             return true;
         }
-        target = null;
         return false;
     }
-    
+
+    private void FixedUpdate()
+    {
+        SetAngleLook();
+
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
     private void SetAngleLook()
     {
-        if (!isVisible)
-        {
-            if (angle >= MAX_ANGLE)
-                sensAngle = true;
-            else if (angle <= MIN_ANGLE)
-                sensAngle = false;
-            if (sensAngle)
-                angle -= lookingSpeed;
-            else
-                angle += lookingSpeed;
-        }
-    }
-    
-    /*
-     * End collider direction look Guard
-     */
-
-    /*
-     * Start Collider Around Guard
-     */
-    private bool CheckTargetVisible()
-    {
-        var result = Physics2D.Raycast(transform.position, target.position - transform.position, viewRadius, LayerMask.GetMask("Player"));
-        if (result.collider != null)
-        {
-            return (LayerMask.GetMask("Player") & (1 << result.collider.gameObject.layer)) != 0;
-        }
-        return false;
-    }
-    
-    private void DetectTarget()
-    {
-        if (target == null)
-            CheckIfPlayerInRange();
-        else if (target != null)
-            DetectIfOutOfRange();
-    }
-    
-    private void DetectIfOutOfRange()
-    {
-        if (target == null || target.gameObject.activeSelf == false || Vector2.Distance(transform.position, target.position) > viewRadius + 1)
-        {
-            target = null;
-        }
-    }
-
-    private void CheckIfPlayerInRange()
-    {
-        Collider2D collision = Physics2D.OverlapCircle(transform.position, viewRadius, LayerMask.GetMask("Player"));
-        if (collision != null)
-        {
-            target = collision.transform;
-        }
-    }
-    
-    /*
-     * End Collider Around Guard
-     */
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, viewRadius);
+        if (angle >= MAX_ANGLE)
+            sensAngle = true;
+        else if (angle <= MIN_ANGLE)
+            sensAngle = false;
+        if (sensAngle)
+            angle -= lookingSpeed;
+        else
+            angle += lookingSpeed;
     }
 }
