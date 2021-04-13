@@ -12,6 +12,10 @@ public class protagonistScript : MonoBehaviour
     private Vector2 movement;
 
     private Animator animator;
+
+    private float movementXMem;
+
+    private float movementYMem;
     
     // Start is called before the first frame update
     void Start()
@@ -30,6 +34,17 @@ public class protagonistScript : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        if (movement.sqrMagnitude != 0)
+        {
+            movementXMem = movement.x;
+            movementYMem = movement.y;
+        }
+        else
+        {
+            animator.SetFloat("HorizontalIdle", movementXMem);
+            animator.SetFloat("VerticalIdle", movementYMem);
+        }
     }
 
     private void FixedUpdate()
