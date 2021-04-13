@@ -8,37 +8,73 @@ public class GuardEnemyScript : MonoBehaviour
     private readonly float MAX_ANGLE = 40.0f;
     private readonly float MIN_ANGLE = -40.0f;
     
+    [SerializeField][Range(0,5)] private float moveSpeed = 2.4f;
+    [SerializeField] private float lookingSpeed = 3f;
+    
     private float angle = 40.0f;
-    private float lookingSpeed = 2f;
 
     private bool sensAngle = true;
+    
+    private Rigidbody2D rb;
+    
+    private Vector2 movement;
+
+    private Animator animator;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y + 1), 
-                        (Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.left).normalized * 5f, 
-                        Color.red);
+        if (CheckCollidWithPlayer())
+            Debug.Log("Hit Player");
+
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");
+        movement.Normalize();
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+    }
+
+    private Boolean CheckCollidWithPlayer()
+    {
+        Vector2 directionLookAt = movement;
+        if (Mathf.Approximately(0f, directionLookAt.x) &&
+            Mathf.Approximately(0f, directionLookAt.y))
+            directionLookAt = Vector2.down;
+        Debug.DrawRay(new Vector2(transform.position.x, transform.position.y + 1),
+            (Quaternion.AngleAxis(angle, Vector3.forward) * directionLookAt).normalized * 5f,
+            Color.red);
         RaycastHit2D hit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + 1),
-            (Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.left).normalized, 
-                    5f, 
-                           LayerMask.GetMask("Player", "Wall"));
+            (Quaternion.AngleAxis(angle, Vector3.forward) * directionLookAt).normalized,
+            5f,
+            LayerMask.GetMask("Player", "Wall"));
         if (hit && !hit.collider.gameObject.name.Equals("Tilemap_wall"))
         {
-            Debug.Log("Hit something : " + hit.collider.name);
+            return true;
         }
+        return false;
     }
 
     private void FixedUpdate()
     {
-        if (angle == MAX_ANGLE)
+        SetAngleLook();
+
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    private void SetAngleLook()
+    {
+        if (angle >= MAX_ANGLE)
             sensAngle = true;
-        else if (angle == MIN_ANGLE)
+        else if (angle <= MIN_ANGLE)
             sensAngle = false;
         if (sensAngle)
             angle -= lookingSpeed;
