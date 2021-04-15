@@ -36,7 +36,7 @@ public class protagonistScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        sanity = 100;
+        sanity = 175;
         _pointLight = transform.GetChild(0).gameObject;
         _lightIntensity = _pointLight.GetComponent<Light2D>();
     }
@@ -68,16 +68,22 @@ public class protagonistScript : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         
+        //1min 23 sec pour sanity 0
         if (_lightIntensity.intensity > 0.25f)
         {
             print("falloff = " + lightFallOff);
             print("par frame" + lightFallOff * Time.fixedDeltaTime);
             _lightIntensity.intensity -= lightFallOff * Time.fixedDeltaTime / 15;
+            sanity -= insanityAccumulation * _lightIntensity.intensity * Time.fixedDeltaTime;
         }
         else
         {
             _lightIntensity.intensity = 0.25f;
+            sanity -= insanityAccumulation * _lightIntensity.intensity * Time.fixedDeltaTime * 10;
         }
         print(_lightIntensity.intensity);
+        
+        
+        print("sanity " + sanity);
     }
 }
