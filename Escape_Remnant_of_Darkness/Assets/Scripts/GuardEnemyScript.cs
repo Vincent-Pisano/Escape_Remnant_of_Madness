@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class GuardEnemyScript : MonoBehaviour
 {
-    private readonly float MAX_ANGLE = 70.0f;
-    private readonly float MIN_ANGLE = -70.0f;
+    private readonly float MAX_ANGLE = 90.0f;
+    private readonly float MIN_ANGLE = -90.0f;
 
     [Range(1, 15)]
     [SerializeField]
@@ -114,10 +114,20 @@ public class GuardEnemyScript : MonoBehaviour
             sensAngle = true;
         else if (angle <= MIN_ANGLE)
             sensAngle = false;
-        if (sensAngle)
-            angle -= lookingSpeed;
+        if (target != null)
+        {
+            float x = target.position.x - transform.position.x;
+            float y = target.position.y - transform.position.y;
+
+            angle = (float) Math.Tanh(y / x);
+        }
         else
-            angle += lookingSpeed;
+        {
+            if (sensAngle)
+                angle -= lookingSpeed;
+            else
+                angle += lookingSpeed;
+        }
     }
     
     /*
