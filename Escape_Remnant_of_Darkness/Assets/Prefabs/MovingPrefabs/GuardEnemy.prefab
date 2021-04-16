@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4076420849097416494}
   - component: {fileID: -2651012946510677777}
   - component: {fileID: 830671712}
+  - component: {fileID: 541974484}
   m_Layer: 9
   m_Name: GuardEnemy
   m_TagString: Untagged
@@ -165,4 +166,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2.4
-  lookingSpeed: 4
+--- !u!114 &541974484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4076420849097416488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b9e35be85df1d40814e4a8caa83bd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewRadius: 7
+  viewRadiusNear: 2
+  viewAngle: 130
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 256
+  obstackeMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  visibleTargets: []

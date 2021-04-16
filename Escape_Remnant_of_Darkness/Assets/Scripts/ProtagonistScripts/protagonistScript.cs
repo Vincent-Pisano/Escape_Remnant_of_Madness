@@ -1,89 +1,97 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.Experimental.Rendering.Universal;
 
 public class protagonistScript : MonoBehaviour
 {
+    private float MIN_LIGHT_INTENSITY = 0.2f;
+    
     [SerializeField][Range(0,5)] private float moveSpeed = 2.4f;
-
-    private Rigidbody2D rb;
-
-    private Vector2 movement;
-
-    private Animator animator;
-
-    private float movementXMem;
-
-    private float movementYMem;
+    [SerializeField] [Range(0, 300)] private float lightDurationInSeconds = 20f; 
+    [SerializeField] [Range(0, 2)] private float lightFallOff = 0.2f; 
+    
+    //Movements
+    private Rigidbody2D _rigidbody;
+    private Vector2 _velocity;
+    private Vector2 _directionLookAt;
+    private Animator _animator;
+    
+    //Lights
+    private GameObject _pointLight;
+    private Light2D _light;
+    private float _timer;
+    private float _intensityPerSeconds;
+    private float _delay;
     
     //Madness
-    private float sanity;
-
-    [SerializeField] [Range(0, 10)] private float insanityAccumulation = 2;
-
-    [SerializeField] [Range(0, 1)] private float lightFallOff = 0.000016f;
-
-    private GameObject _pointLight;
-
-    private Light2D _lightIntensity;
+    private float _sanity;
 
     
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
-        sanity = 175;
+        //Movements
+        _rigidbody = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+
+        //Lights
         _pointLight = transform.GetChild(0).gameObject;
-        _lightIntensity = _pointLight.GetComponent<Light2D>();
+        _light = _pointLight.GetComponent<Light2D>();
+        _intensityPerSeconds = (_light.intensity - MIN_LIGHT_INTENSITY) / lightDurationInSeconds * lightFallOff;
+        StartCoroutine("Light", lightFallOff);
+
+        //Madness
+        _sanity = 175;
     }
 
     // Update is called once per frame
     void Update()
     {
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
-        movement.Normalize();
+        _velocity.x = Input.GetAxis("Horizontal");
+        _velocity.y = Input.GetAxis("Vertical");
+        _velocity.Normalize();
 
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
+        AnimateMovement();
+    }
 
-        if (movement.sqrMagnitude != 0)
+    private void AnimateMovement()
+    {
+        _animator.SetFloat("Horizontal", _velocity.x);
+        _animator.SetFloat("Vertical", _velocity.y);
+        _animator.SetFloat("Speed", _velocity.sqrMagnitude);
+
+        if (_velocity.sqrMagnitude != 0)
         {
-            movementXMem = movement.x;
-            movementYMem = movement.y;
+            _directionLookAt = new Vector2(_velocity.x, _velocity.y);
         }
         else
         {
-            animator.SetFloat("HorizontalIdle", movementXMem);
-            animator.SetFloat("VerticalIdle", movementYMem);
+            _animator.SetFloat("HorizontalIdle", _directionLookAt.x);
+            _animator.SetFloat("VerticalIdle", _directionLookAt.y);
         }
     }
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        
-        //1min 23 sec pour sanity 0
-        if (_lightIntensity.intensity > 0.25f)
+        _rigidbody.MovePosition(_rigidbody.position + _velocity * (moveSpeed * Time.fixedDeltaTime));
+    }
+    
+    public IEnumerator Light(float delay)
+    {
+        while (_timer < lightDurationInSeconds)
         {
-            print("falloff = " + lightFallOff);
-            print("par frame" + lightFallOff * Time.fixedDeltaTime);
-            _lightIntensity.intensity -= lightFallOff * Time.fixedDeltaTime / 15;
-            sanity -= insanityAccumulation * _lightIntensity.intensity * Time.fixedDeltaTime;
+            yield return new WaitForSeconds(delay);
+            _light.intensity -= _intensityPerSeconds;
+            _timer += delay;
+            SetSanity();
         }
-        else
-        {
-            _lightIntensity.intensity = 0.25f;
-            sanity -= insanityAccumulation * _lightIntensity.intensity * Time.fixedDeltaTime * 10;
-        }
-        print(_lightIntensity.intensity);
-        
-        
-        print("sanity " + sanity);
+        print(_timer + " seconds passed : " + _light.intensity);
+    }
+
+    private void SetSanity()
+    {
+        //Lower Sanity avec : lightDurationInSeconds - _timer
+        //temporairement :
+        _sanity--;
     }
 }

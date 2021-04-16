@@ -33,13 +33,13 @@ public class FieldOfView : MonoBehaviour
         {
             yield return new WaitForSeconds(delay);
             FindVisibleTargets();
-            if (_controller.getVelocity() == new Vector2(0, 0))
+            if (_controller.GetDirection() == new Vector2(0, 0))
             {
                 _direction = transform.up;
             }
             else
             {
-                _direction = _controller.getVelocity().normalized;
+                _direction = _controller.GetDirection().normalized;
             }
             
             _directionAngle = AngleFromDir(_direction);
@@ -96,22 +96,22 @@ public class FieldOfView : MonoBehaviour
         }
     }
 
-    public float getViewAngle()
+    public float GetViewAngle()
     {
         return viewAngle;
     }
     
-    public float getViewRadius()
+    public float GetViewRadius()
     {
         return viewRadius;
     }
     
-    public float getViewRadiusNear()
+    public float GetViewRadiusNear()
     {
         return viewRadiusNear;
     }
     
-    public List<Transform> getVisibleTargets()
+    public List<Transform> GetVisibleTargets()
     {
         return visibleTargets;
     }

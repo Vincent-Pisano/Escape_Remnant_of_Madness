@@ -13,9 +13,7 @@ public class GuardEnemyScript : MonoBehaviour
     private Vector2 _velocity;
     private Vector2 _directionLookAt;
     private Animator _animator;
-    private float movementXMem;
-    private float movementYMem;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -57,14 +55,8 @@ public class GuardEnemyScript : MonoBehaviour
         }
     }
 
-    public Vector2 getVelocity()
+    public Vector2 GetDirection()
     {
-        if (_velocity.sqrMagnitude == 0)
-        {
-            return _directionLookAt;
-        }
-        return _velocity;
+        return _directionLookAt;
     }
-
-    
 }
