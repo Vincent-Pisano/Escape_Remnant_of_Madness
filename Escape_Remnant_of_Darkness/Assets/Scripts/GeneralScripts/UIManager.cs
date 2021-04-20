@@ -5,6 +5,7 @@ using UnityEngine;
 public class UIManager : Singleton<UIManager>
 {
     [SerializeField] private GameObject _mainMenu;
+    [SerializeField] private GameObject _gameMenu;
     [SerializeField] private GameObject _dummyCamera;
     [SerializeField] private GameObject _pauseMenu;
 
@@ -19,6 +20,7 @@ public class UIManager : Singleton<UIManager>
         _mainMenu.gameObject.SetActive(currentState == GameManager.GameState.PREGAME);
         _dummyCamera.gameObject.SetActive(currentState == GameManager.GameState.PREGAME);
         _pauseMenu.SetActive(currentState == GameManager.GameState.PAUSE);
+        _gameMenu.SetActive(currentState != GameManager.GameState.PREGAME);
         
     }
 
