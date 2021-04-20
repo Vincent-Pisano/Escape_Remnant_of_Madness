@@ -2,13 +2,13 @@
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
-public class protagonistScript : MonoBehaviour
+public class ProtagonistScript : MonoBehaviour
 {
     private float MIN_LIGHT_INTENSITY = 0.2f;
     
     [SerializeField][Range(0,5)] private float moveSpeed = 2.4f;
     [SerializeField] [Range(0, 300)] private float lightDurationInSeconds = 20f; 
-    [SerializeField] [Range(0, 2)] private float lightFallOff = 0.2f; 
+    [SerializeField] [Range(0, 2)] private float lightFallOff = 0.125f; 
     
     //Movements
     private Rigidbody2D _rigidbody;
@@ -21,10 +21,9 @@ public class protagonistScript : MonoBehaviour
     private Light2D _light;
     private float _timer;
     private float _intensityPerSeconds;
-    private float _delay;
-    
+
     //Madness
-    private float _sanity;
+    [SerializeField] [Range(0, 400)] private float sanity = 300f;
 
     
     // Start is called before the first frame update
@@ -39,9 +38,10 @@ public class protagonistScript : MonoBehaviour
         _light = _pointLight.GetComponent<Light2D>();
         _intensityPerSeconds = (_light.intensity - MIN_LIGHT_INTENSITY) / lightDurationInSeconds * lightFallOff;
         StartCoroutine("Light", lightFallOff);
+        StartCoroutine(nameof(SetSanity), lightFallOff);
 
         //Madness
-        _sanity = 175;
+
     }
 
     // Update is called once per frame
@@ -83,15 +83,55 @@ public class protagonistScript : MonoBehaviour
             yield return new WaitForSeconds(delay);
             _light.intensity -= _intensityPerSeconds;
             _timer += delay;
-            SetSanity();
+            
         }
         print(_timer + " seconds passed : " + _light.intensity);
     }
 
-    private void SetSanity()
+    public IEnumerator SetSanity(float delay)
+    {
+        do
+        {
+            
+            if (_light.intensity > 0.48f)
+            {
+                sanity -= 0.2f;
+            }
+
+            if (_light.intensity <= 0.48f && _light.intensity > 0.20f)
+            {
+                sanity -= 0.4f;
+            }
+
+            if (_light.intensity >= 0.2f)
+            {
+                sanity -= 1f;
+            }
+            
+            yield return new WaitForSeconds(delay);
+        } while (sanity >= 0);
+        
+        print(sanity + " = current sanity");
+    }
+
+    private void ReduceSanity()
     {
         //Lower Sanity avec : lightDurationInSeconds - _timer
         //temporairement :
-        _sanity--;
+        if (_light.intensity > 0.48f)
+        {
+            sanity -= 0.125f;
+        }
+
+        if (_light.intensity <= 0.48f && _light.intensity > 0.20f)
+        {
+            sanity -= 0.25f;
+        }
+
+        if (_light.intensity >= 0.2f)
+        {
+            sanity -= 0.625f;
+        }
+        
     }
 }
