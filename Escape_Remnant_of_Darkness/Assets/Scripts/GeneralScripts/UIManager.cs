@@ -6,6 +6,7 @@ public class UIManager : Singleton<UIManager>
 {
     [SerializeField] private GameObject _mainMenu;
     [SerializeField] private GameObject _gameMenu;
+    [SerializeField] private GameObject _optionMenu;
     [SerializeField] private GameObject _dummyCamera;
     [SerializeField] private GameObject _pauseMenu;
 
@@ -21,12 +22,12 @@ public class UIManager : Singleton<UIManager>
         _dummyCamera.gameObject.SetActive(currentState == GameManager.GameState.PREGAME);
         _pauseMenu.SetActive(currentState == GameManager.GameState.PAUSE);
         _gameMenu.SetActive(currentState != GameManager.GameState.PREGAME);
-        
+        _optionMenu.SetActive(currentState == GameManager.GameState.OPTION);
     }
 
     public void Update()
     {
-         if (GameManager.Instance.CurrentGameState == GameManager.GameState.PREGAME)
+        if (GameManager.Instance.CurrentGameState == GameManager.GameState.PREGAME)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {

@@ -5,6 +5,7 @@ public class PauseScript : MonoBehaviour
 {
    [SerializeField] private Button ResumeButton;
    [SerializeField] private Button RestartButton;
+   [SerializeField] private Button OptionsButton;
    [SerializeField] private Button QuitButton;
 
    private void Start()
@@ -12,6 +13,7 @@ public class PauseScript : MonoBehaviour
       ResumeButton.onClick.AddListener(HandleResumeClicked);
       RestartButton.onClick.AddListener(HandleRestartClicked);
       QuitButton.onClick.AddListener(HandleQuitClicked);
+      OptionsButton.onClick.AddListener(HandleOptionsClicked);
    }
 
    private void HandleResumeClicked()
@@ -27,5 +29,10 @@ public class PauseScript : MonoBehaviour
    private void HandleQuitClicked()
    {
       GameManager.Instance.QuitGame();
+   }
+   
+   private void HandleOptionsClicked()
+   {
+      GameManager.Instance.ToggleOptions();
    }
 }

@@ -64,9 +64,12 @@
      <Compile Include="Assets\Scripts\GeneralScripts\Events.cs" />
      <Compile Include="Assets\Scripts\GeneralScripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GeneralScripts\GameMenuScript.cs" />
+     <Compile Include="Assets\Scripts\GeneralScripts\OptionMenuScript.cs" />
      <Compile Include="Assets\Scripts\GeneralScripts\PauseScript.cs" />
      <Compile Include="Assets\Scripts\GeneralScripts\Singleton.cs" />
+     <Compile Include="Assets\Scripts\GeneralScripts\UILightBar.cs" />
      <Compile Include="Assets\Scripts\GeneralScripts\UIManager.cs" />
+     <Compile Include="Assets\Scripts\GeneralScripts\UISanityBar.cs" />
      <Compile Include="Assets\Scripts\ProtagonistScripts\ProtagonistScript.cs" />
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>

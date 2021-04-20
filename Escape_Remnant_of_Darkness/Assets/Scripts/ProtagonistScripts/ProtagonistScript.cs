@@ -9,7 +9,7 @@ public class ProtagonistScript : MonoBehaviour
     
     [SerializeField][Range(0,5)] private float moveSpeed = 2.4f;
     [SerializeField] [Range(0, 300)] private float lightDurationInSeconds = 20f; 
-    [SerializeField] [Range(0, 2)] private float lightFallOff = 0.125f; 
+    [SerializeField] [Range(0, 2)] private float lightFallOff = 0.2f; 
     
     //Movements
     private Rigidbody2D _rigidbody;
@@ -110,8 +110,13 @@ public class ProtagonistScript : MonoBehaviour
         }
     }
 
-    public float getSanity()
+    public float GetSanity()
     {
         return sanity;
+    }
+    
+    public float GetLightIntensity()
+    {
+        return _light.intensity - MIN_LIGHT_INTENSITY;
     }
 }

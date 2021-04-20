@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -15,7 +16,8 @@ public class GameManager : Singleton<GameManager>
     {
         PREGAME,
         RUNNING,
-        PAUSE
+        PAUSE, 
+        OPTION
     }
 
     public Events.EventGameState onGameStateChanged;
@@ -26,6 +28,7 @@ public class GameManager : Singleton<GameManager>
     private GameState _currentGameState = GameState.PREGAME;
     
     private string _currentLevelName = string.Empty;
+    private Boolean isOptionMenuClicked;
     
     public void Start()
     {
@@ -160,5 +163,10 @@ public class GameManager : Singleton<GameManager>
     {
         print("Quitting game");
         Application.Quit();
+    }
+    
+    public void ToggleOptions()
+    {
+        UpdateGameState(_currentGameState == GameState.PAUSE ? GameState.OPTION : GameState.PAUSE);
     }
 }

@@ -5,9 +5,8 @@ using UnityEngine.UI;
 
 public class GameMenuScript : MonoBehaviour
 {
-
-    [SerializeField] private Slider sanityBar;
-
+    private float maxSanity;
+    private float maxLight;
     private ProtagonistScript _protagonistScript;
     
     // Start is called before the first frame update
@@ -15,12 +14,14 @@ public class GameMenuScript : MonoBehaviour
     {
         GameObject protagonist = GameObject.FindWithTag("Player");
         _protagonistScript = protagonist.GetComponent<ProtagonistScript>();
-        sanityBar.maxValue = _protagonistScript.getSanity();
+        maxSanity = _protagonistScript.GetSanity();
+        maxLight = _protagonistScript.GetLightIntensity();
     }
 
     // Update is called once per frame
     void Update()
     {
-        sanityBar.value = _protagonistScript.getSanity();
+        UISanityBar.instance.SetValue(_protagonistScript.GetSanity() / maxSanity);
+        UILightBar.instance.SetValue(_protagonistScript.GetLightIntensity() / maxLight);
     }
 }
