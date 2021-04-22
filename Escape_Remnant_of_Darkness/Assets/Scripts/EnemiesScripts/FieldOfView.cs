@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using Pathfinding;
 using UnityEngine;
 
 public class FieldOfView : MonoBehaviour
@@ -15,15 +17,15 @@ public class FieldOfView : MonoBehaviour
     [SerializeField] private LayerMask targetMask;
     [SerializeField] private LayerMask obstackeMask;
 
-    [SerializeField] private List<Transform> visibleTargets = new List<Transform>();
+    [SerializeField] private Transform target;
 
-    private GuardEnemyScript _controller;
+    private EnemyScript _controller;
     private Vector2 _direction;
     private float _directionAngle;
 
     private void Start()
     {
-        _controller = GetComponent<GuardEnemyScript>();
+        _controller = GetComponent<EnemyScript>();
         StartCoroutine("FindTargetsWithDelay", .2f);
     }
 
@@ -68,7 +70,7 @@ public class FieldOfView : MonoBehaviour
 
     public void FindVisibleTargets()
     {
-        visibleTargets.Clear();
+        this.target = null;
         Collider2D targetsInViewRadius = Physics2D.OverlapCircle(transform.position, viewRadius, targetMask);
         if (targetsInViewRadius != null)
         {
@@ -83,6 +85,10 @@ public class FieldOfView : MonoBehaviour
                 CheckIfPlayerIsHidden(target, directionToTarget);
             } 
         }
+        else
+        {
+            _controller.ResetDirection();
+        }
     }
 
     private void CheckIfPlayerIsHidden(Transform target, Vector3 directionToTarget)
@@ -92,7 +98,8 @@ public class FieldOfView : MonoBehaviour
         if (!Physics2D.Raycast(transform.position, directionToTarget, distanceToTarget, obstackeMask))
         {
             //do something like follow the player
-            visibleTargets.Add(target);
+            this.target = target;
+            _controller.SetDirection(directionToTarget);
         }
     }
 
@@ -111,8 +118,8 @@ public class FieldOfView : MonoBehaviour
         return viewRadiusNear;
     }
     
-    public List<Transform> GetVisibleTargets()
+    public Transform GetTarget()
     {
-        return visibleTargets;
+        return target;
     }
 }

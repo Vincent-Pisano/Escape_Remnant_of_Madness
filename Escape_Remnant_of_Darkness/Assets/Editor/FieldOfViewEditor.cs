@@ -24,9 +24,10 @@ public class FieldOfViewEditor : Editor
         Handles.DrawLine(fow.transform.position, fow.transform.position + viewAngleB * fow.GetViewRadius());
 
         Handles.color = Color.red;
-        foreach (Transform visibleTarget in fow.GetVisibleTargets())
+        Transform player = fow.GetTarget();
+        if(player != null)
         {
-            Handles.DrawLine(fow.transform.position, visibleTarget.position);
+            Handles.DrawLine(fow.transform.position, player.position);
         }
     }
 }
