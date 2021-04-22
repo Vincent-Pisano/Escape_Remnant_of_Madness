@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 380150247}
   m_Layer: 8
   m_Name: Protagonist
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,6 +172,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  lightDurationInSeconds: 20
+  lightFallOff: 0.125
+  sanity: 300
 --- !u!50 &9005629286481564035
 Rigidbody2D:
   serializedVersion: 4
