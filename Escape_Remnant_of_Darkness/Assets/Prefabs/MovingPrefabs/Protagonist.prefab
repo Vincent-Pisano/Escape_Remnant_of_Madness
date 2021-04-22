@@ -174,7 +174,10 @@ MonoBehaviour:
   moveSpeed: 5
   lightDurationInSeconds: 20
   lightFallOff: 0.125
+  viewRadius: 3
   sanity: 300
+  bonusSpeed: 2.5
+  speedDuration: 1.5
 --- !u!50 &9005629286481564035
 Rigidbody2D:
   serializedVersion: 4
