@@ -7,7 +7,7 @@ using UnityEngine;
 public class PathFinding : MonoBehaviour
 {
 
-    private Transform _target;
+    [SerializeField] private Transform _target;
     private Rigidbody2D _rigidbody2D;
     private GuardEnemyScript _controller;
     private FieldOfView _fieldOfView;
@@ -23,26 +23,48 @@ public class PathFinding : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _target = null;
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _seeker = GetComponent<Seeker>();
         _controller = GetComponent<GuardEnemyScript>();
         _fieldOfView = GetComponent<FieldOfView>();
 
-        InvokeRepeating("UpdatePath", 0f, .5f);
+        InvokeRepeating("UpdatePath", 0f, .2f);
         
     }
 
     private void Update()
     {
-        _target = _fieldOfView.GetTarget();
+        
     }
 
     void UpdatePath()
     {
-        if (_seeker.IsDone() && _target != null)
+        if (_fieldOfView.GetTarget() != null)
         {
-            _seeker.StartPath(_rigidbody2D.position, _target.position, OnPathComplete);
+            if (_target == null)
+                _target = _fieldOfView.GetTarget();
         }
+        if (_target != null)
+        {
+                
+            if (_seeker.IsDone() && _target != null)
+            {
+                _seeker.StartPath(_rigidbody2D.position, _target.gameObject.transform.position, OnPathComplete);
+            }
+        }
+        if (_target != null && _fieldOfView.GetTarget() == null) 
+        {
+            StartCoroutine("WaitForSeconds", 3F);
+        }
+    }
+
+    private IEnumerator WaitForSeconds(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        print("After 3 seconds");
+        _controller.ResetDirection();
+        _target = null;
     }
 
     void OnPathComplete(Path p)

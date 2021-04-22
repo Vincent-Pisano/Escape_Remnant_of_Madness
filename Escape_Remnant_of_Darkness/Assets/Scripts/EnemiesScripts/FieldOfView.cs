@@ -85,10 +85,6 @@ public class FieldOfView : MonoBehaviour
                 CheckIfPlayerIsHidden(target, directionToTarget);
             } 
         }
-        else
-        {
-            _controller.ResetDirection();
-        }
     }
 
     private void CheckIfPlayerIsHidden(Transform target, Vector3 directionToTarget)
@@ -97,9 +93,14 @@ public class FieldOfView : MonoBehaviour
 
         if (!Physics2D.Raycast(transform.position, directionToTarget, distanceToTarget, obstackeMask))
         {
-            //do something like follow the player
-            this.target = target;
-            _controller.SetDirection(directionToTarget);
+            if (target.gameObject.GetComponent<Animator>().GetBool("Vanquished"))
+            {
+                this.target = null;
+            }
+            else
+            {
+                this.target = target;
+            }
         }
     }
 
