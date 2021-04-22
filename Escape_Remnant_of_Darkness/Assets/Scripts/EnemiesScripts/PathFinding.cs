@@ -60,7 +60,6 @@ public class PathFinding : MonoBehaviour
             return;
         if (_currentWayPoint >= _path.vectorPath.Count)
         {
-            _controller.ResetDirection();
             return;
         }
 
