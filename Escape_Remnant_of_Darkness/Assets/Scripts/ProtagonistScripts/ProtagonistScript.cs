@@ -25,6 +25,13 @@ public class ProtagonistScript : MonoBehaviour
 
     //Madness
     [SerializeField] [Range(0, 400)] private float sanity = 300f;
+    
+    //SpeedBoosting
+    private float memSpeed;
+    [SerializeField] [Range(0, 5)] private float bonusSpeed = 2.5f;
+    [SerializeField][Range(0,5)] private float speedDuration = 1.5f;
+    private bool boosting;
+    
 
     
     // Start is called before the first frame update
@@ -33,6 +40,8 @@ public class ProtagonistScript : MonoBehaviour
         //Movements
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+
+        memSpeed = moveSpeed;
 
         //Lights
         _pointLight = transform.GetChild(0).gameObject;
@@ -44,11 +53,38 @@ public class ProtagonistScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _velocity.x = Input.GetAxis("Horizontal");
-        _velocity.y = Input.GetAxis("Vertical");
-        _velocity.Normalize();
+        if (sanity > 0)
+        {
+            _velocity.x = Input.GetAxis("Horizontal");
+            _velocity.y = Input.GetAxis("Vertical");
+            _velocity.Normalize();
+        
+            AnimateMovement();
 
-        AnimateMovement();
+            if (boosting)
+            {
+                speedDuration -= Time.deltaTime;
+                if (speedDuration <= 0)
+                {
+                    moveSpeed = memSpeed;
+                    speedDuration = 1.5f;
+                    boosting = false;
+                }
+                else
+                {
+                    moveSpeed = memSpeed + bonusSpeed;
+                }
+                
+            }
+        }
+        else
+        {
+            _velocity.x = 0;
+            _velocity.y = 0;
+            _velocity.Normalize();
+            _animator.SetBool("Vanquished", true);
+        }
+        
     }
 
     private void AnimateMovement()
@@ -66,6 +102,8 @@ public class ProtagonistScript : MonoBehaviour
             _animator.SetFloat("HorizontalIdle", _directionLookAt.x);
             _animator.SetFloat("VerticalIdle", _directionLookAt.y);
         }
+
+        
     }
 
     private void FixedUpdate()
@@ -118,5 +156,14 @@ public class ProtagonistScript : MonoBehaviour
     public float GetLightIntensity()
     {
         return _light.intensity - MIN_LIGHT_INTENSITY;
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag.Equals("Enemy"))
+        {
+            sanity -= 40;
+            boosting = true;
+        }
     }
 }
