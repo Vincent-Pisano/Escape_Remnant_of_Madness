@@ -28,7 +28,7 @@ public class GameManager : Singleton<GameManager>
     private GameState _currentGameState = GameState.PREGAME;
     
     private string _currentLevelName = string.Empty;
-    private Boolean isOptionMenuClicked;
+    private Boolean isOptionMenuClicked = false;
     
     public void Start()
     {
@@ -127,6 +127,9 @@ public class GameManager : Singleton<GameManager>
             case GameState.PAUSE:
                 Time.timeScale = 0;
                 break;
+            case GameState.OPTION:
+                Time.timeScale = 0;
+                break;
             default:
                 break;
         }
@@ -167,6 +170,7 @@ public class GameManager : Singleton<GameManager>
     
     public void ToggleOptions()
     {
-        UpdateGameState(_currentGameState == GameState.PAUSE ? GameState.OPTION : GameState.PAUSE);
+        isOptionMenuClicked = !isOptionMenuClicked;
+        _instanceSystemPrefabs[0].GetComponent<UIManager>().ToggleOptionsMenu(isOptionMenuClicked);
     }
 }

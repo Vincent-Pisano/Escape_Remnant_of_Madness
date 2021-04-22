@@ -22,7 +22,12 @@ public class UIManager : Singleton<UIManager>
         _dummyCamera.gameObject.SetActive(currentState == GameManager.GameState.PREGAME);
         _pauseMenu.SetActive(currentState == GameManager.GameState.PAUSE);
         _gameMenu.SetActive(currentState != GameManager.GameState.PREGAME);
-        _optionMenu.SetActive(currentState == GameManager.GameState.OPTION);
+        
+    }
+
+    public void ToggleOptionsMenu(bool isShowing)
+    {
+        _optionMenu.SetActive(isShowing);
     }
 
     public void Update()
