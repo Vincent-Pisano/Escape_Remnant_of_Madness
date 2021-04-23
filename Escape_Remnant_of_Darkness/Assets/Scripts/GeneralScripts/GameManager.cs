@@ -16,20 +16,21 @@ public class GameManager : Singleton<GameManager>
     {
         PREGAME,
         RUNNING,
-        PAUSE, 
-        OPTION
+        PAUSE,
+        GAMEOVER
     }
 
     public Events.EventGameState onGameStateChanged;
     
-    private List<AsyncOperation> _loadOperations = new List<AsyncOperation>();
+    public List<AsyncOperation> _loadOperations = new List<AsyncOperation>();
     public GameObject[] systemPrefabs;
     private List<GameObject> _instanceSystemPrefabs = new List<GameObject>();
     private GameState _currentGameState = GameState.PREGAME;
     
     private string _currentLevelName = string.Empty;
-    private Boolean isOptionMenuClicked = false;
-    
+    private bool _isOptionMenuClicked = false;
+    private bool _isPlayerVanquished = false;
+
     public void Start()
     {
         DontDestroyOnLoad(this);
@@ -127,8 +128,8 @@ public class GameManager : Singleton<GameManager>
             case GameState.PAUSE:
                 Time.timeScale = 0;
                 break;
-            case GameState.OPTION:
-                Time.timeScale = 0;
+            case GameState.GAMEOVER:
+                Time.timeScale = 1;
                 break;
             default:
                 break;
@@ -150,15 +151,21 @@ public class GameManager : Singleton<GameManager>
     {
         LoadLevel(FIRST_LEVEL_NAME);
     }
+    
+    public void GameOver()
+    {
+        UpdateGameState(GameState.GAMEOVER);
+        RestartGame(GameState.GAMEOVER);
+    }
 
     public void TogglePause()
     {
         UpdateGameState(_currentGameState == GameState.RUNNING ? GameState.PAUSE : GameState.RUNNING);
     }
 
-    public void RestartGame()
+    public void RestartGame(GameState currentGameState)
     {
-        UpdateGameState(GameState.PREGAME);
+        UpdateGameState(currentGameState);
         UnloadLevel(_currentLevelName);
     }
 
@@ -170,7 +177,7 @@ public class GameManager : Singleton<GameManager>
     
     public void ToggleOptions()
     {
-        isOptionMenuClicked = !isOptionMenuClicked;
-        _instanceSystemPrefabs[0].GetComponent<UIManager>().ToggleOptionsMenu(isOptionMenuClicked);
+        _isOptionMenuClicked = !_isOptionMenuClicked;
+        _instanceSystemPrefabs[0].GetComponent<UIManager>().ToggleOptionsMenu(_isOptionMenuClicked);
     }
 }

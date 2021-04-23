@@ -24,7 +24,7 @@ public class GuardEnemyScript : EnemyScript
     {
         base.AnimateMovement();
         _animator.SetFloat("Speed", _directionLookAt.sqrMagnitude);
-        if (_directionLookAt.sqrMagnitude != 0)
+        if (_directionLookAt.sqrMagnitude != 0f)
         {
             _directionLookAt = new Vector2(_directionLookAt.x, _directionLookAt.y);
         }

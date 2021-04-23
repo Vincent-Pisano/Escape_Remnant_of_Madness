@@ -47,7 +47,6 @@ public class PathFinding : MonoBehaviour
         }
         if (_target != null)
         {
-                
             if (_seeker.IsDone() && _target != null)
             {
                 _seeker.StartPath(_rigidbody2D.position, _target.gameObject.transform.position, OnPathComplete);
@@ -55,14 +54,21 @@ public class PathFinding : MonoBehaviour
         }
         if (_target != null && _fieldOfView.GetTarget() == null) 
         {
-            StartCoroutine("WaitForSeconds", 3F);
+            if (_target.gameObject.GetComponent<ProtagonistScript>().IsPlayerVanquished())
+            {
+                _controller.ResetDirection();
+                _target = null;
+            }
+            else
+            {
+                StartCoroutine("WaitForSeconds", 3F);
+            }
         }
     }
 
     private IEnumerator WaitForSeconds(float delay)
     {
         yield return new WaitForSeconds(delay);
-        print("After 3 seconds");
         _controller.ResetDirection();
         _target = null;
     }

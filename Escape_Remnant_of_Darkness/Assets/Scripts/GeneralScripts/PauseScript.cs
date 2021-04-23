@@ -23,7 +23,7 @@ public class PauseScript : MonoBehaviour
 
    private void HandleRestartClicked()
    {
-      GameManager.Instance.RestartGame();
+      GameManager.Instance.RestartGame(GameManager.GameState.PREGAME);
    }
 
    private void HandleQuitClicked()

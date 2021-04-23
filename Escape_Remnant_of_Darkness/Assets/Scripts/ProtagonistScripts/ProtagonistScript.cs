@@ -30,6 +30,7 @@ public class ProtagonistScript : MonoBehaviour
     //Madness
     [SerializeField] [Range(0, 400)] private float sanity = 300f;
     private bool _isPlayerInSafeZone;
+    private bool _isPlayerVanquished;
     
     //SpeedBoosting
     private float memSpeed;
@@ -53,36 +54,52 @@ public class ProtagonistScript : MonoBehaviour
         _targetMask = LayerMask.GetMask("LightSource");
         
         MAX_SANITY = sanity;
+        memSpeed = moveSpeed;
+        _isPlayerVanquished = false;
         
         //Coroutines
         StartCoroutine("ManageLight", lightFallOff);
         StartCoroutine("FindLightSources", .2f);
 
-        memSpeed = moveSpeed;
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (sanity > 0)
+        if (!_isPlayerVanquished)
         {
-            _velocity.x = Input.GetAxis("Horizontal");
-            _velocity.y = Input.GetAxis("Vertical");
-            _velocity.Normalize();
+            if (sanity > 0)
+            {
+                _velocity.x = Input.GetAxis("Horizontal");
+                _velocity.y = Input.GetAxis("Vertical");
+                _velocity.Normalize();
         
-            AnimateMovement();
+                AnimateMovement();
 
-            CheckAfterDamageBoost();
+                CheckAfterDamageBoost();
+            }
+            else
+            {
+                _velocity.x = 0;
+                _velocity.y = 0;
+                _velocity.Normalize();
+                _isPlayerVanquished = true;
+                _animator.SetBool("Vanquished", _isPlayerVanquished);
+            }
         }
         else
         {
-            _velocity.x = 0;
-            _velocity.y = 0;
-            _velocity.Normalize();
-            _animator.SetBool("Vanquished", true);
+            StartCoroutine("GameOver");
         }
         
+    }
+
+    private IEnumerator GameOver()
+    {
+        yield return new WaitForSeconds(3f);
+        sanity = MAX_SANITY;
+        _light.intensity = MAX_LIGHT_INTENSITY;
+        GameManager.Instance.GameOver();
     }
 
     private void CheckAfterDamageBoost()
@@ -202,6 +219,11 @@ public class ProtagonistScript : MonoBehaviour
     public float GetViewRadius()
     {
         return viewRadius;
+    }
+
+    public bool IsPlayerVanquished()
+    {
+        return _isPlayerVanquished;
     }
 
     private void OnCollisionEnter2D(Collision2D other)
