@@ -6,6 +6,7 @@ public class EnemyScript : MonoBehaviour
 {
     protected Rigidbody2D _rigidbody;
     protected Vector2 _directionLookAt;
+    protected bool _isTargetVisible;
     protected Animator _animator;
 
     // Start is called before the first frame update
@@ -14,6 +15,7 @@ public class EnemyScript : MonoBehaviour
         _directionLookAt = new Vector2();
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _isTargetVisible = false;
     }
 
     protected void AnimateMovement()
@@ -29,11 +31,12 @@ public class EnemyScript : MonoBehaviour
     
     public void SetDirection(Vector2 directionLookAt)
     {
+        _isTargetVisible = true;
         _directionLookAt = directionLookAt;
     }
     
     public void ResetDirection()
     {
-        _directionLookAt = Vector2.zero;
+        _isTargetVisible = false;
     }
 }

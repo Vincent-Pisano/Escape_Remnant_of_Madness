@@ -16,21 +16,20 @@ public class GuardEnemyScript : EnemyScript
     
     private void FixedUpdate()
     {
-        _rigidbody.MovePosition (_rigidbody.position + _directionLookAt * (moveSpeed * Time.fixedDeltaTime));
+        if (_isTargetVisible)
+        {
+            _rigidbody.MovePosition (_rigidbody.position + _directionLookAt * (moveSpeed * Time.fixedDeltaTime));
+        }
     }
 
-    protected void AnimateMovement()
+    private void AnimateMovement()
     {
         base.AnimateMovement();
         _animator.SetFloat("Speed", _directionLookAt.sqrMagnitude);
-        if (_directionLookAt.sqrMagnitude != 0f)
-        {
-            _directionLookAt = new Vector2(_directionLookAt.x, _directionLookAt.y);
-        }
-        else
-        {
-            _animator.SetFloat("HorizontalIdle", _directionLookAt.x);
-            _animator.SetFloat("VerticalIdle", _directionLookAt.y);
-        }
+        if (_isTargetVisible) return;
+        print("TEST");
+        _animator.SetFloat("Speed", 0);
+        _animator.SetFloat("HorizontalIdle", _directionLookAt.x);
+        _animator.SetFloat("VerticalIdle", _directionLookAt.y);
     }
 }
