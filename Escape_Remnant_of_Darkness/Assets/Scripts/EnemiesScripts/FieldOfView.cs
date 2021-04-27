@@ -70,6 +70,7 @@ public class FieldOfView : MonoBehaviour
     public void FindVisibleTargets()
     {
         this.target = null;
+        _controller.ResetDirection();
         Collider2D targetsInViewRadius = Physics2D.OverlapCircle(transform.position, viewRadius, targetMask);
         if (targetsInViewRadius != null)
         {
@@ -99,6 +100,7 @@ public class FieldOfView : MonoBehaviour
             else
             {
                 this.target = target;
+                _controller.SetDirection(directionToTarget);
             }
         }
     }
