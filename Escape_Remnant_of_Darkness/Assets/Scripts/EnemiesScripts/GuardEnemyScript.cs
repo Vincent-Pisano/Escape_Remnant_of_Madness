@@ -27,7 +27,6 @@ public class GuardEnemyScript : EnemyScript
         base.AnimateMovement();
         _animator.SetFloat("Speed", _directionLookAt.sqrMagnitude);
         if (_isTargetVisible) return;
-        print("TEST");
         _animator.SetFloat("Speed", 0);
         _animator.SetFloat("HorizontalIdle", _directionLookAt.x);
         _animator.SetFloat("VerticalIdle", _directionLookAt.y);

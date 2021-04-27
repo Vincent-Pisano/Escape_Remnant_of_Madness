@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class OptionMenuScript : MonoBehaviour
 {
     [SerializeField] private Button backButton;
     [SerializeField] private Toggle fullScreenToggle;
     [SerializeField] private List<Sprite> checkMarkToggle;
+    [SerializeField] private AudioMixer audioMixer;
     
     //S'occuper de la gestion du volumne une fois implémentée
     
@@ -21,6 +23,11 @@ public class OptionMenuScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void setVolume(float volume)
+    {
+        audioMixer.SetFloat("volume", Mathf.Log10(volume) * 20);
     }
     
     private void HandleOptionsClicked()
