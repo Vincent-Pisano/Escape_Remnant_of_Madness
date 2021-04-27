@@ -62,7 +62,6 @@
      <Compile Include="Assets\Scripts\EnemiesScripts\FieldOfView.cs" />
      <Compile Include="Assets\Scripts\EnemiesScripts\GuardEnemyScript.cs" />
      <Compile Include="Assets\Scripts\EnemiesScripts\MirrorMonsterScript.cs" />
-     <Compile Include="Assets\Scripts\EnemiesScripts\PathFinding.cs" />
      <Compile Include="Assets\Scripts\GeneralScripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\GeneralScripts\Events.cs" />
      <Compile Include="Assets\Scripts\GeneralScripts\GameManager.cs" />
@@ -365,9 +364,6 @@
  </Reference>
  <Reference Include="UnityEngine.XRModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
- </Reference>
- <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Assets/Scripts/PathFinding/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -714,20 +710,6 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{0BF9063D-06DD-C73E-384C-55E0209EE605}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{1C115F78-E305-B72A-3111-DF66E3B29960}</Project>
-      <Name>PackageToolsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{8A144800-E032-F646-A307-CCD6F2728A69}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

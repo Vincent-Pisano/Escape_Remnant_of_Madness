@@ -260,11 +260,11 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Assets/Scripts/PathFinding/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
- </Reference>
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/PackageCache/com.unity.render-pipelines.core@7.5.3/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Assets/Scripts/PathFinding/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

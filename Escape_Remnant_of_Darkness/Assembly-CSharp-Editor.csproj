@@ -366,9 +366,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Assets/Scripts/PathFinding/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
- </Reference>
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>D:/projets/prog_jeu_HIV_2020/TP_JEU/Escape_Remnant_of_Darkness/Library/PackageCache/com.unity.render-pipelines.core@7.5.3/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
  </Reference>
@@ -734,18 +731,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{D3A7D3E0-DF97-5510-C48F-4743EB70E862}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{0BF9063D-06DD-C73E-384C-55E0209EE605}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{1C115F78-E305-B72A-3111-DF66E3B29960}</Project>
-      <Name>PackageToolsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{8A144800-E032-F646-A307-CCD6F2728A69}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
