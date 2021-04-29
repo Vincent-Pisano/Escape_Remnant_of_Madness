@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\EnemiesScripts\BossScript.cs" />
      <Compile Include="Assets\Scripts\EnemiesScripts\EnemyScript.cs" />
      <Compile Include="Assets\Scripts\EnemiesScripts\FieldOfView.cs" />
      <Compile Include="Assets\Scripts\EnemiesScripts\GuardEnemyScript.cs" />

@@ -24,10 +24,6 @@ public class MirrorMonsterScript : EnemyScript
             _animator.SetBool("targetFound", true);
             AnimateMovement();
         }
-        else
-        {
-            _directionLookAt = _directionLookAt;
-        }
         _lightBeamGO.transform.localEulerAngles = new Vector3(0f,0f, AngleFromDir(_directionLookAt));
     }
     
@@ -39,5 +35,11 @@ public class MirrorMonsterScript : EnemyScript
             angle = 360 + angle;
         }
         return -angle;
+    }
+    
+    protected void AnimateMovement()
+    {
+        _animator.SetFloat("Horizontal", _directionLookAt.x);
+        _animator.SetFloat("Vertical", _directionLookAt.y);
     }
 }

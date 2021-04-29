@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 3
   m_Sprite: {fileID: 5035173748880769825, guid: 5924d1d85de51cc4faf590faa7a63cae,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -172,7 +172,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 3
   m_Sprite: {fileID: 6427295514938107225, guid: 5924d1d85de51cc4faf590faa7a63cae,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -215,6 +215,8 @@ GameObject:
   - component: {fileID: 6075937852333780795}
   - component: {fileID: 6075937852333780792}
   - component: {fileID: 2028393788}
+  - component: {fileID: 1993753792}
+  - component: {fileID: 1993753796}
   m_Layer: 0
   m_Name: WallBoss
   m_TagString: Untagged
@@ -231,7 +233,7 @@ Transform:
   m_GameObject: {fileID: 6075937852333780793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -21.5, y: 2.67, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.85, z: 1}
   m_Children:
   - {fileID: 6075937851828677013}
   - {fileID: 6075937852410822743}
@@ -277,7 +279,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 2
   m_Sprite: {fileID: -7186250384818241245, guid: 5924d1d85de51cc4faf590faa7a63cae,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -323,6 +325,40 @@ PolygonCollider2D:
       - {x: 4.007084, y: -2.1503658}
       - {x: 7.0159626, y: -2.1435516}
       - {x: 7, y: 2.75}
+--- !u!114 &1993753792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6075937852333780793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b9e35be85df1d40814e4a8caa83bd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewRadius: 15
+  viewRadiusNear: 0
+  viewAngle: 130
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 256
+  obstackeMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  target: {fileID: 0}
+--- !u!114 &1993753796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6075937852333780793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4591dbf4d7aaa374380616005c220d6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6075937852410822740
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +429,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 3
   m_Sprite: {fileID: 830989280754536440, guid: 5924d1d85de51cc4faf590faa7a63cae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

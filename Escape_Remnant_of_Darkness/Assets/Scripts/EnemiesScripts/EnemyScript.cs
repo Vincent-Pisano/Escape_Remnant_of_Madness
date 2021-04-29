@@ -12,16 +12,9 @@ public class EnemyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _directionLookAt = new Vector2();
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _isTargetVisible = false;
-    }
-
-    protected void AnimateMovement()
-    {
-        _animator.SetFloat("Horizontal", _directionLookAt.x);
-        _animator.SetFloat("Vertical", _directionLookAt.y);
     }
 
     public Vector2 GetDirection()
@@ -38,5 +31,6 @@ public class EnemyScript : MonoBehaviour
     public void ResetDirection()
     {
         _isTargetVisible = false;
+        _directionLookAt = Vector2.down;
     }
 }

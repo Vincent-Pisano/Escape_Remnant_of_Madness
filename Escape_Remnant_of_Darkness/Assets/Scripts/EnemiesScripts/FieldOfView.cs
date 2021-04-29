@@ -34,15 +34,8 @@ public class FieldOfView : MonoBehaviour
         {
             yield return new WaitForSeconds(delay);
             FindVisibleTargets();
-            if (_controller.GetDirection() == new Vector2(0, 0))
-            {
-                _direction = transform.up;
-            }
-            else
-            {
-                _direction = _controller.GetDirection().normalized;
-            }
-            
+            _direction = _controller.GetDirection().normalized;
+
             _directionAngle = AngleFromDir(_direction);
         }
     }
