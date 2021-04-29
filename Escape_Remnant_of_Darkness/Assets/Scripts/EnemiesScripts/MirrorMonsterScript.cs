@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
@@ -41,5 +42,22 @@ public class MirrorMonsterScript : EnemyScript
     {
         _animator.SetFloat("Horizontal", _directionLookAt.x);
         _animator.SetFloat("Vertical", _directionLookAt.y);
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag.Equals("Player"))
+        {
+            _rigidbody.velocity = Vector2.zero;
+        }
+    }
+    
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.tag.Equals("Player"))
+        {
+            Vector3 directionPush = (other.transform.position - transform.position).normalized;
+            _rigidbody.AddForce(-directionPush);
+        }
     }
 }
