@@ -221,11 +221,6 @@ public class ProtagonistScript : MonoBehaviour
         return viewRadius;
     }
 
-    public bool IsPlayerVanquished()
-    {
-        return _isPlayerVanquished;
-    }
-
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag.Equals("Enemy"))

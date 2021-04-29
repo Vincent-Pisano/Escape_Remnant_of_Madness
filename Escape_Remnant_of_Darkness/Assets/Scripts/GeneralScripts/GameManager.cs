@@ -30,7 +30,6 @@ public class GameManager : Singleton<GameManager>
     
     private string _currentLevelName = string.Empty;
     private bool _isOptionMenuClicked = false;
-    private bool _isPlayerVanquished = false;
 
     public void Start()
     {
