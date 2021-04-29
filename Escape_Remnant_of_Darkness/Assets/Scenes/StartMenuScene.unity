@@ -155,6 +155,7 @@ MonoBehaviour:
       m_Calls: []
   systemPrefabs:
   - {fileID: 1368435504543104, guid: eadb13948e4970e448e9be8f589b1dca, type: 3}
+  - {fileID: 9005629286481564034, guid: 66e15e937089c8b41bdd9a352db35606, type: 3}
 --- !u!4 &1714274606
 Transform:
   m_ObjectHideFlags: 0

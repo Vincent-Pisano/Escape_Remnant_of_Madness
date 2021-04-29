@@ -37,9 +37,7 @@ public class ProtagonistScript : MonoBehaviour
     [SerializeField] [Range(0, 5)] private float bonusSpeed = 2.5f;
     [SerializeField][Range(0,5)] private float speedDuration = 1.5f;
     private bool boosting;
-    
 
-    
     // Start is called before the first frame update
     void Start()
     {

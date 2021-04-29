@@ -39,7 +39,9 @@ public class GameManager : Singleton<GameManager>
     
     public void Update() 
     {
-        if (_currentGameState != GameState.PREGAME && Input.GetKeyDown(KeyCode.Escape))
+        if (!(_currentGameState == GameState.PREGAME ||
+             _currentGameState == GameState.GAMEOVER)
+            && Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePause();
         }
@@ -50,9 +52,23 @@ public class GameManager : Singleton<GameManager>
         GameObject prefabInstance;
         for (int i = 0; i < systemPrefabs.Length; i++)
         {
-            prefabInstance = Instantiate(systemPrefabs[i]);
-            _instanceSystemPrefabs.Add(prefabInstance);
+            GameObject prefab = systemPrefabs[i];
+            if (prefab.name.Equals("Protagonist"))
+            {
+                StartCoroutine("InstantiatePlayer", i);
+            }
+            else
+            {
+                prefabInstance = Instantiate(prefab);
+                _instanceSystemPrefabs.Add(prefabInstance);
+            }
         }        
+    }
+
+    public IEnumerator InstantiatePlayer(int position)
+    {
+        yield return new WaitWhile(() => !_currentLevelName.Equals(FIRST_LEVEL_NAME));
+        _instanceSystemPrefabs.Add(Instantiate(systemPrefabs[position]));
     }
 
     protected override void OnDestroy()
@@ -64,7 +80,6 @@ public class GameManager : Singleton<GameManager>
             {
                 Destroy(prefabInstance);
             }
-
             _instanceSystemPrefabs.Clear();
         }
     }
@@ -101,6 +116,7 @@ public class GameManager : Singleton<GameManager>
         {
             _loadOperations.Remove(ao);
             // Ici on peut aviser les composantes qui ont besoin de savoir que le level est loadé
+            GameObject.FindWithTag("Player").transform.position = Vector2.zero;
             if (_loadOperations.Count == 0)
             {
                 UpdateGameState(GameState.RUNNING);
