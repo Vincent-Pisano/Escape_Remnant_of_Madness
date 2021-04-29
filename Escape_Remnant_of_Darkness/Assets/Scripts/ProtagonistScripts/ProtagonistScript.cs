@@ -233,5 +233,15 @@ public class ProtagonistScript : MonoBehaviour
             sanity -= 40;
             boosting = true;
         }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.name.Equals("EndLevel"))
+        {
+            print("END LEVEL");
+            GameManager.Instance.LoadNextLevel();
+        }
     }
 }

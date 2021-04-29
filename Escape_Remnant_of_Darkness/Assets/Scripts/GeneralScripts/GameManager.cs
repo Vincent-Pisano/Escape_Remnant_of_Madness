@@ -11,6 +11,7 @@ using UnityEngine.Serialization;
 public class GameManager : Singleton<GameManager>
 {
     private readonly string FIRST_LEVEL_NAME = "SampleScene";
+    private readonly string SECOND_LEVEL_NAME = "SampleScene2";
     
     public enum GameState
     {
@@ -150,6 +151,12 @@ public class GameManager : Singleton<GameManager>
     public void StartGame()
     {
         LoadLevel(FIRST_LEVEL_NAME);
+    }
+    
+    public void LoadNextLevel()
+    {
+        UnloadLevel(_currentLevelName);
+        LoadLevel(SECOND_LEVEL_NAME);
     }
     
     public void GameOver()

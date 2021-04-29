@@ -214,6 +214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6075937852333780795}
   - component: {fileID: 6075937852333780792}
+  - component: {fileID: 2028393788}
   m_Layer: 0
   m_Name: WallBoss
   m_TagString: Untagged
@@ -289,6 +290,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &2028393788
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6075937852333780793}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14, y: 5.5}
+    newSize: {x: 14, y: 5.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -7, y: 2.75}
+      - {x: -6.9891396, y: -2.1661718}
+      - {x: -3.9769611, y: -2.1643221}
+      - {x: -3.9792614, y: -2.75}
+      - {x: 4.0035152, y: -2.75}
+      - {x: 4.007084, y: -2.1503658}
+      - {x: 7.0159626, y: -2.1435516}
+      - {x: 7, y: 2.75}
 --- !u!1 &6075937852410822740
 GameObject:
   m_ObjectHideFlags: 0
