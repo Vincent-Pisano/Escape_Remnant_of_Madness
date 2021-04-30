@@ -71,22 +71,23 @@ public class FieldOfView : MonoBehaviour
             Vector3 directionToTarget = (target.position - transform.position).normalized;
             if (Vector3.Angle(_direction, directionToTarget) < viewAngle / 2)
             {
-                CheckIfPlayerIsHidden(target, directionToTarget);
+                CheckIfTargetIsHidden(target, directionToTarget);
             }
             else if (Physics2D.OverlapCircleAll(transform.position, viewRadiusNear, targetMask).Contains(targetsInViewRadius))
             {
-                CheckIfPlayerIsHidden(target, directionToTarget);
+                CheckIfTargetIsHidden(target, directionToTarget);
             } 
         }
     }
 
-    private void CheckIfPlayerIsHidden(Transform target, Vector3 directionToTarget)
+    private void CheckIfTargetIsHidden(Transform target, Vector3 directionToTarget)
     {
         float distanceToTarget = Vector3.Distance(transform.position, target.position);
+        
 
         if (!Physics2D.Raycast(transform.position, directionToTarget, distanceToTarget, obstackeMask))
         {
-            if (target.gameObject.GetComponent<Animator>().GetBool("Vanquished"))
+            if (target.gameObject.tag.Equals("Player") && target.gameObject.GetComponent<Animator>().GetBool("Vanquished"))
             {
                 this.target = null;
             }

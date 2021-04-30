@@ -54,11 +54,6 @@ public class ProtagonistScript : MonoBehaviour
         MAX_SANITY = sanity;
         memSpeed = moveSpeed;
         _isPlayerVanquished = false;
-        
-        //Coroutines
-        StartCoroutine("ManageLight", lightFallOff);
-        StartCoroutine("FindLightSources", .2f);
-
     }
 
     // Update is called once per frame
@@ -89,7 +84,13 @@ public class ProtagonistScript : MonoBehaviour
         {
             StartCoroutine("GameOver");
         }
-        
+    }
+    
+    void OnEnable()
+    {
+        _isPlayerVanquished = false;
+        StartCoroutine("ManageLight", lightFallOff);
+        StartCoroutine("FindLightSources", .2f);
     }
 
     private IEnumerator GameOver()
@@ -204,6 +205,25 @@ public class ProtagonistScript : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag.Equals("Enemy"))
+        {
+            sanity -= 40;
+            boosting = true;
+        }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag.Equals("Finish"))
+        {
+            print("END LEVEL");
+            GameManager.Instance.LoadNextLevel();
+        }
+    }
+
     public float GetSanity()
     {
         return sanity;
@@ -217,24 +237,5 @@ public class ProtagonistScript : MonoBehaviour
     public float GetViewRadius()
     {
         return viewRadius;
-    }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.tag.Equals("Enemy"))
-        {
-            sanity -= 40;
-            boosting = true;
-        }
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.name.Equals("EndLevel"))
-        {
-            print("END LEVEL");
-            GameManager.Instance.LoadNextLevel();
-        }
     }
 }

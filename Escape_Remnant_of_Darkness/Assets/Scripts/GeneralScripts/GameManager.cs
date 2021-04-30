@@ -10,15 +10,15 @@ using UnityEngine.Serialization;
 // Donne au GameManager le controle sur l'ordre de 'loading' des sous-systemes.
 public class GameManager : Singleton<GameManager>
 {
-    private readonly string FIRST_LEVEL_NAME = "SampleScene";
-    private readonly string SECOND_LEVEL_NAME = "SampleScene2";
-    
+    private readonly string[] LEVELS_NAME = {"SampleScene", "SampleScene2"};
+
     public enum GameState
     {
         PREGAME,
         RUNNING,
         PAUSE,
-        GAMEOVER
+        GAMEOVER,
+        ENDGAME,
     }
 
     public Events.EventGameState onGameStateChanged;
@@ -28,7 +28,7 @@ public class GameManager : Singleton<GameManager>
     private List<GameObject> _instanceSystemPrefabs = new List<GameObject>();
     private GameState _currentGameState = GameState.PREGAME;
     
-    private string _currentLevelName = string.Empty;
+    private int _currentLevelIndex = -1;
     private bool _isOptionMenuClicked = false;
 
     public void Start()
@@ -53,22 +53,13 @@ public class GameManager : Singleton<GameManager>
         for (int i = 0; i < systemPrefabs.Length; i++)
         {
             GameObject prefab = systemPrefabs[i];
+            prefabInstance = Instantiate(prefab);
+            _instanceSystemPrefabs.Add(prefabInstance);
             if (prefab.name.Equals("Protagonist"))
             {
-                StartCoroutine("InstantiatePlayer", i);
-            }
-            else
-            {
-                prefabInstance = Instantiate(prefab);
-                _instanceSystemPrefabs.Add(prefabInstance);
+                _instanceSystemPrefabs[i].SetActive(false);
             }
         }        
-    }
-
-    public IEnumerator InstantiatePlayer(int position)
-    {
-        yield return new WaitWhile(() => !_currentLevelName.Equals(FIRST_LEVEL_NAME));
-        _instanceSystemPrefabs.Add(Instantiate(systemPrefabs[position]));
     }
 
     protected override void OnDestroy()
@@ -86,7 +77,7 @@ public class GameManager : Singleton<GameManager>
 
     public void LoadLevel(string levelName)
     {
-        _currentLevelName = levelName;
+        //_currentLevelIndex = levelName;
         
         AsyncOperation loadSceneAsync = SceneManager.LoadSceneAsync(levelName, LoadSceneMode.Additive);
         if (loadSceneAsync == null)  // La scene existe dans le build setting
@@ -116,7 +107,7 @@ public class GameManager : Singleton<GameManager>
         {
             _loadOperations.Remove(ao);
             // Ici on peut aviser les composantes qui ont besoin de savoir que le level est loadé
-            GameObject.FindWithTag("Player").transform.position = Vector2.zero;
+            _instanceSystemPrefabs[1].transform.position = Vector2.zero;
             if (_loadOperations.Count == 0)
             {
                 UpdateGameState(GameState.RUNNING);
@@ -147,6 +138,9 @@ public class GameManager : Singleton<GameManager>
             case GameState.GAMEOVER:
                 Time.timeScale = 1;
                 break;
+            case GameState.ENDGAME:
+                Time.timeScale = 1;
+                break;
             default:
                 break;
         }
@@ -165,19 +159,34 @@ public class GameManager : Singleton<GameManager>
 
     public void StartGame()
     {
-        LoadLevel(FIRST_LEVEL_NAME);
+        
+        LoadLevel(LEVELS_NAME[++_currentLevelIndex]);
+        _instanceSystemPrefabs[1].SetActive(true);
     }
     
     public void LoadNextLevel()
     {
-        UnloadLevel(_currentLevelName);
-        LoadLevel(SECOND_LEVEL_NAME);
+        UnloadLevel(LEVELS_NAME[_currentLevelIndex]);
+        _currentLevelIndex++;
+        if (_currentLevelIndex == LEVELS_NAME.Length)
+        {
+            EndGame();
+        }
+        else
+        {
+            LoadLevel(LEVELS_NAME[_currentLevelIndex]);
+        }
     }
     
     public void GameOver()
     {
-        UpdateGameState(GameState.GAMEOVER);
         RestartGame(GameState.GAMEOVER);
+    }
+    
+    public void EndGame()
+    {
+        UpdateGameState(GameState.ENDGAME);
+        _instanceSystemPrefabs[1].SetActive(false);
     }
 
     public void TogglePause()
@@ -188,7 +197,9 @@ public class GameManager : Singleton<GameManager>
     public void RestartGame(GameState currentGameState)
     {
         UpdateGameState(currentGameState);
-        UnloadLevel(_currentLevelName);
+        UnloadLevel(LEVELS_NAME[_currentLevelIndex]);
+        _instanceSystemPrefabs[1].SetActive(false);
+        _currentLevelIndex = -1;
     }
 
     public void QuitGame()

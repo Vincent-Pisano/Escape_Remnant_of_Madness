@@ -24,7 +24,6 @@ public class GameMenuScript : MonoBehaviour
             UISanityBar.instance.SetValue(_protagonistScript.GetSanity() / maxSanity);
             UILightBar.instance.SetValue(_protagonistScript.GetLightIntensity() / maxLight);
         }
-        
     }
 
     public void Load()
@@ -34,6 +33,7 @@ public class GameMenuScript : MonoBehaviour
 
     public IEnumerator LoadProtagonistInfos(float delay)
     {
+        _protagonistScript = null;
         yield return new WaitForSeconds(delay);
         GameObject protagonist = GameObject.FindWithTag("Player");
         _protagonistScript = protagonist.GetComponent<ProtagonistScript>();
