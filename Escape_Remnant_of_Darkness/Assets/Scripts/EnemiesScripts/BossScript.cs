@@ -8,9 +8,10 @@ public class BossScript : EnemyScript
     private Animator _animatorLeftEye;
     private Animator _animatorRightEye;
     private Animator _animatorMiddleEye;
-    private FieldOfView _controllerRadius;
+    private FieldOfView _controllerFieldOfView;
 
     private float _nbrHit = 0;
+    [SerializeField] [Range(0, 0.5f)] private float sanityDecay = 0.15f; 
     
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class BossScript : EnemyScript
         _animatorLeftEye = transform.GetChild(0).gameObject.GetComponent<Animator>();
         _animatorRightEye = transform.GetChild(1).gameObject.GetComponent<Animator>();
         _animatorMiddleEye = transform.GetChild(2).gameObject.GetComponent<Animator>();
-        _controllerRadius = GetComponent<FieldOfView>();
+        _controllerFieldOfView = GetComponent<FieldOfView>();
     }
 
     // Update is called once per frame
@@ -31,17 +32,33 @@ public class BossScript : EnemyScript
 
         if (_isTargetVisible)
         {
-            _controllerRadius.SetViewRadius(15);
+            _controllerFieldOfView.SetViewRadius(15);
             _animatorLeftEye.SetBool("isDetected", true);
             _animatorRightEye.SetBool("isDetected", true);
             _animatorMiddleEye.SetBool("isDetected", true);
         }
         else
         {
-            _controllerRadius.SetViewRadius(12);
+            _controllerFieldOfView.SetViewRadius(12);
             _animatorLeftEye.SetBool("isDetected", false);
             _animatorRightEye.SetBool("isDetected", false);
             _animatorMiddleEye.SetBool("isDetected", false);
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        decayPlayersSanity();
+    }
+
+    private void decayPlayersSanity()
+    {
+        if (_isTargetVisible)
+        {
+            float playerSanity =
+                _controllerFieldOfView.GetTarget().gameObject.GetComponent<ProtagonistScript>().GetSanity();
+            _controllerFieldOfView.GetTarget().gameObject.GetComponent<ProtagonistScript>()
+                .SetSanity(playerSanity - sanityDecay);
         }
     }
 

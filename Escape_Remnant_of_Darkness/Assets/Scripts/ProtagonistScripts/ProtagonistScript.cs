@@ -264,6 +264,11 @@ public class ProtagonistScript : MonoBehaviour
     {
         return sanity;
     }
+
+    public void SetSanity(float sanity)
+    {
+        this.sanity = sanity;
+    }
     
     public float GetLightIntensity()
     {
