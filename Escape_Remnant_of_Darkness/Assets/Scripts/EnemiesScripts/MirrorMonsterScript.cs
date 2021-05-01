@@ -7,27 +7,56 @@ using UnityEngine.PlayerLoop;
 
 public class MirrorMonsterScript : EnemyScript
 {
-    private Light2D _lightBeam;
     private GameObject _lightBeamGO;
+    private Light2D _lightBeam;
+    private FieldOfView _fieldOfView;
+    private bool _isRespawning;
+    [SerializeField]private Transform respawnPoint;
     void Start()
     {
         _directionLookAt = new Vector2();
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _fieldOfView = GetComponent<FieldOfView>();
         _lightBeamGO = transform.GetChild(0).gameObject;
         _lightBeam = _lightBeamGO.GetComponent<Light2D>();
+        _isRespawning = false;
     }
     
-    void Update()
+    void FixedUpdate()
     {
-        if (_directionLookAt.sqrMagnitude != 0)
+        if (_isTargetVisible && !_isRespawning)
         {
             _animator.SetBool("targetFound", true);
-            AnimateMovement();
+            if (_fieldOfView.GetTarget().gameObject.tag.Equals("Boss"))
+            {
+                StartCoroutine("Respawn", 10f);
+            }
+            else
+            {
+                AnimateMovement();
+            }
         }
         _lightBeamGO.transform.localEulerAngles = new Vector3(0f,0f, AngleFromDir(_directionLookAt));
     }
-    
+
+    IEnumerator Respawn(float maxIntensity)
+    {
+        _isRespawning = true;
+        float oldLightIntensity = _lightBeam.intensity;
+        
+        while (_lightBeam.intensity <= maxIntensity)
+        {
+            _lightBeam.intensity++;
+            yield return new WaitForSeconds(0.1f);
+        }
+        
+        transform.position = respawnPoint.position;
+        _lightBeamGO.GetComponent<Light2D>().intensity = oldLightIntensity;
+        yield return new WaitForSeconds(2f);
+        _isRespawning = false;
+    }
+
     private float AngleFromDir(Vector2 direction)
     {
         float angle = Mathf.Atan2(direction.x, direction.y) * 180 / Mathf.PI;
