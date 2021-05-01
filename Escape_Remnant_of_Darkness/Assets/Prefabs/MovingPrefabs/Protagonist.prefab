@@ -178,6 +178,9 @@ MonoBehaviour:
   sanity: 300
   bonusSpeed: 2.5
   speedDuration: 1.5
+  _dashSpeed: 20
+  _dashTime: 0.12
+  cooldown: 2
 --- !u!50 &9005629286481564035
 Rigidbody2D:
   serializedVersion: 4

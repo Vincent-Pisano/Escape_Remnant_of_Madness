@@ -27,19 +27,21 @@ public class BossScript : EnemyScript
         
         _animatorLeftEye.SetFloat("horizontal", _directionLookAt.x);
         _animatorRightEye.SetFloat("horizontal", _directionLookAt.x);
-        _animatorMiddleEye.SetBool("isAwakened", _isTargetVisible);
+        //_animatorMiddleEye.SetBool("isAwakened", _isTargetVisible);
 
         if (_isTargetVisible)
         {
             _controllerRadius.SetViewRadius(15);
             _animatorLeftEye.SetBool("isDetected", true);
             _animatorRightEye.SetBool("isDetected", true);
+            _animatorMiddleEye.SetBool("isDetected", true);
         }
         else
         {
             _controllerRadius.SetViewRadius(12);
             _animatorLeftEye.SetBool("isDetected", false);
             _animatorRightEye.SetBool("isDetected", false);
+            _animatorMiddleEye.SetBool("isDetected", false);
         }
     }
 

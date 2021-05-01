@@ -37,7 +37,13 @@ public class ProtagonistScript : MonoBehaviour
     [SerializeField] [Range(0, 5)] private float bonusSpeed = 2.5f;
     [SerializeField][Range(0,5)] private float speedDuration = 1.5f;
     private bool boosting;
-
+    
+    //Dashing
+    [SerializeField][Range(5,20)] private float _dashSpeed = 20f;
+    [SerializeField][Range(0,1)] private float _dashTime = 0.1f;
+    [SerializeField] [Range(0, 3f)] private float cooldown = 2f;
+    private float _initialCooldown;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +60,8 @@ public class ProtagonistScript : MonoBehaviour
         MAX_SANITY = sanity;
         memSpeed = moveSpeed;
         _isPlayerVanquished = false;
+        
+        _initialCooldown = cooldown;
     }
 
     // Update is called once per frame
@@ -66,8 +74,10 @@ public class ProtagonistScript : MonoBehaviour
                 _velocity.x = Input.GetAxis("Horizontal");
                 _velocity.y = Input.GetAxis("Vertical");
                 _velocity.Normalize();
-        
+                
                 AnimateMovement();
+                
+                PlayerDashing();
 
                 CheckAfterDamageBoost();
             }
@@ -84,6 +94,32 @@ public class ProtagonistScript : MonoBehaviour
         {
             StartCoroutine("GameOver");
         }
+    }
+
+    private void PlayerDashing()
+    {
+        if (cooldown > 0)
+        {
+            cooldown -= Time.deltaTime;
+        }
+        if (Input.GetKeyDown("space") && cooldown <= 0)
+        {
+            StartCoroutine(DashTime());
+            cooldown = _initialCooldown;
+        }
+    }
+
+    IEnumerator DashTime()
+    {
+        float startTime = Time.time;
+        
+        while (Time.time < startTime + _dashTime)
+        {
+            moveSpeed = _dashSpeed;
+            yield return null;
+        }
+        
+        moveSpeed = memSpeed;
     }
     
     void OnEnable()

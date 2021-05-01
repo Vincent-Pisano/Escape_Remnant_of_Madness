@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6075937851828677013}
   - component: {fileID: 6075937851828677015}
   - component: {fileID: 6075937851828677012}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LeftEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113,7 +113,7 @@ GameObject:
   - component: {fileID: 6075937851938054853}
   - component: {fileID: 6075937851938054855}
   - component: {fileID: 6075937851938054852}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: MiddleEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,9 +217,10 @@ GameObject:
   - component: {fileID: 2028393788}
   - component: {fileID: 1993753792}
   - component: {fileID: 1993753796}
-  m_Layer: 0
+  - component: {fileID: 2044015615}
+  m_Layer: 12
   m_Name: WallBoss
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,6 +360,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4591dbf4d7aaa374380616005c220d6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &2044015615
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6075937852333780793}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &6075937852410822740
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,7 +392,7 @@ GameObject:
   - component: {fileID: 6075937852410822743}
   - component: {fileID: 6075937852410822737}
   - component: {fileID: 6075937852410822742}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RightEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
