@@ -50,7 +50,7 @@ public class MirrorMonsterScript : EnemyScript
             _lightBeam.intensity++;
             yield return new WaitForSeconds(0.1f);
         }
-        
+        _fieldOfView.GetTarget().gameObject.GetComponent<BossScript>().DealDamage();
         transform.position = respawnPoint.position;
         _lightBeamGO.GetComponent<Light2D>().intensity = oldLightIntensity;
         yield return new WaitForSeconds(2f);
@@ -88,5 +88,11 @@ public class MirrorMonsterScript : EnemyScript
             Vector3 directionPush = (other.transform.position - transform.position).normalized;
             _rigidbody.AddForce(-directionPush);
         }
+    }
+    
+    public override void ResetDirection()
+    {
+        _isTargetVisible = false;
+        _directionLookAt = Vector2.up;
     }
 }

@@ -5,13 +5,12 @@ using UnityEngine;
 
 public class BossScript : EnemyScript 
 {
-
-    //[SerializeField] private Transform protagonist;
-    
     private Animator _animatorLeftEye;
     private Animator _animatorRightEye;
     private Animator _animatorMiddleEye;
     private FieldOfView _controllerRadius;
+
+    private float _nbrHit = 0;
     
     // Start is called before the first frame update
     void Start()
@@ -44,11 +43,20 @@ public class BossScript : EnemyScript
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    public void DealDamage()
     {
-        if (other.gameObject.tag.Equals("mirrorMonster"))
+        switch (_nbrHit)
         {
-            _animatorLeftEye.SetBool("isVanquished", true);
+            case 0 :
+                _animatorLeftEye.SetBool("isVanquished", true);
+                break;
+            case 1 :
+                _animatorRightEye.SetBool("isVanquished", true);
+                break;
+            case 2 :
+                _animatorMiddleEye.SetBool("isVanquished", true);
+                break;
         }
+        _nbrHit++;
     }
 }
