@@ -108,6 +108,11 @@ public class FieldOfView : MonoBehaviour
     {
         return viewRadius;
     }
+
+    public void SetViewRadius(float radius)
+    {
+        viewRadius = radius;
+    }
     
     public float GetViewRadiusNear()
     {

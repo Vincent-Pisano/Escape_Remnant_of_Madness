@@ -31,6 +31,6 @@ public class EnemyScript : MonoBehaviour
     public void ResetDirection()
     {
         _isTargetVisible = false;
-        _directionLookAt = Vector2.up;
+        _directionLookAt = Vector2.down;
     }
 }
