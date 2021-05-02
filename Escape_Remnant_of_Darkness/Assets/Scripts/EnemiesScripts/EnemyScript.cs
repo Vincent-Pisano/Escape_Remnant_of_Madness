@@ -8,6 +8,8 @@ public class EnemyScript : MonoBehaviour
     protected Vector2 _directionLookAt;
     protected bool _isTargetVisible;
     protected Animator _animator;
+    [SerializeField] private Vector2 directionLookAtRest = Vector2.down;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +33,6 @@ public class EnemyScript : MonoBehaviour
     public virtual void ResetDirection()
     {
         _isTargetVisible = false;
-        _directionLookAt = Vector2.down;
+        _directionLookAt = directionLookAtRest;
     }
 }
