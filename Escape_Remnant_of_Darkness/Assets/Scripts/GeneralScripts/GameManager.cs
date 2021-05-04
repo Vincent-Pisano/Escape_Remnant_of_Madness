@@ -10,7 +10,7 @@ using UnityEngine.Serialization;
 // Donne au GameManager le controle sur l'ordre de 'loading' des sous-systemes.
 public class GameManager : Singleton<GameManager>
 {
-    private readonly string[] LEVELS_NAME = {"SampleScene", "SampleScene2"};
+    private readonly string[] LEVELS_NAME = {"FirstLevel", "BossLevel"};
 
     public enum GameState
     {

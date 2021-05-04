@@ -23,8 +23,7 @@ public class ProtagonistScript : MonoBehaviour
     //Lights
     private GameObject _pointLight;
     private Light2D _light;
-    private float _timer;
-    private float _intensityPerSeconds;
+    private float _intensityLoss;
     private LayerMask _targetMask;
 
     //Madness
@@ -54,7 +53,7 @@ public class ProtagonistScript : MonoBehaviour
         _pointLight = transform.GetChild(0).gameObject;
         _light = _pointLight.GetComponent<Light2D>();
         MAX_LIGHT_INTENSITY = _light.intensity;
-        _intensityPerSeconds = (_light.intensity - MIN_LIGHT_INTENSITY) / lightDurationInSeconds * lightFallOff;
+        _intensityLoss = (_light.intensity - MIN_LIGHT_INTENSITY) / lightDurationInSeconds * lightFallOff;
         _targetMask = LayerMask.GetMask("LightSource");
         
         MAX_SANITY = sanity;
@@ -95,6 +94,11 @@ public class ProtagonistScript : MonoBehaviour
             StartCoroutine("GameOver");
         }
     }
+    
+    private void FixedUpdate()
+    {
+        _rigidbody.MovePosition(_rigidbody.position + _velocity * (moveSpeed * Time.fixedDeltaTime));
+    }
 
     private void PlayerDashing()
     {
@@ -109,32 +113,11 @@ public class ProtagonistScript : MonoBehaviour
         }
     }
 
-    IEnumerator DashTime()
-    {
-        float startTime = Time.time;
-        
-        while (Time.time < startTime + _dashTime)
-        {
-            moveSpeed = _dashSpeed;
-            yield return null;
-        }
-        
-        moveSpeed = memSpeed;
-    }
-    
     void OnEnable()
     {
         _isPlayerVanquished = false;
         StartCoroutine("ManageLight", lightFallOff);
         StartCoroutine("FindLightSources", .2f);
-    }
-
-    private IEnumerator GameOver()
-    {
-        yield return new WaitForSeconds(3f);
-        sanity = MAX_SANITY;
-        _light.intensity = MAX_LIGHT_INTENSITY;
-        GameManager.Instance.GameOver();
     }
 
     private void CheckAfterDamageBoost()
@@ -174,11 +157,6 @@ public class ProtagonistScript : MonoBehaviour
         
     }
 
-    private void FixedUpdate()
-    {
-        _rigidbody.MovePosition(_rigidbody.position + _velocity * (moveSpeed * Time.fixedDeltaTime));
-    }
-    
     public IEnumerator FindLightSources(float delay)
     {
         while (true)
@@ -193,7 +171,7 @@ public class ProtagonistScript : MonoBehaviour
                 _isPlayerInSafeZone = false;
         }
     }
-    
+
     public IEnumerator ManageLight(float delay)
     {
         while (true)
@@ -202,19 +180,15 @@ public class ProtagonistScript : MonoBehaviour
             if (_isPlayerInSafeZone)
             {
                 if (_light.intensity < MAX_LIGHT_INTENSITY)
-                    _light.intensity += _intensityPerSeconds;
+                    _light.intensity += _intensityLoss;
                 if (sanity < MAX_SANITY)
                     sanity++;
             }
             else
             {
-                if (_timer < lightDurationInSeconds)
-                {
-                    _light.intensity -= _intensityPerSeconds;
-                    if (_light.intensity < MIN_LIGHT_INTENSITY)
-                        _light.intensity = MIN_LIGHT_INTENSITY;
-                    _timer += delay;
-                }
+                _light.intensity -= _intensityLoss;
+                if (_light.intensity < MIN_LIGHT_INTENSITY)
+                    _light.intensity = MIN_LIGHT_INTENSITY;
                 ReduceSanity();
             }
         }
@@ -241,6 +215,27 @@ public class ProtagonistScript : MonoBehaviour
         }
     }
 
+    IEnumerator DashTime()
+    {
+        float startTime = Time.time;
+        
+        while (Time.time < startTime + _dashTime)
+        {
+            moveSpeed = _dashSpeed;
+            yield return null;
+        }
+        
+        moveSpeed = memSpeed;
+    }
+    
+    private IEnumerator GameOver()
+    {
+        yield return new WaitForSeconds(3f);
+        sanity = MAX_SANITY;
+        _light.intensity = MAX_LIGHT_INTENSITY;
+        GameManager.Instance.GameOver();
+    }
+    
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag.Equals("Enemy"))
@@ -259,6 +254,7 @@ public class ProtagonistScript : MonoBehaviour
             GameManager.Instance.LoadNextLevel();
         }
     }
+    
 
     public float GetSanity()
     {

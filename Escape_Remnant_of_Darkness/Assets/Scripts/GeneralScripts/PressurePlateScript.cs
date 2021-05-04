@@ -6,6 +6,7 @@ using UnityEngine;
 public class PressurePlateScript : MonoBehaviour
 {
     [SerializeField] private GameObject objectToDeactivate;
+    [SerializeField] private GameObject objectToActivate;
     private AudioSource _audioSource;
     private bool _isActivated;
     
@@ -17,12 +18,6 @@ public class PressurePlateScript : MonoBehaviour
         _isActivated = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!_isActivated)
@@ -30,6 +25,7 @@ public class PressurePlateScript : MonoBehaviour
             _audioSource.Play();
             _isActivated = true;
             objectToDeactivate.SetActive(false);
+            objectToActivate.SetActive(true);
         }
         
     }
