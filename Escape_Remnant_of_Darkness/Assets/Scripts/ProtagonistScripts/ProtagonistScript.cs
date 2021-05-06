@@ -214,6 +214,12 @@ public class ProtagonistScript : MonoBehaviour
             {
                 sanity -= 0.625f;
             }
+            
+            if (_isPlayerInBossFOV)
+            {
+                sanity -= sanityDecay;
+                _isPlayerInBossFOV = false;
+            }
         }
     }
 
@@ -276,5 +282,15 @@ public class ProtagonistScript : MonoBehaviour
     public float GetViewRadius()
     {
         return viewRadius;
+    }
+    
+    public bool GetIsPlayerInBossFOV()
+    {
+        return _isPlayerInBossFOV;
+    }
+
+    public void SetIsInBossFOV(bool isPlayerInBossFOV)
+    {
+        _isPlayerInBossFOV = isPlayerInBossFOV;
     }
 }
