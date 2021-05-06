@@ -49,10 +49,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5919fe6a7d8f0343845f17a5b455bc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ResumeButton: {fileID: 8993981735874337293}
-  RestartButton: {fileID: 8044553209589859424}
-  OptionsButton: {fileID: 7826104854405173989}
-  QuitButton: {fileID: 2563934869519137166}
+  resumeButton: {fileID: 8993981735874337293}
+  restartButton: {fileID: 8044553209589859424}
+  optionsButton: {fileID: 7826104854405173989}
+  quitButton: {fileID: 2563934869519137166}
 --- !u!1 &1257677202366108
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,13 +363,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb2837e73621bf47a42522e6033e5e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mainMenu: {fileID: 1495308988550548}
-  _gameMenu: {fileID: 4598213680383972448}
-  _optionMenu: {fileID: 1846585207821406728}
-  _dummyCamera: {fileID: 3741663935724188596}
-  _pauseMenu: {fileID: 1022039478163996}
-  _gameOverMenu: {fileID: 1830601210345672427}
-  _endMenu: {fileID: 5365410974103455315}
+  mainMenu: {fileID: 1495308988550548}
+  gameMenu: {fileID: 4598213680383972448}
+  optionMenu: {fileID: 1846585207821406728}
+  dummyCamera: {fileID: 3741663935724188596}
+  pauseMenu: {fileID: 1022039478163996}
+  gameOverMenu: {fileID: 1830601210345672427}
+  endMenu: {fileID: 5365410974103455315}
 --- !u!1 &1495308988550548
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,8 +441,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2a65ac4dcea9f04d83d1a561673cb68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OptionsButton: {fileID: 114161082283702470}
-  QuitButton: {fileID: 7028047103687794813}
+  optionsButton: {fileID: 114161082283702470}
+  quitButton: {fileID: 7028047103687794813}
 --- !u!82 &7179122199468309241
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1654,13 +1654,14 @@ GameObject:
   - component: {fileID: 3014925244948382877}
   - component: {fileID: 8427909795424781126}
   - component: {fileID: 4848029099068193118}
+  - component: {fileID: 7735997704883231256}
   m_Layer: 5
   m_Name: TextBossAttackUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3014925244948382877
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1677,8 +1678,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -1.65, y: 58}
-  m_SizeDelta: {x: 221.66064, y: 30}
+  m_AnchoredPosition: {x: 0.0000076293945, y: 45.3}
+  m_SizeDelta: {x: 361.1294, y: 52.300064}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8427909795424781126
 CanvasRenderer:
@@ -1709,7 +1710,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 641cfeec393f7cc438143b6031333c6a, type: 3}
-    m_FontSize: 18
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1721,6 +1722,22 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: You feel something evil watching you
+--- !u!111 &7735997704883231256
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582757735227934894}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 0d88af6b5f41bcb46826fbfaf87e716d, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 0d88af6b5f41bcb46826fbfaf87e716d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1720973179781576056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1906,8 +1923,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2a65ac4dcea9f04d83d1a561673cb68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OptionsButton: {fileID: 2630108715016582774}
-  QuitButton: {fileID: 8078751431543515095}
+  optionsButton: {fileID: 2630108715016582774}
+  quitButton: {fileID: 8078751431543515095}
 --- !u!82 &8491583846017326913
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3641,7 +3658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 637e12861cb496b4e8a2e97d8512d552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textBossAttackUI: {fileID: 4848029099068193118}
+  textBossAttackUI: {fileID: 1582757735227934894}
 --- !u!82 &3106495445106269214
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4098,8 +4115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2a65ac4dcea9f04d83d1a561673cb68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OptionsButton: {fileID: 8444146179658277201}
-  QuitButton: {fileID: 8841895260903654223}
+  optionsButton: {fileID: 8444146179658277201}
+  quitButton: {fileID: 8841895260903654223}
 --- !u!82 &121674380428900369
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4287,7 +4304,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3637149057432625799}
-        m_MethodName: setVolume
+        m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

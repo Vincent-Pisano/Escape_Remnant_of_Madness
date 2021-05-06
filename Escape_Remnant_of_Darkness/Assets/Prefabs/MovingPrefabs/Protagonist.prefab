@@ -174,13 +174,14 @@ MonoBehaviour:
   moveSpeed: 5
   lightDurationInSeconds: 20
   lightFallOff: 0.125
-  viewRadius: 3
+  lightDetectionRadius: 2
   sanity: 300
+  sanityDecayInBossFOV: 0.15
   bonusSpeed: 2.5
-  speedDuration: 1.5
-  _dashSpeed: 20
-  _dashTime: 0.12
-  cooldown: 2
+  bonusSpeedDuration: 1.5
+  dashSpeed: 20
+  dashTime: 0.1
+  dashCooldown: 2
 --- !u!50 &9005629286481564035
 Rigidbody2D:
   serializedVersion: 4

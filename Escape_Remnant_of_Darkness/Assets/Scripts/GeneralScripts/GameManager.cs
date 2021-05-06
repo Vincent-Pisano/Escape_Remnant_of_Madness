@@ -141,8 +141,6 @@ public class GameManager : Singleton<GameManager>
             case GameState.ENDGAME:
                 Time.timeScale = 1;
                 break;
-            default:
-                break;
         }
         
         onGameStateChanged.Invoke(_currentGameState, previousGameState);

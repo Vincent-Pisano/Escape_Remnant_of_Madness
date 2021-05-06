@@ -5,48 +5,22 @@ using UnityEngine.UI;
 
 public class GameMenuScript : MonoBehaviour
 {
-    private float maxSanity;
-    private float maxLight;
+    private float _maxSanity;
+    private float _maxLight;
     private ProtagonistScript _protagonistScript;
-    [SerializeField] private Text textBossAttackUI;
-    private bool isStarted = false;
+    [SerializeField] private GameObject textBossAttackUI;
     
-    
-    // Start is called before the first frame update
     void Start()
     {
         Load();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (_protagonistScript != null)
         {
-            UISanityBar.instance.SetValue(_protagonistScript.GetSanity() / maxSanity);
-            UILightBar.instance.SetValue(_protagonistScript.GetLightIntensity() / maxLight);
-
-            if (!isStarted)
-            {
-                StartCoroutine("ShowBossTextToPlayer", 0.5f);
-                isStarted = true;
-            }
-        }
-    }
-
-    public IEnumerator ShowBossTextToPlayer(float delay)
-    {
-        while (true)
-        {
-            if (_protagonistScript.GetIsPlayerInBossFOV())
-            {
-                textBossAttackUI.enabled = true;
-            }
-            else
-            {
-                textBossAttackUI.enabled = false;
-            }
-            yield return new WaitForSeconds(delay);
+            UISanityBar.Instance.SetValue(_protagonistScript.GetSanity() / _maxSanity);
+            UILightBar.Instance.SetValue(_protagonistScript.GetLightIntensity() / _maxLight);
         }
     }
 
@@ -61,9 +35,21 @@ public class GameMenuScript : MonoBehaviour
         yield return new WaitForSeconds(delay);
         GameObject protagonist = GameObject.FindWithTag("Player");
         _protagonistScript = protagonist.GetComponent<ProtagonistScript>();
-        maxSanity = _protagonistScript.GetSanity();
-        maxLight = _protagonistScript.GetLightIntensity();
+        _maxSanity = _protagonistScript.GetSanity();
+        _maxLight = _protagonistScript.GetLightIntensity();
+        
+        UISanityBar.Instance.SetValue(1);
+        UILightBar.Instance.SetValue(1);
+        
+        StartCoroutine("ShowBossTextToPlayer", 0.5f);
     }
     
-    
+    public IEnumerator ShowBossTextToPlayer(float delay)
+    {
+        while (true)
+        {
+            textBossAttackUI.SetActive(_protagonistScript.GetIsPlayerInBossFOV());
+            yield return new WaitForSeconds(delay);
+        }
+    }
 }

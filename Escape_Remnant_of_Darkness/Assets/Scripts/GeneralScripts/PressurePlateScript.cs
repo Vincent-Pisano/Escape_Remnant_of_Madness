@@ -10,8 +10,6 @@ public class PressurePlateScript : MonoBehaviour
     private AudioSource _audioSource;
     private bool _isActivated;
     
-    
-    // Start is called before the first frame update
     void Start()
     {
         _audioSource = GetComponent<AudioSource>();
@@ -20,16 +18,14 @@ public class PressurePlateScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag.Equals("Player"))
-        if (!_isActivated)
-        {
-            _isActivated = true;
-            if (_audioSource != null)
-                _audioSource.Play();
-            if (objectToDeactivate != null)
-                objectToDeactivate.SetActive(false);
-            if (objectToActivate != null)
-                objectToActivate.SetActive(true);
-        }
+        if (!other.gameObject.tag.Equals("Player") || _isActivated) return;
+        
+        _isActivated = true;
+        if (_audioSource != null)
+            _audioSource.Play();
+        if (objectToDeactivate != null)
+            objectToDeactivate.SetActive(false);
+        if (objectToActivate != null)
+            objectToActivate.SetActive(true);
     }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
@@ -25,30 +23,34 @@ public class BossScript : EnemyScript
     // Update is called once per frame
     void Update()
     {
-        
+        AnimateEyes();
+        DecayPlayersSanity();
+    }
+
+    private void AnimateEyes()
+    {
         _animatorLeftEye.SetFloat("horizontal", _directionLookAt.x);
         _animatorRightEye.SetFloat("horizontal", _directionLookAt.x);
-        //_animatorMiddleEye.SetBool("isAwakened", _isTargetVisible);
 
         if (_isTargetVisible)
         {
-            _controllerFieldOfView.SetViewRadius(15);
-            _animatorLeftEye.SetBool("isDetected", true);
-            _animatorRightEye.SetBool("isDetected", true);
-            _animatorMiddleEye.SetBool("isDetected", true);
+            SetDetection(15, true);
         }
         else
         {
-            _controllerFieldOfView.SetViewRadius(12);
-            _animatorLeftEye.SetBool("isDetected", false);
-            _animatorRightEye.SetBool("isDetected", false);
-            _animatorMiddleEye.SetBool("isDetected", false);
+            SetDetection(12, false);
         }
-        
-        decayPlayersSanity();
     }
 
-    private void decayPlayersSanity()
+    private void SetDetection(int viewRadius, bool isDetected)
+    {
+        _controllerFieldOfView.SetViewRadius(viewRadius);
+        _animatorLeftEye.SetBool("isDetected", isDetected);
+        _animatorRightEye.SetBool("isDetected", isDetected);
+        _animatorMiddleEye.SetBool("isDetected", isDetected);
+    }
+
+    private void DecayPlayersSanity()
     {
         if (_isTargetVisible)
         {

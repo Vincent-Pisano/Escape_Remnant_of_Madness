@@ -50,7 +50,7 @@ public class FieldOfView : MonoBehaviour
                             Mathf.Cos(angleInDegrees * Mathf.Deg2Rad), 0);
     }
 
-    private float AngleFromDir(Vector2 direction)
+    public float AngleFromDir(Vector2 direction)
     {
         float angle = Mathf.Atan2(direction.x, direction.y) * 180 / Mathf.PI;
         if (angle < 0)

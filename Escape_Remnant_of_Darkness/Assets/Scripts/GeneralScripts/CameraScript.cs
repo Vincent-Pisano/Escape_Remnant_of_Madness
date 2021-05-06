@@ -12,6 +12,9 @@ public class CameraScript : MonoBehaviour
         if (player == null)
             player = GameObject.FindWithTag("Player").transform;
         else
-            transform.position = new Vector3(player.position.x, player.position.y, transform.position.z);
+        {
+            var playerPosition = player.position;
+            transform.position = new Vector3(playerPosition.x, playerPosition.y, transform.position.z);
+        }
     }
 }

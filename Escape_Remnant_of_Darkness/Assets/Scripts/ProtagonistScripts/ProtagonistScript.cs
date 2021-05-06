@@ -8,64 +8,73 @@ public class ProtagonistScript : MonoBehaviour
     private readonly float MIN_LIGHT_INTENSITY = 0.2f;
     private float MAX_SANITY;
     private float MAX_LIGHT_INTENSITY;
-
-    [SerializeField][Range(0,5)] private float moveSpeed = 2.4f;
-    [SerializeField] [Range(0, 300)] private float lightDurationInSeconds = 20f; 
-    [SerializeField] [Range(0, 2)] private float lightFallOff = 0.2f; 
-    [SerializeField] [Range(0, 10)] private float viewRadius = 0.2f; 
     
     //Movements
+    [SerializeField][Range(0,5)] private float moveSpeed = 2.4f;
     private Rigidbody2D _rigidbody;
     private Vector2 _velocity;
     private Vector2 _directionLookAt;
     private Animator _animator;
     
     //Lights
+    [SerializeField] [Range(0, 300)] private float lightDurationInSeconds = 20f; 
+    [SerializeField] [Range(0, 2)] private float lightFallOff = 0.2f; 
+    [SerializeField] [Range(0, 10)] private float lightDetectionRadius = 2f; 
     private GameObject _pointLight;
     private Light2D _light;
     private float _intensityLoss;
     private LayerMask _targetMask;
-
+    
     //Madness
     [SerializeField] [Range(0, 400)] private float sanity = 300f;
+    [SerializeField] [Range(0, 0.5f)] private float sanityDecayInBossFOV = 0.15f;
     private bool _isPlayerInSafeZone;
     private bool _isPlayerVanquished;
-    public bool _isPlayerInBossFOV;
-    [SerializeField] [Range(0, 0.5f)] private float sanityDecay = 0.15f;
+    private bool _isPlayerInBossFOV;
     
-    //SpeedBoosting
-    private float memSpeed;
+    //SpeedBoosting (after collision with Enemy)
     [SerializeField] [Range(0, 5)] private float bonusSpeed = 2.5f;
-    [SerializeField][Range(0,5)] private float speedDuration = 1.5f;
-    private bool boosting;
+    [SerializeField][Range(0,5)] private float bonusSpeedDuration = 1.5f;
+    private float _memorySpeed;
+    private bool _isBoosting;
     
     //Dashing
-    [SerializeField][Range(5,20)] private float _dashSpeed = 20f;
-    [SerializeField][Range(0,1)] private float _dashTime = 0.1f;
-    [SerializeField] [Range(0, 3f)] private float cooldown = 2f;
+    [SerializeField][Range(5,20)] private float dashSpeed = 20f;
+    [SerializeField][Range(0,1)] private float dashTime = 0.1f;
+    [SerializeField] [Range(0, 3f)] private float dashCooldown = 2f;
     private float _initialCooldown;
-    
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
 
+        MAX_SANITY = sanity;
+        _memorySpeed = moveSpeed;
+        _initialCooldown = dashCooldown;
+        
         //Lights
         _pointLight = transform.GetChild(0).gameObject;
         _light = _pointLight.GetComponent<Light2D>();
         MAX_LIGHT_INTENSITY = _light.intensity;
         _intensityLoss = (_light.intensity - MIN_LIGHT_INTENSITY) / lightDurationInSeconds * lightFallOff;
         _targetMask = LayerMask.GetMask("LightSource");
-        
-        MAX_SANITY = sanity;
-        memSpeed = moveSpeed;
-        _isPlayerVanquished = false;
-        
-        _initialCooldown = cooldown;
     }
+    
+    void OnEnable()
+    {
+        _isPlayerVanquished = false;
+        if (MAX_LIGHT_INTENSITY != 0f && MAX_SANITY != 0f)
+        {
+            _light.intensity = MAX_LIGHT_INTENSITY;
+            sanity = MAX_SANITY;
+        }
 
-    // Update is called once per frame
+        StartCoroutine("ManageLight", lightFallOff);
+        StartCoroutine("FindLightSources", .2f);
+    }
+    
     void Update()
     {
         if (!_isPlayerVanquished)
@@ -77,9 +86,7 @@ public class ProtagonistScript : MonoBehaviour
                 _velocity.Normalize();
                 
                 AnimateMovement();
-                
                 PlayerDashing();
-
                 CheckAfterDamageBoost();
             }
             else
@@ -104,38 +111,31 @@ public class ProtagonistScript : MonoBehaviour
 
     private void PlayerDashing()
     {
-        if (cooldown > 0)
+        if (dashCooldown > 0)
         {
-            cooldown -= Time.deltaTime;
+            dashCooldown -= Time.deltaTime;
         }
-        if (Input.GetKeyDown("space") && cooldown <= 0)
+        if (Input.GetKeyDown("space") && dashCooldown <= 0)
         {
             StartCoroutine(DashTime());
-            cooldown = _initialCooldown;
+            dashCooldown = _initialCooldown;
         }
-    }
-
-    void OnEnable()
-    {
-        _isPlayerVanquished = false;
-        StartCoroutine("ManageLight", lightFallOff);
-        StartCoroutine("FindLightSources", .2f);
     }
 
     private void CheckAfterDamageBoost()
     {
-        if (boosting)
+        if (_isBoosting)
         {
-            speedDuration -= Time.deltaTime;
-            if (speedDuration <= 0)
+            bonusSpeedDuration -= Time.deltaTime;
+            if (bonusSpeedDuration <= 0)
             {
-                moveSpeed = memSpeed;
-                speedDuration = 1.5f;
-                boosting = false;
+                moveSpeed = _memorySpeed;
+                bonusSpeedDuration = 1.5f;
+                _isBoosting = false;
             }
             else
             {
-                moveSpeed = memSpeed + bonusSpeed;
+                moveSpeed = _memorySpeed + bonusSpeed;
             }
         }
     }
@@ -155,8 +155,6 @@ public class ProtagonistScript : MonoBehaviour
             _animator.SetFloat("HorizontalIdle", _directionLookAt.x);
             _animator.SetFloat("VerticalIdle", _directionLookAt.y);
         }
-
-        
     }
 
     public IEnumerator FindLightSources(float delay)
@@ -164,13 +162,8 @@ public class ProtagonistScript : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(delay);
-            Collider2D[] targetsInViewRadius = Physics2D.OverlapCircleAll(transform.position, viewRadius, _targetMask);
-            if (targetsInViewRadius.Length > 0)
-            {
-                _isPlayerInSafeZone = true;
-            }
-            else
-                _isPlayerInSafeZone = false;
+            Collider2D[] targetsInViewRadius = Physics2D.OverlapCircleAll(transform.position, lightDetectionRadius, _targetMask);
+            _isPlayerInSafeZone = targetsInViewRadius.Length > 0;
         }
     }
 
@@ -202,22 +195,19 @@ public class ProtagonistScript : MonoBehaviour
         {
             if (_light.intensity > 0.48f)
             {
-                sanity -= 0.125f;
+                sanity -= 1f;
             }
-
-            if (_light.intensity <= 0.48f && _light.intensity > 0.20f)
+            else if (_light.intensity > 0.20f)
             {
-                sanity -= 0.25f;
+                sanity -= 1.5f;
             }
-
-            if (_light.intensity >= 0.2f)
+            else if (_light.intensity >= 0.2f)
             {
-                sanity -= 0.625f;
+                sanity -= 2f;
             }
-            
             if (_isPlayerInBossFOV)
             {
-                sanity -= sanityDecay;
+                sanity -= sanityDecayInBossFOV;
                 _isPlayerInBossFOV = false;
             }
         }
@@ -227,20 +217,18 @@ public class ProtagonistScript : MonoBehaviour
     {
         float startTime = Time.time;
         
-        while (Time.time < startTime + _dashTime)
+        while (Time.time < startTime + dashTime)
         {
-            moveSpeed = _dashSpeed;
+            moveSpeed = dashSpeed;
             yield return null;
         }
         
-        moveSpeed = memSpeed;
+        moveSpeed = _memorySpeed;
     }
     
     private IEnumerator GameOver()
     {
         yield return new WaitForSeconds(3f);
-        sanity = MAX_SANITY;
-        _light.intensity = MAX_LIGHT_INTENSITY;
         GameManager.Instance.GameOver();
     }
     
@@ -249,9 +237,8 @@ public class ProtagonistScript : MonoBehaviour
         if (other.gameObject.tag.Equals("Enemy"))
         {
             sanity -= 40;
-            boosting = true;
+            _isBoosting = true;
         }
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -263,17 +250,11 @@ public class ProtagonistScript : MonoBehaviour
         }
     }
     
-
     public float GetSanity()
     {
         return sanity;
     }
 
-    public void SetSanity(float sanity)
-    {
-        this.sanity = sanity;
-    }
-    
     public float GetLightIntensity()
     {
         return _light.intensity - MIN_LIGHT_INTENSITY;
@@ -281,7 +262,7 @@ public class ProtagonistScript : MonoBehaviour
     
     public float GetViewRadius()
     {
-        return viewRadius;
+        return lightDetectionRadius;
     }
     
     public bool GetIsPlayerInBossFOV()

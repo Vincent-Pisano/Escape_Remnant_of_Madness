@@ -3,17 +3,17 @@ using UnityEngine.UI;
 
 public class PauseScript : MonoBehaviour
 {
-   [SerializeField] private Button ResumeButton;
-   [SerializeField] private Button RestartButton;
-   [SerializeField] private Button OptionsButton;
-   [SerializeField] private Button QuitButton;
+   [SerializeField] private Button resumeButton;
+   [SerializeField] private Button restartButton;
+   [SerializeField] private Button optionsButton;
+   [SerializeField] private Button quitButton;
 
    private void Start()
    {
-      ResumeButton.onClick.AddListener(HandleResumeClicked);
-      RestartButton.onClick.AddListener(HandleRestartClicked);
-      QuitButton.onClick.AddListener(HandleQuitClicked);
-      OptionsButton.onClick.AddListener(HandleOptionsClicked);
+      resumeButton.onClick.AddListener(HandleResumeClicked);
+      restartButton.onClick.AddListener(HandleRestartClicked);
+      quitButton.onClick.AddListener(HandleQuitClicked);
+      optionsButton.onClick.AddListener(HandleOptionsClicked);
    }
 
    private void HandleResumeClicked()

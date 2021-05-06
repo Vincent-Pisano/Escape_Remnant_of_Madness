@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -10,8 +8,6 @@ public class EnemyScript : MonoBehaviour
     protected Animator _animator;
     [SerializeField] private Vector2 directionLookAtRest = Vector2.down;
     
-
-    // Start is called before the first frame update
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
@@ -30,7 +26,7 @@ public class EnemyScript : MonoBehaviour
         _directionLookAt = directionLookAt;
     }
     
-    public virtual void ResetDirection()
+    public void ResetDirection()
     {
         _isTargetVisible = false;
         _directionLookAt = directionLookAtRest;

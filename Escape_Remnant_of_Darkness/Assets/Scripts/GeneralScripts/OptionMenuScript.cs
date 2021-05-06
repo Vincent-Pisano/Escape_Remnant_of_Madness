@@ -11,21 +11,12 @@ public class OptionMenuScript : MonoBehaviour
     [SerializeField] private List<Sprite> checkMarkToggle;
     [SerializeField] private AudioMixer audioMixer;
     
-    //S'occuper de la gestion du volumne une fois implémentée
-    
-    // Start is called before the first frame update
     void Start()
     {
         backButton.onClick.AddListener(HandleOptionsClicked);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void setVolume(float volume)
+    public void SetVolume(float volume)
     {
         audioMixer.SetFloat("volume", Mathf.Log10(volume) * 20);
     }
@@ -38,10 +29,10 @@ public class OptionMenuScript : MonoBehaviour
     public void SetFullscreen(bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
-        setCheckMarkFullScreen(isFullscreen);
+        SetCheckMarkFullScreen(isFullscreen);
     }
 
-    public void setCheckMarkFullScreen(bool isFullScreen)
+    public void SetCheckMarkFullScreen(bool isFullScreen)
     {
         if(isFullScreen)
             fullScreenToggle.graphic.gameObject.GetComponent<Image>().sprite = checkMarkToggle[1];

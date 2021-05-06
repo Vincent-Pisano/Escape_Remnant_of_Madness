@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class MainMenuScript : MonoBehaviour
 {
-    [SerializeField] private Button OptionsButton;
-    [SerializeField] private Button QuitButton;
+    [SerializeField] private Button optionsButton;
+    [SerializeField] private Button quitButton;
 
     private void Start()
     {
-        QuitButton.onClick.AddListener(HandleQuitClicked);
-        OptionsButton.onClick.AddListener(HandleOptionsClicked);
+        quitButton.onClick.AddListener(HandleQuitClicked);
+        optionsButton.onClick.AddListener(HandleOptionsClicked);
     }
 
     private void HandleQuitClicked()

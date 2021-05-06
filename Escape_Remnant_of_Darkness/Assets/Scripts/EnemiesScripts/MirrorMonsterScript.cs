@@ -40,7 +40,7 @@ public class MirrorMonsterScript : EnemyScript
                     AnimateMovement();
                 }
 
-                _lightBeamGO.transform.localEulerAngles = new Vector3(0f, 0f, AngleFromDir(_directionLookAt));
+                _lightBeamGO.transform.localEulerAngles = new Vector3(0f, 0f, _fieldOfView.AngleFromDir(_directionLookAt));
             }
             else
             {
@@ -54,28 +54,21 @@ public class MirrorMonsterScript : EnemyScript
         _isRespawning = true;
         float oldLightIntensity = _lightBeam.intensity;
         
+        //Blind the Boss
         while (_lightBeam.intensity <= maxIntensity)
         {
             _lightBeam.intensity++;
             yield return new WaitForSeconds(0.1f);
         }
         _fieldOfView.GetTarget().gameObject.GetComponent<BossScript>().DealDamage();
+        
+        //Move to Repawn Point and Reset
         transform.position = respawnPoint.position;
         _lightBeamGO.GetComponent<Light2D>().intensity = oldLightIntensity;
         yield return new WaitForSeconds(2f);
         _isRespawning = false;
     }
 
-    private float AngleFromDir(Vector2 direction)
-    {
-        float angle = Mathf.Atan2(direction.x, direction.y) * 180 / Mathf.PI;
-        if (angle < 0)
-        {
-            angle = 360 + angle;
-        }
-        return -angle;
-    }
-    
     protected void AnimateMovement()
     {
         _animator.SetFloat("Horizontal", _directionLookAt.x);
