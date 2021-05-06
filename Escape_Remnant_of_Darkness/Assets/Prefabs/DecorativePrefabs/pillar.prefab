@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2496994201642740975
 Transform:
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!61 &-8127048664464870664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -138,4 +138,4 @@ MonoBehaviour:
   - {x: -0.3158992, y: 0.077307135, z: 0}
   m_ShapePathHash: 1690877910
   m_Mesh: {fileID: 0}
-  m_InstanceId: 23628
+  m_InstanceId: -209026
