@@ -55,10 +55,7 @@ public class BossScript : EnemyScript
     {
         if (_isTargetVisible)
         {
-            float playerSanity =
-                _controllerFieldOfView.GetTarget().gameObject.GetComponent<ProtagonistScript>().GetSanity();
-            _controllerFieldOfView.GetTarget().gameObject.GetComponent<ProtagonistScript>()
-                .SetSanity(playerSanity - sanityDecay);
+            _controllerFieldOfView.GetTarget().gameObject.GetComponent<ProtagonistScript>().SetIsInBossFOW(true);
         }
     }
 

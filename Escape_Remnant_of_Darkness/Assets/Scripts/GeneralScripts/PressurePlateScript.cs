@@ -22,11 +22,13 @@ public class PressurePlateScript : MonoBehaviour
     {
         if (!_isActivated)
         {
-            _audioSource.Play();
             _isActivated = true;
-            objectToDeactivate.SetActive(false);
-            objectToActivate.SetActive(true);
+            if (_audioSource != null)
+                _audioSource.Play();
+            if (objectToDeactivate != null)
+                objectToDeactivate.SetActive(false);
+            if (objectToActivate != null)
+                objectToActivate.SetActive(true);
         }
-        
     }
 }

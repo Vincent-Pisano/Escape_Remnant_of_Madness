@@ -30,6 +30,7 @@ public class ProtagonistScript : MonoBehaviour
     [SerializeField] [Range(0, 400)] private float sanity = 300f;
     private bool _isPlayerInSafeZone;
     private bool _isPlayerVanquished;
+    private bool _isPlayerInBossFOW;
     
     //SpeedBoosting
     private float memSpeed;
@@ -196,6 +197,7 @@ public class ProtagonistScript : MonoBehaviour
 
     private void ReduceSanity()
     {
+        
         if (sanity >= 0)
         {
             if (_light.intensity > 0.48f)
@@ -212,6 +214,11 @@ public class ProtagonistScript : MonoBehaviour
             {
                 sanity -= 0.625f;
             }
+        }
+        if (_isPlayerInBossFOW)
+        {
+            sanity -= 0.15f;
+            _isPlayerInBossFOW = false;
         }
     }
 
@@ -266,6 +273,16 @@ public class ProtagonistScript : MonoBehaviour
         this.sanity = sanity;
     }
     
+    public bool GetIsInBossFOW()
+    {
+        return _isPlayerInBossFOW;
+    }
+
+    public void SetIsInBossFOW(bool isPlayerInBossFOW)
+    {
+        this._isPlayerInBossFOW = isPlayerInBossFOW;
+    }
+    
     public float GetLightIntensity()
     {
         return _light.intensity - MIN_LIGHT_INTENSITY;
@@ -275,4 +292,6 @@ public class ProtagonistScript : MonoBehaviour
     {
         return viewRadius;
     }
+    
+    
 }
