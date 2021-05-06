@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class BossScript : EnemyScript 
 {
@@ -67,8 +68,31 @@ public class BossScript : EnemyScript
                 break;
             case 2 :
                 _animatorMiddleEye.SetBool("isVanquished", true);
+                StartCoroutine("BossDying", 0.1f);
                 break;
         }
         _nbrHit++;
+    }
+    
+    public IEnumerator BossDying(float delay)
+    {
+        Light2D lightIntensity = gameObject.GetComponent<Light2D>();
+        print(lightIntensity);
+        while (true)
+        {
+            if (lightIntensity.intensity <= 7f)
+            {
+                lightIntensity.intensity += 0.15f;
+                print(lightIntensity);
+            }
+            else
+            {
+                gameObject.SetActive(false);
+                break;
+            }
+            yield return new WaitForSeconds(delay);
+        }
+        
+
     }
 }
