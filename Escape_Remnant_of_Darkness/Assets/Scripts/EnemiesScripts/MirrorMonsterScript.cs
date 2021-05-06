@@ -25,19 +25,28 @@ public class MirrorMonsterScript : EnemyScript
     
     void FixedUpdate()
     {
-        if (_isTargetVisible && !_isRespawning)
+        if (!_isRespawning)
         {
-            _animator.SetBool("targetFound", true);
-            if (_fieldOfView.GetTarget().gameObject.tag.Equals("Boss"))
+            if (_isTargetVisible)
             {
-                StartCoroutine("Respawn", 10f);
+                _lightBeam.intensity = 1;
+                _animator.SetBool("targetFound", true);
+                if (_fieldOfView.GetTarget().gameObject.tag.Equals("Boss"))
+                {
+                    StartCoroutine("Respawn", 10f);
+                }
+                else
+                {
+                    AnimateMovement();
+                }
+
+                _lightBeamGO.transform.localEulerAngles = new Vector3(0f, 0f, AngleFromDir(_directionLookAt));
             }
             else
             {
-                AnimateMovement();
+                _lightBeam.intensity = 0;
             }
         }
-        _lightBeamGO.transform.localEulerAngles = new Vector3(0f,0f, AngleFromDir(_directionLookAt));
     }
 
     IEnumerator Respawn(float maxIntensity)
@@ -88,11 +97,5 @@ public class MirrorMonsterScript : EnemyScript
             Vector3 directionPush = (other.transform.position - transform.position).normalized;
             _rigidbody.AddForce(-directionPush);
         }
-    }
-    
-    public override void ResetDirection()
-    {
-        _isTargetVisible = false;
-        _directionLookAt = Vector2.up;
     }
 }
