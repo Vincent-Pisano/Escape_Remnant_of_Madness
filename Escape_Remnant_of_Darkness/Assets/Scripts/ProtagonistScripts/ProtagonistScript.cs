@@ -42,6 +42,9 @@ public class ProtagonistScript : MonoBehaviour
     [SerializeField][Range(0,1)] private float _dashTime = 0.1f;
     [SerializeField] [Range(0, 3f)] private float cooldown = 2f;
     private float _initialCooldown;
+
+    public bool _isPlayerInBossFOV;
+    [SerializeField] [Range(0, 0.5f)] private float sanityDecay = 0.15f;
     
     // Start is called before the first frame update
     void Start()
@@ -196,6 +199,7 @@ public class ProtagonistScript : MonoBehaviour
 
     private void ReduceSanity()
     {
+        
         if (sanity >= 0)
         {
             if (_light.intensity > 0.48f)
@@ -213,6 +217,12 @@ public class ProtagonistScript : MonoBehaviour
                 sanity -= 0.625f;
             }
         }
+        if (_isPlayerInBossFOV)
+        {
+            sanity -= sanityDecay;
+            _isPlayerInBossFOV = false;
+        }
+        
     }
 
     IEnumerator DashTime()
@@ -274,5 +284,15 @@ public class ProtagonistScript : MonoBehaviour
     public float GetViewRadius()
     {
         return viewRadius;
+    }
+    
+    public bool GetIsPlayerInBossFOV()
+    {
+        return _isPlayerInBossFOV;
+    }
+    
+    public void SetIsInBossFOV(bool isPlayerInBossFOV)
+    {
+        this._isPlayerInBossFOV = isPlayerInBossFOV;
     }
 }

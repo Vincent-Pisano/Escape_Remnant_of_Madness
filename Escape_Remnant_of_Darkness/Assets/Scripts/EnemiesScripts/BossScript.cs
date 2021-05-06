@@ -11,8 +11,7 @@ public class BossScript : EnemyScript
     private FieldOfView _controllerFieldOfView;
 
     private float _nbrHit = 0;
-    [SerializeField] [Range(0, 0.5f)] private float sanityDecay = 0.15f; 
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,10 +43,7 @@ public class BossScript : EnemyScript
             _animatorRightEye.SetBool("isDetected", false);
             _animatorMiddleEye.SetBool("isDetected", false);
         }
-    }
-
-    private void FixedUpdate()
-    {
+        
         decayPlayersSanity();
     }
 
@@ -55,10 +51,7 @@ public class BossScript : EnemyScript
     {
         if (_isTargetVisible)
         {
-            float playerSanity =
-                _controllerFieldOfView.GetTarget().gameObject.GetComponent<ProtagonistScript>().GetSanity();
-            _controllerFieldOfView.GetTarget().gameObject.GetComponent<ProtagonistScript>()
-                .SetSanity(playerSanity - sanityDecay);
+            _controllerFieldOfView.GetTarget().gameObject.GetComponent<ProtagonistScript>().SetIsInBossFOV(true);
         }
     }
 

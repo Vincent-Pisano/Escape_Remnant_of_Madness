@@ -8,6 +8,8 @@ public class GameMenuScript : MonoBehaviour
     private float maxSanity;
     private float maxLight;
     private ProtagonistScript _protagonistScript;
+    [SerializeField] private Text textBossAttackUI;
+    private bool isStarted = false;
     
     
     // Start is called before the first frame update
@@ -23,6 +25,28 @@ public class GameMenuScript : MonoBehaviour
         {
             UISanityBar.instance.SetValue(_protagonistScript.GetSanity() / maxSanity);
             UILightBar.instance.SetValue(_protagonistScript.GetLightIntensity() / maxLight);
+
+            if (!isStarted)
+            {
+                StartCoroutine("ShowBossTextToPlayer", 0.5f);
+                isStarted = true;
+            }
+        }
+    }
+
+    public IEnumerator ShowBossTextToPlayer(float delay)
+    {
+        while (true)
+        {
+            if (_protagonistScript.GetIsPlayerInBossFOV())
+            {
+                textBossAttackUI.enabled = true;
+            }
+            else
+            {
+                textBossAttackUI.enabled = false;
+            }
+            yield return new WaitForSeconds(delay);
         }
     }
 
@@ -40,4 +64,6 @@ public class GameMenuScript : MonoBehaviour
         maxSanity = _protagonistScript.GetSanity();
         maxLight = _protagonistScript.GetLightIntensity();
     }
+    
+    
 }
