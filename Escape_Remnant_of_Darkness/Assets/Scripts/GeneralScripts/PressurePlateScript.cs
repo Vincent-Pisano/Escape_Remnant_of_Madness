@@ -23,8 +23,10 @@ public class PressurePlateScript : MonoBehaviour
         _isActivated = true;
         if (_audioSource != null)
             _audioSource.Play();
+        
         if (objectToDeactivate != null)
             objectToDeactivate.SetActive(false);
+        
         if (objectToActivate != null)
             objectToActivate.SetActive(true);
     }

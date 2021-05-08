@@ -28,6 +28,8 @@ public class GuardEnemyScript : EnemyScript
         _animator.SetFloat("Vertical", _directionLookAt.y);
         _animator.SetFloat("Speed", _directionLookAt.sqrMagnitude);
         if (_isTargetVisible) return;
+        
+        //If Idle
         _animator.SetFloat("Speed", 0);
         _animator.SetFloat("HorizontalIdle", _directionLookAt.x);
         _animator.SetFloat("VerticalIdle", _directionLookAt.y);

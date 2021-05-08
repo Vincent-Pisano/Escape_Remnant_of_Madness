@@ -41,6 +41,7 @@ public class GameMenuScript : MonoBehaviour
         UISanityBar.Instance.SetValue(1);
         UILightBar.Instance.SetValue(1);
         
+        //Le texte disparait si le joueur quitte le radius du boss
         StartCoroutine("ShowBossTextToPlayer", 0.5f);
     }
     

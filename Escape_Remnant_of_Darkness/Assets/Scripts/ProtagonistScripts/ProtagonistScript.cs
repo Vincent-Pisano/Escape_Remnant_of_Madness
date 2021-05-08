@@ -5,10 +5,6 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class ProtagonistScript : MonoBehaviour
 {
-    private readonly float MIN_LIGHT_INTENSITY = 0.2f;
-    private float MAX_SANITY;
-    private float MAX_LIGHT_INTENSITY;
-    
     //Movements
     [SerializeField][Range(0,5)] private float moveSpeed = 2.4f;
     private Rigidbody2D _rigidbody;
@@ -17,15 +13,18 @@ public class ProtagonistScript : MonoBehaviour
     private Animator _animator;
     
     //Lights
-    [SerializeField] [Range(0, 300)] private float lightDurationInSeconds = 20f; 
+    [SerializeField] [Range(0, 300)] private float lightDurationInSeconds = 40f; 
     [SerializeField] [Range(0, 2)] private float lightFallOff = 0.2f; 
     [SerializeField] [Range(0, 10)] private float lightDetectionRadius = 2f; 
+    private float _maxLightIntensity;
+    private readonly float _minLightIntensity = 0.2f;
     private GameObject _pointLight;
     private Light2D _light;
     private float _intensityLoss;
     private LayerMask _targetMask;
     
     //Madness
+    private float _maxSanity;
     [SerializeField] [Range(0, 400)] private float sanity = 300f;
     [SerializeField] [Range(0, 0.5f)] private float sanityDecayInBossFOV = 0.15f;
     private bool _isPlayerInSafeZone;
@@ -43,32 +42,32 @@ public class ProtagonistScript : MonoBehaviour
     [SerializeField][Range(0,1)] private float dashTime = 0.1f;
     [SerializeField] [Range(0, 3f)] private float dashCooldown = 2f;
     private float _initialCooldown;
-
-    // Start is called before the first frame update
+    
     void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
 
-        MAX_SANITY = sanity;
+        _maxSanity = sanity;
+        
         _memorySpeed = moveSpeed;
         _initialCooldown = dashCooldown;
         
         //Lights
         _pointLight = transform.GetChild(0).gameObject;
         _light = _pointLight.GetComponent<Light2D>();
-        MAX_LIGHT_INTENSITY = _light.intensity;
-        _intensityLoss = (_light.intensity - MIN_LIGHT_INTENSITY) / lightDurationInSeconds * lightFallOff;
+        _maxLightIntensity = _light.intensity;
+        _intensityLoss = (_light.intensity - _minLightIntensity) / lightDurationInSeconds * lightFallOff;
         _targetMask = LayerMask.GetMask("LightSource");
     }
     
     void OnEnable()
     {
         _isPlayerVanquished = false;
-        if (MAX_LIGHT_INTENSITY != 0f && MAX_SANITY != 0f)
+        if (_maxLightIntensity != 0f && _maxSanity != 0f)
         {
-            _light.intensity = MAX_LIGHT_INTENSITY;
-            sanity = MAX_SANITY;
+            _light.intensity = _maxLightIntensity;
+            sanity = _maxSanity;
         }
 
         StartCoroutine("ManageLight", lightFallOff);
@@ -145,7 +144,7 @@ public class ProtagonistScript : MonoBehaviour
         _animator.SetFloat("Horizontal", _velocity.x);
         _animator.SetFloat("Vertical", _velocity.y);
         _animator.SetFloat("Speed", _velocity.sqrMagnitude);
-
+        
         if (_velocity.sqrMagnitude != 0)
         {
             _directionLookAt = new Vector2(_velocity.x, _velocity.y);
@@ -159,7 +158,7 @@ public class ProtagonistScript : MonoBehaviour
 
     public IEnumerator FindLightSources(float delay)
     {
-        while (true)
+        while(true)
         {
             yield return new WaitForSeconds(delay);
             Collider2D[] targetsInViewRadius = Physics2D.OverlapCircleAll(transform.position, lightDetectionRadius, _targetMask);
@@ -174,16 +173,22 @@ public class ProtagonistScript : MonoBehaviour
             yield return new WaitForSeconds(delay);
             if (_isPlayerInSafeZone)
             {
-                if (_light.intensity < MAX_LIGHT_INTENSITY)
-                    _light.intensity += _intensityLoss;
-                if (sanity < MAX_SANITY)
-                    sanity++;
+                if (_light.intensity < _maxLightIntensity)
+                    _light.intensity += _intensityLoss * 2;
+                if (_light.intensity > _maxLightIntensity)
+                    _light.intensity = _maxLightIntensity;
+                
+                if (sanity < _maxSanity)
+                    sanity += 2;
+                if (sanity > _maxSanity)
+                    sanity = _maxSanity;
+                
             }
             else
             {
                 _light.intensity -= _intensityLoss;
-                if (_light.intensity < MIN_LIGHT_INTENSITY)
-                    _light.intensity = MIN_LIGHT_INTENSITY;
+                if (_light.intensity < _minLightIntensity)
+                    _light.intensity = _minLightIntensity;
                 ReduceSanity();
             }
         }
@@ -193,23 +198,35 @@ public class ProtagonistScript : MonoBehaviour
     {
         if (sanity >= 0)
         {
-            if (_light.intensity > 0.48f)
-            {
-                sanity -= 1f;
-            }
-            else if (_light.intensity > 0.20f)
-            {
-                sanity -= 1.5f;
-            }
-            else if (_light.intensity >= 0.2f)
-            {
-                sanity -= 2f;
-            }
-            if (_isPlayerInBossFOV)
-            {
-                sanity -= sanityDecayInBossFOV;
-                _isPlayerInBossFOV = false;
-            }
+            PassiveSanityDecay();
+
+            BossAttackSanityDecay();
+        }
+    }
+
+    private void BossAttackSanityDecay()
+    {
+        if (_isPlayerInBossFOV)
+        {
+            sanity -= sanityDecayInBossFOV;
+            _isPlayerInBossFOV = false;
+        }
+    }
+
+    private void PassiveSanityDecay()
+    {
+        //Moins que la lumiere, plus que la sanity descend
+        if (_light.intensity > 0.48f)
+        {
+            sanity -= 0.75f;
+        }
+        else if (_light.intensity > 0.20f)
+        {
+            sanity -= 1f;
+        }
+        else if (_light.intensity >= 0.2f)
+        {
+            sanity -= 1.5f;
         }
     }
 
@@ -257,7 +274,7 @@ public class ProtagonistScript : MonoBehaviour
 
     public float GetLightIntensity()
     {
-        return _light.intensity - MIN_LIGHT_INTENSITY;
+        return _light.intensity - _minLightIntensity;
     }
     
     public float GetViewRadius()

@@ -31,9 +31,10 @@ public class MirrorMonsterScript : EnemyScript
             {
                 _lightBeam.intensity = 1;
                 _animator.SetBool("targetFound", true);
-                if (_fieldOfView.GetTarget().gameObject.tag.Equals("Boss"))
+                GameObject target = _fieldOfView.GetTarget().gameObject;
+                if (target.tag.Equals("Boss"))
                 {
-                    StartCoroutine("Respawn", 10f);
+                    StartCoroutine("Respawn", target);
                 }
                 else
                 {
@@ -49,20 +50,20 @@ public class MirrorMonsterScript : EnemyScript
         }
     }
 
-    IEnumerator Respawn(float maxIntensity)
+    IEnumerator Respawn(GameObject boss)
     {
         _isRespawning = true;
         float oldLightIntensity = _lightBeam.intensity;
         
-        //Blind the Boss
-        while (_lightBeam.intensity <= maxIntensity)
+        //Blind the Boss (Deal 1 instance of Damage)
+        while (_lightBeam.intensity <= 10f)
         {
             _lightBeam.intensity++;
             yield return new WaitForSeconds(0.1f);
         }
-        _fieldOfView.GetTarget().gameObject.GetComponent<BossScript>().DealDamage();
+        boss.GetComponent<BossScript>().DealDamage();
         
-        //Move to Repawn Point and Reset
+        //Move to Respawn Point and Reset
         transform.position = respawnPoint.position;
         _lightBeamGO.GetComponent<Light2D>().intensity = oldLightIntensity;
         yield return new WaitForSeconds(2f);
